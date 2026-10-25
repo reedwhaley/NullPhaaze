@@ -1,0 +1,74 @@
+{
+  "implementation": "nullphaaze_core",
+  "runtimeLanguage": "Python 3.12",
+  "runtimeModules": [
+    {
+      "path": "src\\nullphaaze_core\\__init__.py",
+      "sha256": "59d5d45e3ead963ca99e03124cad40cba09f70cb3e6837966fa97b3f1fb441d7"
+    },
+    {
+      "path": "src\\nullphaaze_core\\__main__.py",
+      "sha256": "4e073387decc33f36dc3a210fac4efe6310682c70de249fcdc4c27bb5c7ef899"
+    },
+    {
+      "path": "src\\nullphaaze_core\\archives.py",
+      "sha256": "54f4656ef0f0fdf5c4b18b15f3d4705a1ae1b8e0c496d1b58290c82dbb43039f"
+    },
+    {
+      "path": "src\\nullphaaze_core\\binary.py",
+      "sha256": "2f6d3a01df75f53304cf9b8cc4861b25976d9cffa281e6a8b5ec06a659462359"
+    },
+    {
+      "path": "src\\nullphaaze_core\\codec.py",
+      "sha256": "4d5af8d5fd2ebfafd72051abdbfd509c0a245323a0f16293f3ec5625f7fa7018"
+    },
+    {
+      "path": "src\\nullphaaze_core\\engine.py",
+      "sha256": "eaad991b0027fd2bd918ed45d53227fb138062cbcb8df0a4d06dc2145db6aed8"
+    },
+    {
+      "path": "src\\nullphaaze_core\\planner.py",
+      "sha256": "92e1778075e8682bab011c80b711cc4f18e64df6f6e224a8101e6fc8378ea2c1"
+    },
+    {
+      "path": "src\\nullphaaze_core\\resources.py",
+      "sha256": "015f967bf88d1397118637348bb0edce9f4325dd8ccd5d8498e6ae07be973f54"
+    },
+    {
+      "path": "src\\nullphaaze_core\\rules.py",
+      "sha256": "65ae16bee0415de70cfafbe8489c1d579bdcb373dc3d80f239ab43a8c95ce94c"
+    },
+    {
+      "path": "src\\nullphaaze_core\\scripts.py",
+      "sha256": "558cd46035674c41cffae8676c9181213541954a58720e5456a96c0393b1afe1"
+    },
+    {
+      "path": "src\\nullphaaze_core\\session.py",
+      "sha256": "9289ad35b4af3581fea34b82c53cbdbaecb8e996d5ee8553467c5de8aa8052f5"
+    },
+    {
+      "path": "src\\nullphaaze_core\\storage.py",
+      "sha256": "219a4a118f89b3a02c9cf24ee4b593e8c7fd0fd021f045287d3d2166ff89e611"
+    }
+  ],
+  "recoveredManagedRuntimeRequired": false,
+  "frontendRequired": false,
+  "independentVerifierRequired": false,
+  "thirdPartyPythonRuntimeDependencies": [],
+  "declarativeData": {
+    "path": "src/nullphaaze_core/data/rules.json",
+    "sha256": "991df2c256ab979ce9d8008f22b00a3b925f11395c95017faab5784946164388",
+    "origin": "Attributed reference-derived IDs, patch templates, strings and dependency facts; not a clean-room claim.",
+    "generator": "verification/CoreCatalog/Program.cs",
+    "referenceAssemblySha256": "cc6adead78316487fd24b4d4dad1b4477779f4b1e96b1a76eaf159689ed66a57"
+  },
+  "codec": {
+    "source": "native/lzokay",
+    "bridge": "native/bridge.cpp",
+    "license": "MIT",
+    "binary": "src/nullphaaze_core/native/lzokay.dll",
+    "macBinary": "architecture-specific build runtime/liblzokay.dylib",
+    "linuxBinary": "Linux build runtime/liblzokay.so"
+  },
+  "originalGamePayloadsIncluded": false
+}

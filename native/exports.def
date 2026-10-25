@@ -1,0 +1,4 @@
+LIBRARY lzokay
+EXPORTS
+    compress_without_dict
+    decompress

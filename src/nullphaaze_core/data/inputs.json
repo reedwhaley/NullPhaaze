@@ -1,0 +1,54 @@
+{
+  "FrontEnd.pak": {
+    "bytes": 27951744,
+    "sha256": "561ebd29e5371ff3b8a8f672725af35eb3a94bd1603c53b1c8d0b5bb5cbaaab1"
+  },
+  "Metroid1.pak": {
+    "bytes": 772462336,
+    "sha256": "36f5525aaa936c308fe15319a096c46b25722db5ad46179427f33ffb226bb7df"
+  },
+  "Metroid3.pak": {
+    "bytes": 695588608,
+    "sha256": "1fed71ee37aa9cb1ac93831b3235680a22a28b5557b25153ce12f3aadc535f0f"
+  },
+  "Metroid4.pak": {
+    "bytes": 736660224,
+    "sha256": "dbd593e83ca4def4cfb5d663596d2a6062ee383f511b67776e6711afd3e69d75"
+  },
+  "Metroid5.pak": {
+    "bytes": 576161856,
+    "sha256": "b0211cf144dfc26ef36d8207d63aa387e2e05559f0202405da725a8739c2f74e"
+  },
+  "Metroid6.pak": {
+    "bytes": 126891392,
+    "sha256": "b893241af459d8fa40a253e94004074cd4ac1b42f18cffd90399fa82191bdb03"
+  },
+  "Metroid7.pak": {
+    "bytes": 157911168,
+    "sha256": "3959e32a7ce09fe7d3b686310c1d8cab03374dea63ed1be3f7a479dd5775ad8c"
+  },
+  "Metroid8.pak": {
+    "bytes": 33193664,
+    "sha256": "3aebad6461532eef0cbd62d54c31221cd0b3d1baf17f98e55ae5d6fea7fe5f09"
+  },
+  "Logbook.pak": {
+    "bytes": 26505920,
+    "sha256": "feb91348dc36048a26dfde6c814a4d1b99e180477353277f5ecb04265644189d"
+  },
+  "MiscData.pak": {
+    "bytes": 332672,
+    "sha256": "78799b1d4161a35362a6e5c9f89157c8ba1616e1c2ead91b4357f846c6524ca6"
+  },
+  "UniverseArea.pak": {
+    "bytes": 15059840,
+    "sha256": "d745ec2b8c9767a803e97dfa9f582d794af6614712d85853973ef040ce6a881a"
+  },
+  "Worlds.pak": {
+    "bytes": 1219264,
+    "sha256": "09d2e05518f00a6562989c847af9af0a8bbc441193db5230236bbfb9b50a86c1"
+  },
+  "Standard.ntwk": {
+    "bytes": 63584,
+    "sha256": "b4e64a835078a54b2fac45e3e88c38c9e0f4e525f446b1033fd0fd220694dd93"
+  }
+}

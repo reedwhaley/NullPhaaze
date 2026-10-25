@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools==75.8.0", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nullphaaze-core"
+version = "0.1.0"
+description = "Independent source-built Metroid Prime 3 patch engine"
+requires-python = ">=3.12"
+license = {file = "LICENSE"}
+dependencies = []
+
+[project.scripts]
+nullphaaze-core = "nullphaaze_core.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["nullphaaze_core*"]
+
+[tool.setuptools.package-data]
+nullphaaze_core = ["data/*.json", "native/*.dll", "native/*.dylib", "native/*.so"]
