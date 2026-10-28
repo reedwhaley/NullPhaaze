@@ -10,7 +10,7 @@ class FormatError(ValueError):
     pass
 
 
-def pad(data : Any, alignment : int, fill : int = 0):
+def pad(data : Any, alignment : int, fill : int = 0) -> bytes:
     """
     Pads binary data to align to a certain length
 
@@ -23,7 +23,7 @@ def pad(data : Any, alignment : int, fill : int = 0):
     return bytes(data)+bytes([fill])*((-len(data)) % alignment)
 
 
-def pack(fmt : str, *values):
+def pack(fmt : str, *values) -> bytes:
     """
     A shorthand call to `struct.pack` for big-endian data
 
@@ -43,16 +43,16 @@ class Reader:
     """
     Provides a stream interface to read the given bytes
     """
-    def __init__(self, data : Any):
+    def __init__(self, data : Any) -> Reader:
         self.data = memoryview(data)
         self.pos = 0
 
     @property
-    def remaining(self):
+    def remaining(self) -> int:
         """How many bytes until end of stream"""
         return len(self.data)-self.pos
 
-    def read(self, count : int):
+    def read(self, count : int) -> bytes:
         """
         Read the given amount of bytes from the stream
 
@@ -67,7 +67,7 @@ class Reader:
         self.pos += count
         return result
 
-    def number(self, fmt : str):
+    def number(self, fmt : str) -> int:
         """
         Reads the next specified format as a big-endian number
         Consumes the stream in the same way as `self.read()`
@@ -77,35 +77,35 @@ class Reader:
         """
         return struct.unpack('>'+fmt, self.read(struct.calcsize('>'+fmt)))[0]
 
-    def u8(self): 
+    def u8(self) -> int: 
         """
         Reads the next unsigned byte
         Consumes the stream in the same way as `self.read()`
         """
         return self.number('B')
 
-    def u16(self): 
+    def u16(self) -> int: 
         """
         Reads the next unsigned short
         Consumes the stream in the same way as `self.read()`
         """
         return self.number('H')
 
-    def u32(self): 
+    def u32(self) -> int: 
         """
         Reads the next unsigned int
         Consumes the stream in the same way as `self.read()`
         """
         return self.number('I')
 
-    def u64(self): 
+    def u64(self) -> int: 
         """
         Reads the next unsigned long
         Consumes the stream in the same way as `self.read()`
         """
         return self.number('Q')
 
-    def count(self, stride : int, width : int = 4):
+    def count(self, stride : int, width : int = 4) -> int:
         """
         Reads the next integer of specified width and checks if it counts the amount of 
         patterns of length stride.
@@ -123,7 +123,7 @@ class Reader:
             raise FormatError(f'Count {count} exceeds bounded record')
         return count
 
-    def align(self, alignment : int):
+    def align(self, alignment : int) -> bytes:
         """
         Reads the stream until in the specified alignment
 
@@ -132,7 +132,7 @@ class Reader:
         """
         return self.read((-self.pos) % alignment)
 
-    def cstring(self):
+    def cstring(self) -> str:
         """
         Reads a null-terminated string
 
