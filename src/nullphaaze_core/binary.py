@@ -1,4 +1,5 @@
 """Bounded binary primitives. All offsets and counts are checked before use."""
+from typing import Any
 import struct
 
 
@@ -9,7 +10,7 @@ class FormatError(ValueError):
     pass
 
 
-def pad(data, alignment, fill=0):
+def pad(data : Any, alignment : int, fill : int = 0):
     """
     Pads binary data to align to a certain length
 
@@ -22,7 +23,7 @@ def pad(data, alignment, fill=0):
     return bytes(data)+bytes([fill])*((-len(data)) % alignment)
 
 
-def pack(fmt, *values):
+def pack(fmt : str, *values):
     """
     A shorthand call to `struct.pack` for big-endian data
 
@@ -42,7 +43,7 @@ class Reader:
     """
     Provides a stream interface to read the given bytes
     """
-    def __init__(self, data):
+    def __init__(self, data : Any):
         self.data = memoryview(data)
         self.pos = 0
 
@@ -51,7 +52,7 @@ class Reader:
         """How many bytes until end of stream"""
         return len(self.data)-self.pos
 
-    def read(self, count):
+    def read(self, count : int):
         """
         Read the given amount of bytes from the stream
 
@@ -66,7 +67,7 @@ class Reader:
         self.pos += count
         return result
 
-    def number(self, fmt):
+    def number(self, fmt : str):
         """
         Reads the next specified format as a big-endian number
         Consumes the stream in the same way as `self.read()`
@@ -104,7 +105,7 @@ class Reader:
         """
         return self.number('Q')
 
-    def count(self, stride, width=4):
+    def count(self, stride : int, width : int = 4):
         """
         Reads the next integer of specified width and checks if it counts the amount of 
         patterns of length stride.
@@ -122,7 +123,7 @@ class Reader:
             raise FormatError(f'Count {count} exceeds bounded record')
         return count
 
-    def align(self, alignment):
+    def align(self, alignment : int):
         """
         Reads the stream until in the specified alignment
 
