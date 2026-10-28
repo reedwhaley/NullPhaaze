@@ -43,7 +43,7 @@ class Reader:
     """
     Provides a stream interface to read the given bytes
     """
-    def __init__(self, data : Any) -> Reader:
+    def __init__(self, data : Any) -> None:
         self.data = memoryview(data)
         self.pos = 0
 
