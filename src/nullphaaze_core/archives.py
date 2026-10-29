@@ -6,6 +6,7 @@ from dataclasses import dataclass, replace
 from pathlib import Path
 import struct
 from .binary import Reader, FormatError, pad, pack
+from typing import Dict, Any, List
 
 
 @dataclass(frozen=True)
@@ -29,7 +30,7 @@ class Resource:
     data: bytes | None = None
     """Memoized data after the first read"""
 
-    def read(self):
+    def read(self) -> bytes:
         """
         Reads the raw bytes from the resource
 
@@ -40,6 +41,7 @@ class Resource:
         if self.data is not None:
             return self.data
         # Otherwise, read from the source file and memoize the result if ok
+        # TODO : handle case where self.source in None
         with self.source.open('rb') as stream:
             stream.seek(self.offset)
             result = stream.read(self.size)
@@ -48,7 +50,7 @@ class Resource:
         # TODO : self.data = result
         return result
 
-    def updated(self, data, kind=None, compressed=None):
+    def updated(self, data : bytes, kind : bytes | None = None, compressed : int | None = None) -> Resource :
         """
         Builds a new resource based on the current one. New resource is orphaned at creation
         Since data is directly provided, we can immediately memoize it for furure reads
@@ -65,7 +67,7 @@ class Resource:
         return replace(self, size=len(data), data=data, source=None, offset=0,
                        kind=kind or self.kind, compressed=self.compressed if compressed is None else compressed)
 
-    def copy_to(self, destination, streams):
+    def copy_to(self, destination : io.TextIOWrapper, streams : Dict[Path, io.TextIOWrapper]) -> None :
         """
         Copies this resource's memoized data to the specified destination
         If this resource's parent PAK file has no stream open, it will be opened added to `streams`
@@ -106,7 +108,7 @@ class Archive:
     Represents a Metroid Prime 3 : Corruption PAK file
     """
     # TODO : declare the fields set by the constructor here
-    def __init__(self, path):
+    def __init__(self, path : Any) -> None:
         # Initialize file data from filesystem
         self.path = Path(path)
         size = self.path.stat().st_size
@@ -161,7 +163,7 @@ class Archive:
                 raise FormatError('Invalid PAK resource extent or flag')
             self.resources.append(Resource(identity, kind, flag, length, self.path, 128+name_size+table_size+offset))
 
-    def write(self, destination, resources, clear=False):
+    def write(self, destination : Any, resources : List[Resource], clear : bool = False) -> None:
         """
         Write a given list of resources into a PAK file
 
@@ -185,6 +187,7 @@ class Archive:
                 raise FormatError('Invalid output resource metadata')
             table.extend(pack('I4sQII', resource.compressed, resource.kind, resource.identity, resource.size, offset))
             offset += resource.size
+        # TODO : properly type this expression
         table = pad(table, 64)
         toc = pad(pack('I4sI4sI4sI', 3, b'STRG', len(names), b'RSHD', len(table), b'DATA', offset), 64)
 
