@@ -40,9 +40,11 @@ cmake --build artifacts/core-native --config Release
 python -m pip install --no-deps --no-build-isolation -e .
 ```
 
-Set `NULLPHAAZE_CORE_CODEC` to the absolute path to the generated
+Set `NULLPHAAZE_CORE_CODEC` to the path to the generated
 `artifacts/core-native/liblzokay.so` on Linux or
-`artifacts/core-native/liblzokay.dylib` on macOS. Then run:
+`artifacts/core-native/liblzokay.dylib` on macOS 
+(this is not necessary right now but might be in the future). 
+Then run:
 
 ```sh
 python scripts/check_core_codec.py

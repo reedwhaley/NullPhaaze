@@ -11,7 +11,7 @@ class Codec:
         filename = {'darwin': 'liblzokay.dylib', 'linux': 'liblzokay.so'}.get(sys.platform, 'lzokay.dll')
         default = Path(__file__).parent/'native'/filename
         if not default.is_file():
-            default = Path(__file__).resolve().parents[2]/'artifacts/core-native/Release'/filename
+            default = Path(__file__).resolve().parents[2]/('artifacts/core-native' + ('/Release' if sys.platform == 'win32' else ''))/filename
         path = Path(path or os.environ.get('NULLPHAAZE_CORE_CODEC', default)).resolve()
         self.path = path
         self.library = ctypes.CDLL(str(path))
