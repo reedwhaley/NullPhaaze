@@ -1,0 +1,149 @@
+[
+  {
+    "module": "retro_data_structures.properties.echoes.archetypes.DamageVulnerability",
+    "class": "DamageVulnerability",
+    "aliases": {
+      "weapon_vulnerability": "unstoppable"
+    },
+    "verified_by": "same generated property id"
+  },
+  {
+    "module": "retro_data_structures.properties.echoes.archetypes.ActorParameters",
+    "class": "ActorParameters",
+    "aliases": {
+      "unknown_0xcd4c81a1": "is_highlighted_in_dark_visor"
+    },
+    "verified_by": "same generated property id"
+  },
+  {
+    "module": "retro_data_structures.properties.common.archetypes.EditorProperties",
+    "class": "EditorProperties",
+    "aliases": {
+      "unknown": "misc_flags"
+    },
+    "verified_by": "same generated property id"
+  },
+  {
+    "module": "retro_data_structures.properties.echoes.objects.DamageableTrigger",
+    "class": "DamageableTrigger",
+    "aliases": {
+      "enable_seeker_lock_on": "seekable"
+    },
+    "verified_by": "same generated property id"
+  },
+  {
+    "module": "retro_data_structures.properties.echoes.objects.DamageableTriggerOrientated",
+    "class": "DamageableTriggerOrientated",
+    "aliases": {
+      "enable_seeker_lock_on": "seekable"
+    },
+    "verified_by": "same generated property id"
+  },
+  {
+    "module": "retro_data_structures.properties.echoes.objects.Effect",
+    "class": "Effect",
+    "aliases": {
+      "unknown_0x73e63382": "spline_moves_particle_emitter_only",
+      "unknown_0x6714021c": "delete_when_done",
+      "unknown_0x88d914a6": "visible_in_scan_or_normal",
+      "unknown_0xbe931927": "destroy_particles_on_deactivate",
+      "unknown_0x608ecac5": "adopt_spline_orientation",
+      "unknown_0x7589d549": "generation_rate_far_scale_distance",
+      "unknown_0xfe69615c": "generation_rate_far_amount",
+      "unknown_0xa8bb6c61": "use_generation_rate_far_scale",
+      "unknown_0xa7d7d767": "generation_rate_far_scale_distance_stop",
+      "unknown_0x93756968": "generation_rate_distance_scale_amount",
+      "unknown_0xa94b0efd": "generation_rate_distance_scale_start",
+      "unknown_0xee538174": "scale_generation_rate_based_on_distance"
+    },
+    "verified_by": "same generated property id"
+  },
+  {
+    "module": "retro_data_structures.properties.echoes.objects.HUDHint",
+    "class": "HUDHint",
+    "aliases": {
+      "unknown_0x6078a651": "hud_icon_min_size",
+      "unknown_0xd993f97b": "visor_visibility",
+      "unknown_0xf00bb6bb": "hud_icon_max_size"
+    },
+    "verified_by": "same generated property id"
+  },
+  {
+    "module": "retro_data_structures.properties.echoes.objects.PlayerController",
+    "class": "PlayerController",
+    "aliases": {
+      "unknown_0xbd548a40": "float_parameter3",
+      "unknown_0x760859e5": "float_parameter2",
+      "unknown_0x70bc90a6": "string_parameter1",
+      "unknown_0xf09c2b4b": "float_parameter1",
+      "unknown_0xe71de331": "player_proxy_flags",
+      "rotation_for_type3": "vector_parameter1",
+      "player_visor": "int_parameter2",
+      "initial_state": "int_parameter1"
+    },
+    "verified_by": "same generated property id"
+  },
+  {
+    "module": "retro_data_structures.properties.echoes.objects.ScannableObjectInfo",
+    "class": "ScannableObjectInfo",
+    "aliases": {
+      "unknown_0x58f9fe99": "primary_second_animated_model",
+      "string": "scan_info_text_string_table",
+      "unknown_0x53336141": "scan_texture_in_hud",
+      "unknown_0x1733b1ec": "unknown"
+    },
+    "verified_by": "same generated property id"
+  },
+  {
+    "module": "retro_data_structures.properties.echoes.objects.Sound",
+    "class": "Sound",
+    "aliases": {
+      "unknown": "viewport_dependent"
+    },
+    "verified_by": "same generated property id"
+  },
+  {
+    "module": "retro_data_structures.properties.echoes.objects.StreamedAudio",
+    "class": "StreamedAudio",
+    "aliases": {
+      "unknown": "software_is_music"
+    },
+    "verified_by": "same generated property id"
+  },
+  {
+    "module": "retro_data_structures.properties.echoes.objects.WorldTeleporter",
+    "class": "WorldTeleporter",
+    "aliases": {
+      "unknown_0x2e997e0b": "lift_goes_up",
+      "unknown_0x5657ca1c": "unknown"
+    },
+    "verified_by": "same generated property id"
+  },
+  {
+    "module": "retro_data_structures.properties.echoes.objects.SafeZone",
+    "class": "SafeZone",
+    "aliases": {
+      "safe_zone_struct_a_0x8a09f99a": "fog_entering",
+      "damage_info": "hurtful_damage",
+      "safe_zone_struct_a_0xafb855b8": "fog_leaving",
+      "supercharged_safe_zone_struct": "echo_attributes",
+      "normal_safe_zone_struct": "normal_attributes",
+      "unknown_0x6c14904c": "inside_fade_min_alpha",
+      "energized_safe_zone_struct": "hurtful_attributes",
+      "unknown_0x414379ea": "filter_cutoff_frequency"
+    },
+    "verified_by": "same generated property id"
+  },
+  {
+    "module": "retro_data_structures.properties.echoes.objects.SafeZoneCrystal",
+    "class": "SafeZoneCrystal",
+    "aliases": {
+      "unknown_0xd8116003": "max_time_as_echo",
+      "energized_model": "hurtful_crystal",
+      "part": "hurtful_effect",
+      "unknown_0xf0a45c32": "max_time_as_hurtful",
+      "unknown_0x545540e5": "power_beam_hp"
+    },
+    "verified_by": "same generated property id"
+  }
+]

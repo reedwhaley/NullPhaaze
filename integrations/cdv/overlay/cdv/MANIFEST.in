@@ -1,0 +1,9 @@
+# These data families are consumed at runtime by the inherited frontend. Keep
+# credits, generated-field aliases and game resources in the built frontend wheel.
+include LICENSE README.md PORT_README.md
+recursive-include randovania/data *
+recursive-include randovania/games *.json *.bin *.svg *.png *.jpg *.jpeg *.md *.txt *.lua *.ui *.rdvpreset *.rdbetapreset
+recursive-include nullphaze_network/data *
+include nullphaze_network/LICENSE nullphaze_network/VENDOR_PROVENANCE.json
+recursive-include nullphaze_network/prime3_lua_service *.md *.txt *.lua
+recursive-exclude * __pycache__ *.pyc

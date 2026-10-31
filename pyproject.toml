@@ -1,21 +1,32 @@
+# Build the standalone backend here. CDV adapters stay in the guarded overlay;
+# installing this wheel must not install or replace somebody's desktop frontend.
 [build-system]
-requires = ["setuptools==75.8.0", "wheel==0.45.1"]
+requires = ["setuptools==80.9.0", "wheel==0.45.1"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "nullphaaze-core"
+name = "nullphaze-core"
 version = "0.1.0"
-description = "Independent source-built Metroid Prime 3 patch engine"
+description = "RDS-backed Metroid Prime 3 patch engine with separately applied CDV integration"
+readme = "README.md"
 requires-python = ">=3.12"
-license = {file = "LICENSE"}
-dependencies = []
+license = "GPL-3.0-only"
+license-files = ["LICENSE", "NOTICE.md", "src/nullphaze_core/LICENSE"]
+dependencies = ["retro-data-structures==0.44.1+nullphaze.20261024"]
 
 [project.scripts]
-nullphaaze-core = "nullphaaze_core.__main__:main"
+nullphaaze-core = "nullphaze_core.__main__:main"
+nullphaze-core = "nullphaze_core.__main__:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["nullphaaze_core*"]
+include = ["nullphaze_core*"]
+namespaces = false
 
 [tool.setuptools.package-data]
-nullphaaze_core = ["data/*.json", "native/*.dll", "native/*.dylib", "native/*.so"]
+nullphaze_core = ["LICENSE", "data/*.json"]
+
+# RDS supplies the codec. The historical ctypes adapter remains readable source,
+# while its old DLL is outside both this source archive and the backend wheel.
+[tool.setuptools.exclude-package-data]
+nullphaze_core = ["native/*"]

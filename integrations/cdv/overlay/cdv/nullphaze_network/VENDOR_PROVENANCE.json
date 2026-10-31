@@ -1,0 +1,464 @@
+{
+  "license": "GPL-3.0",
+  "sourceRepository": "C:\\Users\\Reed Whaley\\Documents\\MP3 Networking",
+  "sourceWorktreeModified": true,
+  "transformation": "Python import namespace only; runtime changes are separate downstream changes.",
+  "files": [
+    {
+      "source": "tools\\prime3_lua_service\\bootstrap.ld",
+      "sourceSha256": "8bc5fd731a5ef5d58c9c1098c37d970ad44ce82a8b386204f017d29d7dcd5593",
+      "vendored": "prime3_lua_service\\bootstrap.ld",
+      "vendoredSha256": "8bc5fd731a5ef5d58c9c1098c37d970ad44ce82a8b386204f017d29d7dcd5593"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\bridge.c",
+      "sourceSha256": "6ac325b8b68b48efc4980760654995778c5fc6d9a91d597604780e43f05032b3",
+      "vendored": "prime3_lua_service\\bridge.c",
+      "vendoredSha256": "6ac325b8b68b48efc4980760654995778c5fc6d9a91d597604780e43f05032b3"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\bridge.ld",
+      "sourceSha256": "76cf4502c7212adfac41fedc8cdfcd0894e63d60154b81578f62b3375ed5ba00",
+      "vendored": "prime3_lua_service\\bridge.ld",
+      "vendoredSha256": "76cf4502c7212adfac41fedc8cdfcd0894e63d60154b81578f62b3375ed5ba00"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\bridge.py",
+      "sourceSha256": "8e3ec2e6986e13b1d7e7497504989ef05822a176185f572efd0ec102eb3c2180",
+      "vendored": "prime3_lua_service\\bridge.py",
+      "vendoredSha256": "23b5c97764c6e86054a4949b1c0eb609724e3a771dadb9e6a8863781c1335a04"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\bridge_blob.S",
+      "sourceSha256": "76fd813dd9a785505968d96c285a9a7b52c5e3f7bada25adbe8f52e3f8ac5193",
+      "vendored": "prime3_lua_service\\bridge_blob.S",
+      "vendoredSha256": "76fd813dd9a785505968d96c285a9a7b52c5e3f7bada25adbe8f52e3f8ac5193"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\capture.py",
+      "sourceSha256": "7f197a12ac13dfebc7f45fc017278ceb2966886104363c6f5641093347dcdf50",
+      "vendored": "prime3_lua_service\\capture.py",
+      "vendoredSha256": "970a813cea5fae0daa09926407737f658d5b6437697bc1a6751eab6b034b20a4"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\grant_probe.c",
+      "sourceSha256": "5fec79b47a646ab284a39dab36dbc139775518396211479900c8a4d0a8eadd6b",
+      "vendored": "prime3_lua_service\\grant_probe.c",
+      "vendoredSha256": "5fec79b47a646ab284a39dab36dbc139775518396211479900c8a4d0a8eadd6b"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\grant_probe.ld",
+      "sourceSha256": "b72827f6f787f7aca49697cfbdf2a904dd6cc11a2c69fd24d6bcc8017b60b82c",
+      "vendored": "prime3_lua_service\\grant_probe.ld",
+      "vendoredSha256": "b72827f6f787f7aca49697cfbdf2a904dd6cc11a2c69fd24d6bcc8017b60b82c"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\grant_probe.py",
+      "sourceSha256": "0358fda74744921fe2984f8832e96332ef262fbb412fc766184bae5ead91e166",
+      "vendored": "prime3_lua_service\\grant_probe.py",
+      "vendoredSha256": "731d702eabff0f32cf6fad01f7d1f26e17f69037a9f232d3fa48966268c46b02"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\inventory_profile.py",
+      "sourceSha256": "076f461f82638e76cb033138a888b680ffb48952c245f48ef23e3dce3c9f344f",
+      "vendored": "prime3_lua_service\\inventory_profile.py",
+      "vendoredSha256": "076f461f82638e76cb033138a888b680ffb48952c245f48ef23e3dce3c9f344f"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\item_sequence.lua",
+      "sourceSha256": "f4b65961be5a1db61039698f69bd7d1b83fa2175aecfbd2e1c6b418a5baceb78",
+      "vendored": "prime3_lua_service\\item_sequence.lua",
+      "vendoredSha256": "f4b65961be5a1db61039698f69bd7d1b83fa2175aecfbd2e1c6b418a5baceb78"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\item_sequence.py",
+      "sourceSha256": "688ba243ffb6a5a231863c0bbaf10796ef9f5e6407339fe45b07cad217dadbb0",
+      "vendored": "prime3_lua_service\\item_sequence.py",
+      "vendoredSha256": "333656b1f77cfbfbb57b7a92b1db4967fb9f0873aed4eff617aa832499e7b6c8"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\item_sequence_common.h",
+      "sourceSha256": "e374e2d3e379c393f5668888d2fa320db176507721364f15e44e4f258d57e232",
+      "vendored": "prime3_lua_service\\item_sequence_common.h",
+      "vendoredSha256": "e374e2d3e379c393f5668888d2fa320db176507721364f15e44e4f258d57e232"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\item_sequence_delivery.c",
+      "sourceSha256": "10f6e1e906a7d6fe7d406b6e26870325045aa468418f8569fce747006b09aa8f",
+      "vendored": "prime3_lua_service\\item_sequence_delivery.c",
+      "vendoredSha256": "10f6e1e906a7d6fe7d406b6e26870325045aa468418f8569fce747006b09aa8f"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\item_sequence_queue.c",
+      "sourceSha256": "6475f29ba44b3937182673f72e9be0d61e7bc2532abf2852e96ad193520b906e",
+      "vendored": "prime3_lua_service\\item_sequence_queue.c",
+      "vendoredSha256": "6475f29ba44b3937182673f72e9be0d61e7bc2532abf2852e96ad193520b906e"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\location.py",
+      "sourceSha256": "0fc114945a2b151e0156fbb82b6695a7aeb5d3108eda293e9aacbbf5c69f8093",
+      "vendored": "prime3_lua_service\\location.py",
+      "vendoredSha256": "1dc3253798abe97bafa47e1fe1bf1c506ba197c8fa13feed31d39d0f155b9619"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\location_probe.lua",
+      "sourceSha256": "f255ab4cba1d2d958cc1cf471e0ffa4b0c6fac2c712885ecda6dbda9b4c0f793",
+      "vendored": "prime3_lua_service\\location_probe.lua",
+      "vendoredSha256": "f255ab4cba1d2d958cc1cf471e0ffa4b0c6fac2c712885ecda6dbda9b4c0f793"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\mem2_contract.py",
+      "sourceSha256": "200c5d168cbde39cdbb29d3f234d98215868d1f46412833307f4ba6b1f3b946f",
+      "vendored": "prime3_lua_service\\mem2_contract.py",
+      "vendoredSha256": "fb73a6e61025a183285b7ee062ecd63bdc3bdc0307e3704316abbfee162fa599"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\network_delivery.c",
+      "sourceSha256": "48598ca88694ac9d27079021038e22b2c3f4694bc858d338f1fa58ab4ea54f13",
+      "vendored": "prime3_lua_service\\network_delivery.c",
+      "vendoredSha256": "48598ca88694ac9d27079021038e22b2c3f4694bc858d338f1fa58ab4ea54f13"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\network_delivery.ld",
+      "sourceSha256": "e11eefdfadb6a9498b89dd9a111424595e1d757e652c5ef14ca1d324c619df62",
+      "vendored": "prime3_lua_service\\network_delivery.ld",
+      "vendoredSha256": "e11eefdfadb6a9498b89dd9a111424595e1d757e652c5ef14ca1d324c619df62"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\network_delivery.py",
+      "sourceSha256": "620ed6e9c46392d203278807793aaf1e7c2a01e982cc6b60126ce8331509e6fe",
+      "vendored": "prime3_lua_service\\network_delivery.py",
+      "vendoredSha256": "ef99ed7255dd0ce231910bb5cc36477e16f9aae5a2e5e55f0168d057d0e016dd"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\network_save.py",
+      "sourceSha256": "aa535a0f8a54074e00b87c6964e4344fdaacba4e6dc5850c07b8a8abe2eaef86",
+      "vendored": "prime3_lua_service\\network_save.py",
+      "vendoredSha256": "390e738d1ac33e33ea021011b6833aac2a8e250125b6395973aaac3022eb1f7c"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\network_save_adapter.c",
+      "sourceSha256": "3cbfc566b5952bb691efb70d86e3c2b6cfef5c016ab18187bfa796671cf7ec73",
+      "vendored": "prime3_lua_service\\network_save_adapter.c",
+      "vendoredSha256": "3cbfc566b5952bb691efb70d86e3c2b6cfef5c016ab18187bfa796671cf7ec73"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\network_save_adapter.ld",
+      "sourceSha256": "5170308bd5b8bc89f370a0ba0ddabff856a9c7ad3e1f6dffe43e26b874cfc3e9",
+      "vendored": "prime3_lua_service\\network_save_adapter.ld",
+      "vendoredSha256": "5170308bd5b8bc89f370a0ba0ddabff856a9c7ad3e1f6dffe43e26b874cfc3e9"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\network_save_codec.c",
+      "sourceSha256": "defac2675e4b9e9ca1b7a8fdd7c360b9f711d05dbad7618e1dea6dc8086bbe30",
+      "vendored": "prime3_lua_service\\network_save_codec.c",
+      "vendoredSha256": "defac2675e4b9e9ca1b7a8fdd7c360b9f711d05dbad7618e1dea6dc8086bbe30"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\network_save_codec.ld",
+      "sourceSha256": "e78c712910c314455eaf727dd6edd22bb19668babf388fd6ea69ed6f091c6170",
+      "vendored": "prime3_lua_service\\network_save_codec.ld",
+      "vendoredSha256": "e78c712910c314455eaf727dd6edd22bb19668babf388fd6ea69ed6f091c6170"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\network_save_profile.S",
+      "sourceSha256": "cfbcfeca1b3f9c37e4952c2bb554e3bcd4b5efba97e28041434982cbc20a7531",
+      "vendored": "prime3_lua_service\\network_save_profile.S",
+      "vendoredSha256": "cfbcfeca1b3f9c37e4952c2bb554e3bcd4b5efba97e28041434982cbc20a7531"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\network_transport.c",
+      "sourceSha256": "9d1c3d2eda06b4719aedb64791c442ef52ce278b3e0e99da756967a77b332637",
+      "vendored": "prime3_lua_service\\network_transport.c",
+      "vendoredSha256": "9d1c3d2eda06b4719aedb64791c442ef52ce278b3e0e99da756967a77b332637"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\observe.py",
+      "sourceSha256": "637c94adacc4633b59b7d7307f15ab1b9bbe4c236e3dd96b2f53e46c0d8f2592",
+      "vendored": "prime3_lua_service\\observe.py",
+      "vendoredSha256": "a769eb5e55ac2c2b34b5fff9b9c6cbac3b2f57c08ab4e0fd81b63ddf1478886a"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\presentation.lua",
+      "sourceSha256": "e9458cdae317eb0d9b0dc31b08893e29fb1b3b5a4be86d392e3cdb8b685fb254",
+      "vendored": "prime3_lua_service\\presentation.lua",
+      "vendoredSha256": "e9458cdae317eb0d9b0dc31b08893e29fb1b3b5a4be86d392e3cdb8b685fb254"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\presentation.py",
+      "sourceSha256": "37b2de7ad743c48de5fa855384fb12d623650e0d7c1006a8c715a1405d59c276",
+      "vendored": "prime3_lua_service\\presentation.py",
+      "vendoredSha256": "0f0e4d95c89b2f82a11f625027af17de6a16b468bcdfcfa23a9156df3059f688"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\probe.lua",
+      "sourceSha256": "af8343641d550ffd9c08548fd1229aacf14a1bbf39ec122bffdecfca1ad0e00b",
+      "vendored": "prime3_lua_service\\probe.lua",
+      "vendoredSha256": "af8343641d550ffd9c08548fd1229aacf14a1bbf39ec122bffdecfca1ad0e00b"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\probe.py",
+      "sourceSha256": "9a3f0191ea29b37c5d0b5df7a901a41e8cc473a75381195e7778c4ff0277b02e",
+      "vendored": "prime3_lua_service\\probe.py",
+      "vendoredSha256": "907117c0d383bccf38a5dddbf2c700a637ada70226b98d15bdbefc0ddd0b729c"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\quiet.lua",
+      "sourceSha256": "bb7f7c565010c04defd4716a11e5204ee4b9359adeab7420dfc20c654f0daf57",
+      "vendored": "prime3_lua_service\\quiet.lua",
+      "vendoredSha256": "bb7f7c565010c04defd4716a11e5204ee4b9359adeab7420dfc20c654f0daf57"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\quiet.py",
+      "sourceSha256": "4c81f4c619e679b89f3b04878f2f73e03dfc578173fb02483e1d5c0306d20d31",
+      "vendored": "prime3_lua_service\\quiet.py",
+      "vendoredSha256": "4c81f4c619e679b89f3b04878f2f73e03dfc578173fb02483e1d5c0306d20d31"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\readiness.c",
+      "sourceSha256": "b57bd5f41af369aae685a031cc5449c77491bc92faee944ce648f14425a14a6f",
+      "vendored": "prime3_lua_service\\readiness.c",
+      "vendoredSha256": "b57bd5f41af369aae685a031cc5449c77491bc92faee944ce648f14425a14a6f"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\readiness.ld",
+      "sourceSha256": "ac3d2835ef21f84a201ea775ade2852df61d3675edb3b0ac362f07d960537bc8",
+      "vendored": "prime3_lua_service\\readiness.ld",
+      "vendoredSha256": "ac3d2835ef21f84a201ea775ade2852df61d3675edb3b0ac362f07d960537bc8"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\readiness.lua",
+      "sourceSha256": "c0d6c86649e075ac8df7ed042fff21a91d4526ee3a3bbd3d3276899f1a328ea5",
+      "vendored": "prime3_lua_service\\readiness.lua",
+      "vendoredSha256": "c0d6c86649e075ac8df7ed042fff21a91d4526ee3a3bbd3d3276899f1a328ea5"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\readiness.py",
+      "sourceSha256": "3f73479be587f9c53a716a3ee2499e44301c60ed96936e78c003fad5304bbbc3",
+      "vendored": "prime3_lua_service\\readiness.py",
+      "vendoredSha256": "243eed8c2ab8d8b943452a79bb25d6f997086d59348b47eaefbb2c4325579605"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\receipt_coupling.c",
+      "sourceSha256": "db59f376582ad40cec931b38be92a302e5fd15ef386ddc2f313d7ecd328ed674",
+      "vendored": "prime3_lua_service\\receipt_coupling.c",
+      "vendoredSha256": "db59f376582ad40cec931b38be92a302e5fd15ef386ddc2f313d7ecd328ed674"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\receipt_coupling.ld",
+      "sourceSha256": "c30ef8e18010fdc4a0aeca3ea4274c68dd71912a01b0dcddb67459db8c64fed7",
+      "vendored": "prime3_lua_service\\receipt_coupling.ld",
+      "vendoredSha256": "c30ef8e18010fdc4a0aeca3ea4274c68dd71912a01b0dcddb67459db8c64fed7"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\receipt_coupling.py",
+      "sourceSha256": "592a5ec5d9534a380578d7abeb1beb7e206d4cfcafa4652084ea64b9f0d0ffa5",
+      "vendored": "prime3_lua_service\\receipt_coupling.py",
+      "vendoredSha256": "09a0aea58ef4c3b2c0e53b85176249bac2931a85646d1c5ca12fdf9fc1338003"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\receipt_delivery.c",
+      "sourceSha256": "f2ec6ccfdbb8c4202bd26ee9cf870b8b5d58e0c02128c3856464d110b52f221e",
+      "vendored": "prime3_lua_service\\receipt_delivery.c",
+      "vendoredSha256": "f2ec6ccfdbb8c4202bd26ee9cf870b8b5d58e0c02128c3856464d110b52f221e"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\receipt_delivery.ld",
+      "sourceSha256": "af258dd5a04501cfb2031f7bebfd0da81df974bf8c6e2cc46c1e7dd0c082e748",
+      "vendored": "prime3_lua_service\\receipt_delivery.ld",
+      "vendoredSha256": "af258dd5a04501cfb2031f7bebfd0da81df974bf8c6e2cc46c1e7dd0c082e748"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\receipt_delivery.py",
+      "sourceSha256": "ef8e22016912fa8f69e92c781a89d37957e3754ece5f598a26753f04ca5404da",
+      "vendored": "prime3_lua_service\\receipt_delivery.py",
+      "vendoredSha256": "d26695747567db8b121a58b3d56a5e9c9153f8ee530406a7ea56976675b3a6bc"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\receipt_lifecycle.c",
+      "sourceSha256": "e431ae6d518d05b661f9434906920d8011ef8ee0f9b3589a1f8dc15997608dea",
+      "vendored": "prime3_lua_service\\receipt_lifecycle.c",
+      "vendoredSha256": "e431ae6d518d05b661f9434906920d8011ef8ee0f9b3589a1f8dc15997608dea"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\receipt_lifecycle.py",
+      "sourceSha256": "5294e671150d3cab0cda20f1939281547f7492d92841a1d9de7c3091456a46f8",
+      "vendored": "prime3_lua_service\\receipt_lifecycle.py",
+      "vendoredSha256": "b05e8b8777ebc020983e13955607f222e5d8f5082307aa54eb74f5c73c2040fd"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\receipt_model.py",
+      "sourceSha256": "3c19108a2b60d9abb9bd00b3352b7f11f48193f3546725f06fb12ead13c1aa20",
+      "vendored": "prime3_lua_service\\receipt_model.py",
+      "vendoredSha256": "3c19108a2b60d9abb9bd00b3352b7f11f48193f3546725f06fb12ead13c1aa20"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\receive_audit.py",
+      "sourceSha256": "51010ea3a39880b46d680e86df13590860730c6ced132b86631b2d2c0bad455e",
+      "vendored": "prime3_lua_service\\receive_audit.py",
+      "vendoredSha256": "5a57e4abfa94c35bc4a02ab4f7d59e4e2a6df4b00a59a78830e8fb408564bfd4"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\save_container.py",
+      "sourceSha256": "9fae5d02666c7cc07d2ffc6630ab05c7e55f95a534e270b489f53cfab67822bd",
+      "vendored": "prime3_lua_service\\save_container.py",
+      "vendoredSha256": "ed7e1b45caf76817d76372fc623afdad3448f0b78a9e8b243aab9b4c9efeef5e"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\save_native_trace.c",
+      "sourceSha256": "e113404457d2b230b81849dc690f008b79f5b18464f67ffa6cc8eebb7289d766",
+      "vendored": "prime3_lua_service\\save_native_trace.c",
+      "vendoredSha256": "e113404457d2b230b81849dc690f008b79f5b18464f67ffa6cc8eebb7289d766"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\save_native_trace.ld",
+      "sourceSha256": "83703dff178247454d32fcec1d4e21aebcded5f855570838f094d7de642ec272",
+      "vendored": "prime3_lua_service\\save_native_trace.ld",
+      "vendoredSha256": "83703dff178247454d32fcec1d4e21aebcded5f855570838f094d7de642ec272"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\save_native_trace.py",
+      "sourceSha256": "c052967e32e97bbe9b7ba9d648b689320b62b95fec34d21bd32140ae9ec2c2be",
+      "vendored": "prime3_lua_service\\save_native_trace.py",
+      "vendoredSha256": "bf0959d8f569129196c671e232ec01ca6f962ede6adce7cdf9b3a8d1d77c78f8"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\save_profile.py",
+      "sourceSha256": "fae533e452d2fd24d7f9209dbeed28f0de118ba3c3b909116dedf2c87c74e4de",
+      "vendored": "prime3_lua_service\\save_profile.py",
+      "vendoredSha256": "5d6d55b37d5ef3476a26660261e6ecda09addc5c04201dca917d0f561dc2071e"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\sequence_presentation.py",
+      "sourceSha256": "6edc86260f713fa0c62b7b5281bc1c94cd83f9f47ee373a922eb44d9c79ff952",
+      "vendored": "prime3_lua_service\\sequence_presentation.py",
+      "vendoredSha256": "012bdaa0b5786cf181efda5a76958df8322c532aac752cc7f03df9a3ce5e7b48"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\tracker.py",
+      "sourceSha256": "87070eff6a55f6fe4121dd6c6fca138a877cf143625100ea769069297cb4127e",
+      "vendored": "prime3_lua_service\\tracker.py",
+      "vendoredSha256": "56b08ecec6ace1b7b367d9f23e6eb328854f86eb04e9175ee68e0446b0294ac4"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\tracker_transport.c",
+      "sourceSha256": "38d138690f97fc265f7af9b588287cce0a4c822c3aa0022cd6c627bfb9ab9504",
+      "vendored": "prime3_lua_service\\tracker_transport.c",
+      "vendoredSha256": "38d138690f97fc265f7af9b588287cce0a4c822c3aa0022cd6c627bfb9ab9504"
+    },
+    {
+      "source": "tools\\prime3_lua_service\\udp_echo.c",
+      "sourceSha256": "8e66e1c02da3c4c3f5d9b52990725c9b7f59384040a1d1e7ec61ef368978c4f6",
+      "vendored": "prime3_lua_service\\udp_echo.c",
+      "vendoredSha256": "8e66e1c02da3c4c3f5d9b52990725c9b7f59384040a1d1e7ec61ef368978c4f6"
+    },
+    {
+      "source": "tools\\prime3_wii_runtime\\analyze_ios_wrappers.py",
+      "sourceSha256": "061b105fc8fbd860bce36ffb7dd39afd2f7a260ef2b62e0a716b23115ae2e0aa",
+      "vendored": "prime3_wii_runtime\\analyze_ios_wrappers.py",
+      "vendoredSha256": "061b105fc8fbd860bce36ffb7dd39afd2f7a260ef2b62e0a716b23115ae2e0aa"
+    },
+    {
+      "source": "tools\\prime3_wii_runtime\\analyze_oracle_18857.py",
+      "sourceSha256": "1d46169950bf6c60de995e748601620c96713234370c4858ba6832847de4b710",
+      "vendored": "prime3_wii_runtime\\analyze_oracle_18857.py",
+      "vendoredSha256": "1d46169950bf6c60de995e748601620c96713234370c4858ba6832847de4b710"
+    },
+    {
+      "source": "tools\\prime3_wii_runtime\\analyze_retail_kd.py",
+      "sourceSha256": "42a735a5c2fe9b7e7a33fec4efa78f922f650bfc96b4b9d7bb662c8a2793a575",
+      "vendored": "prime3_wii_runtime\\analyze_retail_kd.py",
+      "vendoredSha256": "300deac4f4414d46edc95a496dd73876fa599141423597bee2a5215bf0c3e778"
+    },
+    {
+      "source": "tools\\prime3_wii_runtime\\analyze_wrist_strap_resources.py",
+      "sourceSha256": "e858789359b8759ebedce526c5fdc748d51ba4595f73937c9257f5a2ce26684e",
+      "vendored": "prime3_wii_runtime\\analyze_wrist_strap_resources.py",
+      "vendoredSha256": "e858789359b8759ebedce526c5fdc748d51ba4595f73937c9257f5a2ce26684e"
+    },
+    {
+      "source": "tools\\prime3_wii_runtime\\build_payload.py",
+      "sourceSha256": "c597df51de85d65e139d57a1a84b59478b573d32c8971950a1e548ce1a807461",
+      "vendored": "prime3_wii_runtime\\build_payload.py",
+      "vendoredSha256": "c597df51de85d65e139d57a1a84b59478b573d32c8971950a1e548ce1a807461"
+    },
+    {
+      "source": "tools\\prime3_wii_runtime\\build_probe_dol.py",
+      "sourceSha256": "cbfdc9892518c925d230faec9d3e5f52050956301ac80668d76817816fa73732",
+      "vendored": "prime3_wii_runtime\\build_probe_dol.py",
+      "vendoredSha256": "cbfdc9892518c925d230faec9d3e5f52050956301ac80668d76817816fa73732"
+    },
+    {
+      "source": "tools\\prime3_wii_runtime\\inspect_tcp_runtime.py",
+      "sourceSha256": "2b1cab746ee86a61efbae4d3d2e354028169d6548bec51375d88ddf5669ae242",
+      "vendored": "prime3_wii_runtime\\inspect_tcp_runtime.py",
+      "vendoredSha256": "2b1cab746ee86a61efbae4d3d2e354028169d6548bec51375d88ddf5669ae242"
+    },
+    {
+      "source": "tools\\prime3_wii_runtime\\payload.ld",
+      "sourceSha256": "8b0fe7823153e69170918d49bd2b469f23b265b5fa2f6cdfc9cda5c06046a272",
+      "vendored": "prime3_wii_runtime\\payload.ld",
+      "vendoredSha256": "8b0fe7823153e69170918d49bd2b469f23b265b5fa2f6cdfc9cda5c06046a272"
+    },
+    {
+      "source": "tools\\prime3_wii_runtime\\payload.S",
+      "sourceSha256": "2a5073d020a111ad16291fae65df760072266a2de7d5fac1b57dc3430c23a86c",
+      "vendored": "prime3_wii_runtime\\payload.S",
+      "vendoredSha256": "2a5073d020a111ad16291fae65df760072266a2de7d5fac1b57dc3430c23a86c"
+    },
+    {
+      "source": "tools\\prime3_wii_runtime\\refresh_production_runtime_fixture.py",
+      "sourceSha256": "676e397b9e6c73f5bbba896ab2d013a7d2be1eede2026c21b401d934a9d32b43",
+      "vendored": "prime3_wii_runtime\\refresh_production_runtime_fixture.py",
+      "vendoredSha256": "676e397b9e6c73f5bbba896ab2d013a7d2be1eede2026c21b401d934a9d32b43"
+    },
+    {
+      "source": "tools\\prime3_wii_runtime\\relocated_runtime.c",
+      "sourceSha256": "efd377bfc6b1608b125223acf489e42a50bb1cfe8a884563c96d6d74e6060ab2",
+      "vendored": "prime3_wii_runtime\\relocated_runtime.c",
+      "vendoredSha256": "efd377bfc6b1608b125223acf489e42a50bb1cfe8a884563c96d6d74e6060ab2"
+    },
+    {
+      "source": "tools\\prime3_wii_runtime\\relocated_runtime.ld",
+      "sourceSha256": "9bb92fcd30e4f24b4f57c4d33d0f62db4725e8eefccb2d4a7e97050a0e5d9eb2",
+      "vendored": "prime3_wii_runtime\\relocated_runtime.ld",
+      "vendoredSha256": "9bb92fcd30e4f24b4f57c4d33d0f62db4725e8eefccb2d4a7e97050a0e5d9eb2"
+    },
+    {
+      "source": "tools\\prime3_wii_runtime\\relocated_runtime.S",
+      "sourceSha256": "4586562c62d9262889168bea66937744e73a393f92f4921c69787af17acfe1c7",
+      "vendored": "prime3_wii_runtime\\relocated_runtime.S",
+      "vendoredSha256": "4586562c62d9262889168bea66937744e73a393f92f4921c69787af17acfe1c7"
+    },
+    {
+      "source": "tools\\prime3_wii_runtime\\verify_probe_delivery.py",
+      "sourceSha256": "790d460c9b04ecd93687f587c2d86cd2ee3dafe3b1ac78a8ce2dc12a0d0d2e3b",
+      "vendored": "prime3_wii_runtime\\verify_probe_delivery.py",
+      "vendoredSha256": "790d460c9b04ecd93687f587c2d86cd2ee3dafe3b1ac78a8ce2dc12a0d0d2e3b"
+    },
+    {
+      "source": "randovania\\games\\prime3\\exporter\\dol_patcher.py",
+      "sourceSha256": "93defd02168d7c6229d6cbfc17a179b4b2539a30b58c958147a886f03ee37098",
+      "vendored": "cdv\\randovania\\games\\prime3\\exporter\\dol_patcher.py",
+      "vendoredSha256": "93defd02168d7c6229d6cbfc17a179b4b2539a30b58c958147a886f03ee37098"
+    },
+    {
+      "source": "randovania\\games\\prime3\\exporter\\runtime_toolchain.py",
+      "sourceSha256": "adbd73b2e4a7b5f8e9665787247f324e2a819f7d0079fe04de06f751c5b1783f",
+      "vendored": "cdv\\randovania\\games\\prime3\\exporter\\runtime_toolchain.py",
+      "vendoredSha256": "adbd73b2e4a7b5f8e9665787247f324e2a819f7d0079fe04de06f751c5b1783f"
+    },
+    {
+      "source": "randovania/game_connection/executor/prime3_wii_protocol.py",
+      "sourceSha256": "9f8938e8aa6ce6410f38687bf9fea7b88e30db4e6179bc0ec921e08a0df98063",
+      "vendored": "prime3_wii_runtime/protocol.py",
+      "vendoredSha256": "9f8938e8aa6ce6410f38687bf9fea7b88e30db4e6179bc0ec921e08a0df98063"
+    },
+    {
+      "source": "randovania/games/prime3/exporter/runtime_payload.py",
+      "sourceSha256": "fbacc4f3fbb56f99bc57cff402588fc9e6de25daf33e3714f92a1b6eaac0db32",
+      "vendored": "prime3_wii_runtime/runtime_payload.py",
+      "vendoredSha256": "fbacc4f3fbb56f99bc57cff402588fc9e6de25daf33e3714f92a1b6eaac0db32"
+    }
+  ]
+}

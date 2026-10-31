@@ -1,0 +1,86 @@
+from __future__ import annotations
+
+import typing
+
+import construct
+from construct import (
+    Array,
+    Const,
+    Float32b,
+    GreedyBytes,
+    If,
+    IfThenElse,
+    Int16ub,
+    Int32ub,
+    Prefixed,
+    PrefixedArray,
+    Struct,
+)
+
+from retro_data_structures import game_check
+from retro_data_structures.base_resource import AssetType, BaseResource, Dependency
+from retro_data_structures.game_check import Game
+
+Weight = Struct(
+    bone_id=Int32ub,
+    weight=Float32b,
+)
+
+VertexGroup = Struct(
+    weights_array=PrefixedArray(Int32ub, Weight),
+    vertex_count=Int32ub,
+)
+
+Prime1FooterField = Struct(
+    first=Int32ub,
+    # These values are read by the game, but discarded
+    other=IfThenElse(
+        construct.this.first == 0xFFFFFFFF,
+        Int32ub,
+        Array(construct.this.first, Array(3, Int32ub)),
+    ),
+)
+
+Prime1Footer = Struct(
+    unk_a=Prime1FooterField,
+    unk_b=Prime1FooterField,
+    trailing_bytes=GreedyBytes,
+)
+
+OtherFooter = Struct(
+    # These values are read by the game, but unknown purpose
+    pool_to_skin_idx=PrefixedArray(Int32ub, Int16ub),
+    trailing_bytes=Prefixed(Int32ub, GreedyBytes),
+)
+
+CorruptionFooter = Struct(
+    "pool_to_skin_idx" / PrefixedArray(Int32ub, Int16ub),
+    # Five length-prefixed native skinning tables; semantics remain opaque.
+    "opaque_tables" / Array(5, Prefixed(Int32ub, GreedyBytes)),
+    "trailing_padding" / construct.Default(GreedyBytes, b""),
+    construct.Check(lambda x: all(v in (0, 255) for v in x.trailing_padding)),
+)
+
+CSKR = Struct(
+    _magic=If(game_check.current_game_at_least(Game.CORRUPTION), Const(0x534B494E, Int32ub)),
+    unk=If(game_check.current_game_at_least(Game.CORRUPTION), Int32ub),  # Version ?
+    vertex_groups=PrefixedArray(Int32ub, VertexGroup),
+    footer=IfThenElse(
+        game_check.is_prime1,
+        Prime1Footer,
+        IfThenElse(game_check.is_prime3, CorruptionFooter, OtherFooter),
+    ),
+)
+
+
+class Cskr(BaseResource):
+    @classmethod
+    def resource_type(cls) -> AssetType:
+        return "CSKR"
+
+    @classmethod
+    def construct_class(cls, target_game: Game) -> construct.Construct:
+        return CSKR
+
+    def dependencies_for(self) -> typing.Iterator[Dependency]:
+        yield from []

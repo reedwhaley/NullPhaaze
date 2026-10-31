@@ -1,0 +1,92 @@
+{
+  "model": "Friend_Credit",
+  "character": "E21214EC80974A5A",
+  "cmdl": "0CC01181145BA08D",
+  "resources": [
+    {
+      "id": "E21214EC80974A5A",
+      "type": "CHAR",
+      "sha256": "9a4d17ae6a6586790fb89e2952d4f208a2e60fe21fbf9a65c43051f625724b6f",
+      "compressed": 1
+    },
+    {
+      "id": "FD00048E5E1C5184",
+      "type": "ANIM",
+      "sha256": "7b68f42b995a581e4daa7898d2e6146409137a22d40d135a72a69ce0657a3e97",
+      "compressed": 1
+    },
+    {
+      "id": "572D098D3C501504",
+      "type": "SAND",
+      "sha256": "711a11df74b03cd5d608710755474b8f47d7b9c006395c322e8b1bb9b4bc948a",
+      "compressed": 1
+    },
+    {
+      "id": "2E30E82B4F0162D9",
+      "type": "CINF",
+      "sha256": "408d809065595bda9b30d4db83c25c69a36ce56be5b23a1e23403a505a9d80a1",
+      "compressed": 0
+    },
+    {
+      "id": "FD1E7FEA9EA17130",
+      "type": "CSKR",
+      "sha256": "0c3bc7838413fe62d2cb042d05b82e6346bc1bf4589e4bedb8aff1fbe3938a6f",
+      "compressed": 1
+    },
+    {
+      "id": "0CC01181145BA08D",
+      "type": "CMDL",
+      "sha256": "4d7c6cc64e4aa5e7964686dac0bf8cfb8219cde58e6f8617b9d4400d517ada55",
+      "compressed": 1
+    },
+    {
+      "id": "4CB04F9181E697CA",
+      "type": "TXTR",
+      "sha256": "6c77180964cf848b89073fa309d23f6ed017f6de4b21ea7574329b452b86dfdb",
+      "compressed": 1
+    },
+    {
+      "id": "989E05CB28F6BCAA",
+      "type": "TXTR",
+      "sha256": "8c02cf555026eace8cf0074f616c662f741187df596a4323015dfab6673a44bd",
+      "compressed": 1
+    },
+    {
+      "id": "E3336606E39579BA",
+      "type": "TXTR",
+      "sha256": "36c7273931d8e8d39c8b8b8536874369222512cc1f9869c7a9a268b515553656",
+      "compressed": 1
+    }
+  ],
+  "normalization": {
+    "reference_name": "Missile Expansion",
+    "reference_model": "9C5C5246993998A1",
+    "reference_pak": "Metroid1.pak",
+    "reference_decoded_sha256": "f9d99cfdf03d2c49752960efe8f51a9fa7a2a7a4045ec4c71f10f745e7362dc3",
+    "source_dimensions": [
+      0.5310484766960144,
+      2.772652506828308,
+      3.1105425357818604
+    ],
+    "reference_dimensions": [
+      0.4561288356781006,
+      0.43380430340766907,
+      0.986979752779007
+    ],
+    "uniform_multiplier": 0.3173014808270164
+  },
+  "approval": {
+    "status": "approved",
+    "approved_by": "user",
+    "approved_on": "2026-10-26",
+    "scope": "Corruption Nothing pickup visuals",
+    "default_for_next_builds": true,
+    "model": "Friend_Credit",
+    "base_scale": 0.3173014808270164,
+    "reference": "Native Missile Expansion",
+    "preview_scene": "G.F.S. Valhalla / Docking Bay 5",
+    "preview_archive_sha256": "0ddeb083a4ee578dbfeef4a2f5d48f26581891374a19e4e3fa97025a8fee8f1c",
+    "evidence": "E:\\NullPhaaze-Friend-Credit-Preview-20261026\\normalized\\acceptance.json",
+    "supersedes": "Unscaled Friend Credit preview"
+  }
+}

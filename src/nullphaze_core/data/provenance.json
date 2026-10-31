@@ -1,0 +1,126 @@
+{
+  "implementation": "nullphaze_core",
+  "runtimeLanguage": "Python 3.12",
+  "runtimeModules": [
+    {
+      "path": "src\\nullphaze_core\\__init__.py",
+      "sha256": "59d5d45e3ead963ca99e03124cad40cba09f70cb3e6837966fa97b3f1fb441d7"
+    },
+    {
+      "path": "src\\nullphaze_core\\__main__.py",
+      "sha256": "9ea973b8965b9aca3fb06a9ff3f520e79a6cfa018e6d1c29f780a5bb50351869"
+    },
+    {
+      "path": "src\\nullphaze_core\\archives.py",
+      "sha256": "931f8cb75fb81c31f27cb3f06492f4d463f28d8b42811b5052d9873c06962f37"
+    },
+    {
+      "path": "src\\nullphaze_core\\binary.py",
+      "sha256": "2f6d3a01df75f53304cf9b8cc4861b25976d9cffa281e6a8b5ec06a659462359"
+    },
+    {
+      "path": "src\\nullphaze_core\\codec.py",
+      "sha256": "8dad36dafdc26de9c2c763949977fa505733458c77c5c34ddcb01df84456e887"
+    },
+    {
+      "path": "src\\nullphaze_core\\engine.py",
+      "sha256": "8c477cfb7cbb3c30afc5006172b442a63bb5afdf670ad1af32fdf8cca59a2f5f"
+    },
+    {
+      "path": "src\\nullphaze_core\\pak_compaction.py",
+      "sha256": "542f412b22ce436d33c0a1658b33578dbf20e556bbb1b0f366130369f4f58eb7"
+    },
+    {
+      "path": "src\\nullphaze_core\\patches\\__init__.py",
+      "sha256": "e7655834f706b3e945eb8f50e92340105910b56dc9a5be650c8de8e41e06b20c"
+    },
+    {
+      "path": "src\\nullphaze_core\\patches\\cosmetics.py",
+      "sha256": "7014154d8793fd13d45e9c8376a68981cef9cfcdae7a54013bfe00a018804963"
+    },
+    {
+      "path": "src\\nullphaze_core\\patches\\frontend.py",
+      "sha256": "43b25aa4ae0a9ed55495ec1bc1ec484dff18f6af05ed4ba6589c8385185c7e86"
+    },
+    {
+      "path": "src\\nullphaze_core\\patches\\pickups.py",
+      "sha256": "652e2e5ab167c2f0608d8b00fa50a46800a36a2d704d7557fcae46c1107dcd88"
+    },
+    {
+      "path": "src\\nullphaze_core\\patches\\starting_items.py",
+      "sha256": "d79b6ad545ed12d6eab9bd59b34c1854c7f06748c641bb89caed5d75a6bbb50c"
+    },
+    {
+      "path": "src\\nullphaze_core\\patches\\worlds.py",
+      "sha256": "7bfac0b2aea6bcf1a1ab92356f79dc2e211b94fc0b9dc9602fd3d9198118afeb"
+    },
+    {
+      "path": "src\\nullphaze_core\\planner.py",
+      "sha256": "49b7f74b51162a13d8f5f217d2658b325bc55bc0081da7faa6058f13895df8ba"
+    },
+    {
+      "path": "src\\nullphaze_core\\rds_directory.py",
+      "sha256": "ea4e90fb256a47e7fcc1882d734449c9036c15948e9057a54b7f72a871d4ebf0"
+    },
+    {
+      "path": "src\\nullphaze_core\\rds_formats.py",
+      "sha256": "5d8d73d6a33b647ec5e2c499fcbd5f00faa6b6ac4c35415ec2c432e96148c55a"
+    },
+    {
+      "path": "src\\nullphaze_core\\rds_registration.py",
+      "sha256": "958f7ee44481084e0cc16cf24cb17d8e6d2bc50d3102291a1a4491285ec38f73"
+    },
+    {
+      "path": "src\\nullphaze_core\\rds_scripts.py",
+      "sha256": "476008b31fd3b13f8a261d341befd66e8d89d17ba29b692244a96c2d49db997a"
+    },
+    {
+      "path": "src\\nullphaze_core\\resources.py",
+      "sha256": "a6a4c330242f6ad332077116605b5518cc5b0ee48587b96167c4b3665e6c444d"
+    },
+    {
+      "path": "src\\nullphaze_core\\rule_values.py",
+      "sha256": "aa59ef1c8f0b66222d9b4f0d2cbf72e3f2217dfc97d035b53021ee65ca504983"
+    },
+    {
+      "path": "src\\nullphaze_core\\rules.py",
+      "sha256": "3c7c52ad212b230b8c7816388c04d38ee5f44ed467d7112c3e680d1d8b77f053"
+    },
+    {
+      "path": "src\\nullphaze_core\\scripts.py",
+      "sha256": "aa6d75ee692125acd6fbf6fcd5bfba6f8f245501007a0b4e406619aeabd0615c"
+    },
+    {
+      "path": "src\\nullphaze_core\\session.py",
+      "sha256": "d7caad27852895dd6ca5715bf2bea52b2496d28387e3a840385a4e4a0b461ec1"
+    },
+    {
+      "path": "src\\nullphaze_core\\storage.py",
+      "sha256": "219a4a118f89b3a02c9cf24ee4b593e8c7fd0fd021f045287d3d2166ff89e611"
+    }
+  ],
+  "recoveredManagedRuntimeRequired": false,
+  "frontendRequired": false,
+  "independentVerifierRequired": false,
+  "thirdPartyPythonRuntimeDependencies": [
+    "retro-data-structures==0.44.1+nullphaze.20261024",
+    "construct"
+  ],
+  "declarativeData": {
+    "path": "src/nullphaze_core/data/rules.json",
+    "sha256": "8f386db62c9f4638cd2f010f9edc843739c9d2666154d1edb3cb51bcece21419",
+    "origin": "Attributed reference-derived IDs, patch templates, strings and dependency facts; not a clean-room claim.",
+    "generator": "verification/CoreCatalog/Program.cs",
+    "referenceAssemblySha256": "cc6adead78316487fd24b4d4dad1b4477779f4b1e96b1a76eaf159689ed66a57"
+  },
+  "codec": {
+    "activeBackend": "RDS LZO framing; legacy codec module is compatibility-only",
+    "source": "native/lzokay",
+    "bridge": "native/bridge.cpp",
+    "license": "MIT",
+    "binary": "src/nullphaze_core/native/lzokay.dll",
+    "macBinary": "architecture-specific build runtime/liblzokay.dylib",
+    "linuxBinary": "Linux build runtime/liblzokay.so"
+  },
+  "originalGamePayloadsIncluded": false
+}

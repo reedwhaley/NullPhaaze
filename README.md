@@ -1,91 +1,93 @@
-# NullPhaaze core
+# NullPhaaze RDS backend — lean source
 
-Standalone Metroid Prime 3 file patching engine and command-line patcher.
-This source tree contains the Python core, its declarative catalog, the native
-MIT LZO codec and the standalone console build recipe. It has no CDV/Randovania
-frontend, generator, progression solver, tracker, multiworld server, Qt resources
-or frontend build targets.
+This is the current `.14r2` behavior with the corrected RDS backend, network/model
+integration and a guarded CDV overlay. The desktop frontend is supplied by a
+separate compatible checkout. It is not duplicated in this archive.
 
-The runtime uses Python 3.12 or later, the Python standard library and the
-included source-built codec. The tested build setup uses 64-bit Python 3.12.
-Source builds need no original patcher, frontend installation or game files.
+`src/nullphaze_core` owns layout planning and extracted-file patching. RDS owns
+resource framing and compression. `integrations/cdv/overlay` contains the current
+CDV-facing exporter, delivery/receipt, native runtime and cross-world model code.
+The [network/model walkthrough](docs/NETWORK_AND_MODELS.md) connects those paths;
+the [migration notes](docs/RDS_MIGRATION.md) explain the preservation adapters.
 
-## Windows source build
+Every included file has technical notation in `SOURCE_MANIFEST.json`. Authored
+code also has inline comments at its module boundary and relevant decisions.
+Generated RDS readers, data and license texts retain their exact bytes, with
+file-specific companion notes. I keep the prerequisite source pin visible rather
+than rewriting generated readers to make their comments look locally authored.
 
-Install 64-bit Python 3.12 and Visual Studio 2022 C++ x64 tools with CMake.
-From the repository root in PowerShell:
+## Build the backend
 
-```powershell
-python -m venv .venv-core
-& .venv-core/Scripts/Activate.ps1
-python -m pip install setuptools==75.8.0 wheel==0.45.1
-powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-core.ps1
-python -m pip install --no-deps --no-build-isolation -e .
-python scripts/verify_core_source.py
-nullphaaze-core --help
-```
-
-The build compiles `native/lzokay` and the C ABI bridge, installs the codec under
-`src/nullphaaze_core/native/`, and checks codec roundtrips and malformed inputs.
-The source independence check records module and catalog provenance locally.
-
-## Linux and macOS source build
-
-Install Python 3.12, CMake and a C++ compiler. In a virtual environment:
-
-```sh
-python -m pip install setuptools==75.8.0 wheel==0.45.1
-cmake -S native -B artifacts/core-native -DCMAKE_BUILD_TYPE=Release
-cmake --build artifacts/core-native --config Release
-python -m pip install --no-deps --no-build-isolation -e .
-```
-
-Set `NULLPHAAZE_CORE_CODEC` to the path to the generated
-`artifacts/core-native/liblzokay.so` on Linux or
-`artifacts/core-native/liblzokay.dylib` on macOS 
-(this is not necessary right now but might be in the future). 
-Then run:
-
-```sh
-python scripts/check_core_codec.py
-nullphaaze-core --help
-```
-
-The codec may also be copied to `src/nullphaaze_core/native/` with that platform's
-filename. Platform build outputs are excluded from version control.
-
-## Patch extracted files
-
-Supply your own verified USA revision 0 extracted game files (RM3E01), an existing
-native 100-placement layout, and a new output directory separate from the input:
+Use 64-bit Python 3.12. From this extracted directory:
 
 ```powershell
-nullphaaze-core --input-path 'INPUT_FILES' --output-path 'NEW_OUTPUT' --layout 'NATIVE_LAYOUT'
+python -m venv .venv
+.venv\Scripts\python.exe -m pip install -r requirements-build.txt -r requirements-runtime.txt
+.venv\Scripts\python.exe -m pip install --no-build-isolation --no-deps ./vendor/retro-data-structures
+.venv\Scripts\python.exe scripts/build_source.py --output ../nullphaze-rds-build
+.venv\Scripts\python.exe -m pip install --no-deps ../nullphaze-rds-build/dist/nullphaze_core-0.1.0-py3-none-any.whl
+.venv\Scripts\python.exe -m nullphaze_core --help
 ```
 
-The core consumes layouts; it does not generate seeds or accept frontend settings
-permalinks. It patches extracted files and does not rebuild ISO/WBFS images.
-`--help` lists inventory, starting location and patch options. Original media is
-never included in this repository. MP3Update payloads are absent.
+The private RDS version is `0.44.1+nullphaze.20261024`; install it from this source
+before the backend. The build uses separate staging/output directories. Original
+game files are unnecessary to build the backend. A patch operation requires the
+user's verified USA revision-0 extracted `DATA/files`, a native layout and a new
+output directory. The core writes the patched PAKs and NTWK; CDV owns image export.
 
-## Optional standalone Windows console executable
+## Apply the integration
 
-After the Windows source build, in the same environment:
+Use an isolated copy of the October 29 `.14r2` NullPhaaze repository, with `cdv/`
+at its root. The overlay recognizes the accepted base and its own complete result.
+Unknown local edits are rejected before writing. The script checks every file,
+including newly introduced paths; it does not merge ambiguous source.
 
 ```powershell
-python -m pip install -r requirements-build.txt
-python -m PyInstaller --noconfirm --distpath artifacts/portable/dist --workpath artifacts/portable/work build/standalone-patcher/nullphaaze-core.spec
-& ./artifacts/portable/dist/NullPhaazePatcher/NullPhaazePatcher.exe --help
+python scripts/apply_cdv_overlay.py --target C:\work\isolated-nullphaze
+python scripts/apply_cdv_overlay.py --target C:\work\isolated-nullphaze --apply
 ```
 
-Keep the entire generated `NullPhaazePatcher` folder, including `_internal`.
-This target produces a console patcher; it has no desktop frontend.
+Install the built RDS/backend wheels into that checkout's separate CDV Python
+environment, then its constrained `cdv/requirements.txt`. The frontend environment
+also needs `pyqt-distutils==0.7.3`; compile its forms with `python setup.py build_ui`
+from `cdv/`. Keep its existing frontend resources and `cdv/README.md` for runtime
+credits. The overlay includes neither user configuration nor converted game assets.
 
-## Attribution and validation boundary
+The shared adapters preserve current grants, seed/sender identity, checkpoint
+receipts and model-style choices. Unfinished feature requests remain pending.
+Native-only visual choices retain their existing paths; imported models require
+the user's validated local cache. See the walkthrough for exact fallback rules.
 
-Retained MIT notices are in `LICENSE`, `native/lzokay/LICENSE` and
-`licenses/lzokay-LICENSE`. See `THIRD_PARTY.md` and
-`src/nullphaaze_core/data/provenance.json` for the source and catalog boundary.
-The catalog contains attributed reference-derived patch facts; this is not a
-clean-room claim. Source, codec and synthetic checks do not establish gameplay
-or physical-hardware acceptance.
+## Rebuild the native templates
+
+Compiled templates are excluded. Use devkitPPC release 47.1, GCC 15.1.0,
+binutils 2.44 and target `powerpc-eabi`, with `DEVKITPRO`/`DEVKITPPC` set. Run this
+script with the overlaid checkout's CDV environment so its frontend dependencies
+are available:
+
+```powershell
+python scripts/build_native.py --cdv-root C:\work\isolated-nullphaze --output C:\work\native-build-new --install
+```
+
+The output must be separate and new. The builder compiles the bridge twice,
+checks identical metadata/output, and compares the runtime/bootstrap to the
+accepted `.14r2` bytes with only the two seed/profile regions normalized. It then
+records the hashes of this exact annotated native source. Stale template receipts
+must not be accepted merely because comments left the instructions unchanged.
+
+Image export still requires external WIT. Supply the matching frontend's prepared
+runtime or set `NULLPHAZE_RUNTIME` to a directory containing `wit/wit.exe` on
+Windows (`wit/wit` elsewhere). No old standalone codec DLL is needed by this RDS
+backend. Prime/Echoes exporter helpers remain dependencies of the external CDV.
+
+## Scope and attribution
+
+The archive contains source, required declarative data, build inputs, file notes
+and licenses. It excludes executables, compiled templates, game media, converted
+models, caches, environments, tests, reports and the recovered implementation.
+Build outputs and validation evidence belong outside this source directory.
+
+Read [NOTICE.md](NOTICE.md) and the vendor notices for the combined GPL and retained
+MIT attribution. Packaging and build checks do not establish live delivery,
+rendering, save/reload or Wii/vWii acceptance. Nothing here publishes a release,
+changes an installed client or deploys a server.

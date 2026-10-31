@@ -1,0 +1,2182 @@
+{
+  "source": "MP3Update v7.3 by MrMiguel211 (MIT)",
+  "source_url": "https://github.com/MrMiguel211/MP3Update/releases/tag/MP3Update_v7.3",
+  "source_sha256": "efb2c937d836ec6f3b7aefc754e7b2895a24e7542e07159eaa05a9b4fa9a858d",
+  "rooms": [
+    {
+      "name": "Zipline Station Alpha",
+      "mrea": "02CCF1D7EF1A7829",
+      "patches": [
+        {
+          "id": "0003004E",
+          "type": "PLAT",
+          "name": "Zipline",
+          "layer": 0,
+          "fields": [
+            {
+              "field": "255A4580",
+              "old": "0004494e414d00085a69706c696e65005846524d0024c4aed62444a52b3042daa1180000000000000000433400003e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002",
+              "new": "0004494e414d000644656c7461005846524d0024c4aed62444a52b3042daa1180000000000000000c333ffff3e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002"
+            },
+            {
+              "field": "0A9DBF91",
+              "old": "0009493d6a2d000c0001f53dcdd600040000000027e5f87400ed00000000000b00000000000000000101400000003d23d70a020240974be63e47d0290505403fa2943e3d5060403fa2943e3d506040e870ca3e96e5ef0505403fd7d83df84b55403fd7d83df84b55411fe1663ebef1dc0505403fea163db772aa403fea163db772aa414000003ef358f3020241645c7a3f0e0f910505403feb203db30de2403feb203db30de2417addc33f2210f10505403fb16f3e2d9fc4403fb16f3e2d9fc441988a263f4329c30505403fd9ba3df26a81403fd9ba3df26a8141a477ea3f5a05140505403fa7883e383bb0403fa7883e383bb041c800003f800000000001000000003f800000fd1e2f56000441c80000a5753d52000400000000ae80628f0004000008b0628bdf0f007300000000000a00000000000000000101401d4d514170000001014085f9fd00000000010140d8180941a000000101412ea479000000000101416da6ef000000000101417f11c3c120000001014198614441a00000010141aff1cbc1200000010141c8000000000000010101c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000",
+              "new": "0009493d6a2d000c0001f53dcdd600040000000127e5f874004b000000000006000000000000000001013fc000003d8f5c290202408000003ecccccd020240d666663f2b851f0202410000003f547ae10202412000003f800000000001000000003f800000fd1e2f56000441200000a5753d52000400000000ae80628f0004000008b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000"
+            }
+          ],
+          "remove_links": [],
+          "add_links": []
+        },
+        {
+          "id": "000300B7",
+          "type": "PLAT",
+          "name": "ZipTarget",
+          "layer": 0,
+          "fields": [
+            {
+              "field": "255A4580",
+              "old": "0004494e414d000a5a6970546172676574005846524d0024c4aed62444a2ab3042cb652b0000000000000000433400003e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002",
+              "new": "0004494e414d000c44656c7461546172676574005846524d0024c4aed62444a2ab3042cb652b0000000000000000433400003e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002"
+            },
+            {
+              "field": "0A9DBF91",
+              "old": "0009493d6a2d000c0001f53dcdd600040000000027e5f87400bb00000000000e00000000000000000101404cbd0e3dd681670101409ccccd3e2e147b020240d000003e8a3d7102024100068e3ea857b00505403fee883da3cb47403fee883da3cb474121999a3ebef1dc0505403fea163db772aa403fea163db772aa414333333ef358f30202415b33333f07dc8c020241645cb83f1054040101416d6ccc3f12b02102024180d0bc3f28f5c30101418fed6c3f42bae0020241ae685e3f6725b3010141c800003f800000010101000000003f800000fd1e2f56000441c80000a5753d5200043f800000ae80628f0004000000b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000",
+              "new": "0009493d6a2d000c0001f53dcdd600040000000127e5f874004b000000000006000000000000000001013fc000003d8f5c290202408000003ecccccd020240d666663f2b851f0202410000003f547ae10202412000003f800000000001000000003f800000fd1e2f56000441200000a5753d5200043f800000ae80628f0004000000b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000"
+            }
+          ],
+          "remove_links": [],
+          "add_links": []
+        },
+        {
+          "id": "0003009D",
+          "type": "PLAT",
+          "name": "ZipTarget",
+          "layer": 0,
+          "fields": [
+            {
+              "field": "255A4580",
+              "old": "0004494e414d000a5a6970546172676574005846524d0024c4aed6244439566942cca59a0000000000000000000000003e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002",
+              "new": "0004494e414d000c44656c7461546172676574005846524d0024c4aed6244439566942cca59a0000000080000000000000003e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002"
+            },
+            {
+              "field": "0A9DBF91",
+              "old": "0009493d6a2d000c0001f53dcdd600040000000027e5f87400e3000000000012000000003dc318330101405908783dc318330101409afc113e276e61020240e000003e6bd3c3010140f333333e6bd3c30101410e66663ea083120101411800003ea083120101414115963ee074860101416800003f012d340202417800003f0a9f490202418400003f1275cd0202418c00003f1a9e2c0505403fe0e43dda8e5e403fe0e43dda8e5e4195999a3f30db380101419b33333f30db38010141a733333f4ccccd020241b5d5ed3f652fd3010141c400003f75c28f0505403f8e563e50cc1d403f8e563e50cc1d41c800003f800000000001000000003f800000fd1e2f56000441c80000a5753d5200043f800000ae80628f0004000000b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000",
+              "new": "0009493d6a2d000c0001f53dcdd600040000000127e5f874004b000000000006000000000000000001013fc000003d8f5c290202408000003ecccccd020240d666663f2b851f0202410000003f547ae10202412000003f800000000001000000003f800000fd1e2f56000441200000a5753d5200043f800000ae80628f0004000000b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000"
+            }
+          ],
+          "remove_links": [],
+          "add_links": []
+        },
+        {
+          "id": "00030018",
+          "type": "PLAT",
+          "name": "Zipline",
+          "layer": 0,
+          "fields": [
+            {
+              "field": "255A4580",
+              "old": "0004494e414d00085a69706c696e65005846524d0024c4aed6244434566942daa1150000000000000000000000003e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002",
+              "new": "0004494e414d000644656c7461005846524d0024c4aed6244434566942daa1150000000000000000000000003e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002"
+            },
+            {
+              "field": "0A9DBF91",
+              "old": "0009493d6a2d000c0001f53dcdd600040000000027e5f874007300000000000a00000000000000000101400000003d23d70a0202409afc113e276e61020240e5ce463e770585020241242b303ec06ca902024145e4113ee54ed30202416160b93f049c3d02024189d9433f1fc9ac020241a690b73f4e6091020241c800003f800000000001000000003f800000fd1e2f56000441c80000a5753d52000400000000ae80628f0004000008b0628bdf0f005f00000000000800000000000000000101404071a841700000010140be7af0c1a0000001014110ee3d4120000001014122591100000000010141a6818100000000010141b45656c1700000010141c8000000000000010101c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000",
+              "new": "0009493d6a2d000c0001f53dcdd600040000000127e5f874004b000000000006000000000000000001013fc000003d8f5c290202408000003ecccccd020240d666663f2b851f0202410000003f547ae10202412000003f800000000001000000003f800000fd1e2f56000441200000a5753d52000400000000ae80628f0004000008b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000"
+            }
+          ],
+          "remove_links": [],
+          "add_links": []
+        },
+        {
+          "id": "0003001F",
+          "type": "GRAP",
+          "name": "Zipline B",
+          "layer": 0,
+          "fields": [
+            {
+              "field": "F609C637",
+              "old": "00065dcf91e1000400000002c10219bf0001015f669ba0005a000a008bd24000040000000154178cb8000443340000de38f04e0004000000009d0c992f00043f8000008382cd42000440a000008a40fd1b000100a62bf627000101f8a14c370004c8853dc064fb595c0001010887fefe0001005bbbe79e000440800000426f2f60000440e00000771a3176000826ec3f5a78bfdd69",
+              "new": "00105dcf91e1000400000002c10219bf000101b2bd27230001001a8dbea7000440a00000a439ca6a0001014b848c9b0001005f669ba0005a000a008bd24000040000000154178cb8000443340000de38f04e0004000000009d0c992f00043f8000008382cd42000440a000008a40fd1b000100a62bf627000101f8a14c370004c8853dc064fb595c0001010887fefe000100e2acf76e005a000a008bd24000040000000054178cb8000400000000de38f04e0004000000009d0c992f00043f8000008382cd42000440a000008a40fd1b000101a62bf627000101f8a14c370004c8853dc064fb595c0001010887fefe0001005bbbe79e000440800000426f2f60000440e00000771a3176000826ec3f5a78bfdd69efd287d900040000000056f41ca8000442c800004bdee69a0004424800000598b04500044120000007648f630004ffffffff"
+            }
+          ],
+          "remove_links": [
+            [
+              "IS11",
+              "STRT",
+              "0003009D"
+            ]
+          ],
+          "add_links": [
+            [
+              "IS11",
+              "ACTV",
+              "000300C4"
+            ],
+            [
+              "IS11",
+              "RSTS",
+              "000300C5"
+            ],
+            [
+              "IS11",
+              "RSTS",
+              "0003011A"
+            ],
+            [
+              "IS03",
+              "STOP",
+              "0003011A"
+            ],
+            [
+              "IS11",
+              "ACTN",
+              "00030070"
+            ],
+            [
+              "IS03",
+              "ACTN",
+              "0003007D"
+            ]
+          ]
+        },
+        {
+          "id": "0003004F",
+          "type": "GRAP",
+          "name": "Zipline N2S",
+          "layer": 0,
+          "fields": [
+            {
+              "field": "255A4580",
+              "old": "0004494e414d000c5a69706c696e65204e3253005846524d0024c4aed62444a52b3042d92114000000000000000043340000400000004000000040000000414354560001015d298a43000400000003",
+              "new": "0004494e414d000c5a69706c696e65204e3253005846524d0024c4aed62444a52b3042d921140000000080000000c333ffff400000004000000040000000414354560001015d298a43000400000003"
+            },
+            {
+              "field": "F609C637",
+              "old": "00065dcf91e1000400000002c10219bf0001015f669ba0005a000a008bd24000040000000154178cb8000443340000de38f04e0004000000009d0c992f00043f8000008382cd42000440a000008a40fd1b000100a62bf627000101f8a14c370004c8853dc064fb595c0001010887fefe0001005bbbe79e000440800000426f2f60000440e00000771a3176000826ec3f5a78bfdd69",
+              "new": "00105dcf91e1000400000002c10219bf000101b2bd27230001001a8dbea7000440a00000a439ca6a0001014b848c9b0001005f669ba0005a000a008bd24000040000000154178cb8000443340000de38f04e0004000000009d0c992f00043f8000008382cd42000440a000008a40fd1b000100a62bf627000101f8a14c370004c8853dc064fb595c0001010887fefe000100e2acf76e005a000a008bd24000040000000054178cb8000400000000de38f04e0004000000009d0c992f00043f8000008382cd42000440a000008a40fd1b000101a62bf627000101f8a14c370004c8853dc064fb595c0001010887fefe0001005bbbe79e000440800000426f2f60000440e00000771a3176000826ec3f5a78bfdd69efd287d900040000000056f41ca8000442c800004bdee69a0004424800000598b04500044120000007648f630004ffffffff"
+            }
+          ],
+          "remove_links": [
+            [
+              "IS11",
+              "STRT",
+              "000300B7"
+            ]
+          ],
+          "add_links": [
+            [
+              "IS11",
+              "RSTS",
+              "000300C8"
+            ],
+            [
+              "IS11",
+              "ACTV",
+              "000300C7"
+            ],
+            [
+              "IS11",
+              "RSTS",
+              "00030118"
+            ],
+            [
+              "IS03",
+              "STOP",
+              "00030118"
+            ],
+            [
+              "IS11",
+              "ACTN",
+              "00030070"
+            ],
+            [
+              "IS03",
+              "ACTN",
+              "0003007D"
+            ]
+          ]
+        },
+        {
+          "id": "00030077",
+          "type": "SQTR",
+          "name": "Death Fall",
+          "layer": 0,
+          "fields": [
+            {
+              "field": "EF5C94E9",
+              "old": "0000000d0005000000013f6aaab00000000000000000000000000006000000013fa000000000000000000002000000000007000000013fa0000000000000000000010000000000010000000100000000000000000000000000000000000c00000001000000000000000000000000000000000004000000013fc000000000000000000000000000000002000000013fa00000000000000000000300000000000a000000013eaaaa9f0000000000000000000000000008000000013f800000000000000000000000000000000b000000013fa000000000000000000000000000000003000000013f4000000000000000000000000000000009000000013f40000000000000000000010000000000000000000140000000000000000000000000000000",
+              "new": "0000000d0005000000013f0000000000000000000000000000000006000000013f4000000000000000000002000000000007000000013f40000000000000000000010000000000010000000100000000000000000000000000000000000c00000001000000000000000000000000000000000004000000013f4000000000000000000000000000000002000000013f400000000000000000000300000000000a000000013eaaaa9f0000000000000000000000000008000000013f000000000000000000000000000000000b000000013f4000000000000000000000000000000003000000013f0000000000000000000000000000000009000000013f0000000000000000000001000000000000000000013f400000000000000000000000000000"
+            }
+          ],
+          "remove_links": [],
+          "add_links": []
+        },
+        {
+          "id": "00030078",
+          "type": "SPFN",
+          "name": "DF - Player In Area Relay",
+          "layer": 0,
+          "fields": [],
+          "remove_links": [],
+          "add_links": [
+            [
+              "ENTR",
+              "ACTV",
+              "00030022"
+            ],
+            [
+              "EXIT",
+              "DCTV",
+              "00030022"
+            ]
+          ]
+        }
+      ],
+      "add": [
+        {
+          "source_id": "00030004",
+          "type": "ACTR",
+          "name": "Nullblock",
+          "layer": 0,
+          "properties": "/////wZXAB8lWkWAAE0ABElOQU0ACk51bGxibG9jawBYRlJNACTErtY1RH9TM8GKIvUAAAAAAAAAAAAAAABC3QAAQxMZmgAAAABBQ1RWAAEBXSmKQwAEAAAAA/NEwLAADAAAAAAAAAAAAAAAAC5obCoADAAAAAAAAAAAAAAAAHXbs3UABD+AAAAvKuPlAAQAAAAAz5DRXgAdAAPwZokZAARAoAAAOi0X5AAEP4AAAO/p5GUAAQF7ca6QAwQAFqyLsqcAHQADhS04cQAEQsgAAGisvYYABAAAAACTZ32iAAEA5Eak/AAdAAOFLThxAARCyAAAaKy9hgAEAAAAAJNnfaIAAQDS6iWmAB0AA4UtOHEABELIAABorL2GAAQAAAAAk2d9ogABALtwCT8AHQADhS04cQAEQsgAAGisvYYABAAAAACTZ32iAAEApEK0owAdAAOFLThxAARCyAAAaKy9hgAEAAAAAJNnfaIAAQDXBcQWAB0AA4UtOHEABELIAABorL2GAAQAAAAAk2d9ogABANHNSToAHQADhS04cQAEQsgAAGisvYYABAAAAACTZ32iAAEAem492wAdAAOFLThxAARCyAAAaKy9hgAEAAAAAJNnfaIAAQAA7+jLAB0AA4UtOHEABELIAABorL2GAAQAAAAAk2d9ogABAFek3/IAHQADhS04cQAEQsgAAGisvYYABAAAAACTZ32iAAEAGFqIrQAdAAOFLThxAARCyAAAaKy9hgAEAAAAAJNnfaIAAQBorhOgAB0AA4UtOHEABELIAABorL2GAAQAAAAAk2d9ogABADlES90AHQADhS04cQAEQsgAAGisvYYABAAAAACTZ32iAAEAzuFuegAdAAOFLThxAARCyAAAaKy9hgAEAAAAAJNnfaIAAQDZnAQAAB0AA4UtOHEABELIAABorL2GAAQAAAAAk2d9ogABAHhGJb0AHQADhS04cQAEAAAAAGisvYYABAAAAACTZ32iAAEAhm+RvwAdAAOFLThxAARCyAAAaKy9hgAEAAAAAJNnfaIAAQBQ3eiRAB0AA4UtOHEABELIAABorL2GAAQAAAAAk2d9ogABAL+sIp8AHQADhS04cQAEAAAAAGisvYYABAAAAACTZ32iAAEA2kIq5QAdAAOFLThxAAQAAAAAaKy9hgAEAAAAAJNnfaIAAQCJ0l30AB0AA4UtOHEABAAAAABorL2GAAQAAAAAk2d9ogABAMK+sikAHQADhS04cQAEQsgAAGisvYYABAAAAACTZ32iAAEAwn/6jwAI936WDlJDgTsPyWbcAAj//////////6JEydgADP///////////////345f+0BVgAQsCjbDgB/AAzNY5tGAAEBoz5bDgAQP4AAAD+AAAA/gAAAP4AAAKcYEOkAAQFrXnUJAAQAAAABPcXwxgABAWKOasMABAAAAAHRned1AAwAAAAAAAAAAAAAAADKwed4AAQAAAAEZ/TT3gAEAAAABPt6ersAAQBhqUDWAAEAH3Ff0wAEAAAAADdb/XwAJAADuU6b5wAI////////////SuLsAAQAAAAAQgh2UAAEAAAAALtS8L4ACP//////////xkd1WwAI//////////8UmYA8AAEBkKo0HwAEP4AAAHwmnrwABD+AAAAFrSUOACcABP6dwmYAAQDKGejGAAQAAAAPRhdaPQAEAAAAAMpuMLEABECgAAB5kmPxAAEA7TpuhwABAfB5gegAAQBNVffUAAEA4xXucgAE0IZjSlg4lfoABN6M5b3HEoR8AAQAAAB/cBthswABAMCNG5MAAQEeMlI+AAEBHY3YRgABAXhZtSAAAQAy+rl+AAQAAAAAl2h0RgABAEdDKU8AAQAmHpKkAAEBoJ1KHwABAPPekxEAAQCqSbYnAAQ/gAAAtTDX3gABAPjfbNIAED+AAAA/gAAAP4AAAD+AAADCMBHZABkAAAAAAAEAAAAAP4AAAAICAQAAAAA/gAAAv2nAPgAEAAAAAO9IXbkACP//////////VTsTOQA7AAZEXgDIAAS8cJA38tAmEwAEAAAAAO4b6RQABAAAAABVX/gKAAQAAAAAej/gDQAEAAAAAO/p5GUAAQGaiSgYAAwAARSz9xYABOwjd4yFARXkAAwAAAAAAAAAAAAAAADnPxI9AAEB",
+          "links": []
+        },
+        {
+          "source_id": "00030022",
+          "type": "TRGR",
+          "name": "Push Player Up",
+          "layer": 0,
+          "properties": "/////wD2AAQlWkWAAFIABElOQU0AD1B1c2ggUGxheWVyIFVwAFhGUk0AJMSu1jVEf1MzwpPEIQAAAAAAAAAAAAAAAERhAABEegAAQsgAAEFDVFYAAQFdKYpDAAQAAAADCezuDAAEd521RXeidBEAhQAGl8BhHwAEAAAAf1AiSQcABAAAAAhGzBtIAAEA+oc6ZwAPAAAAAAAAAP9///9/f///M3+VJAA7AAZEXgDIAAS8cJA38tAmEwAEAAAAAO4b6RQABAAAAABVX/gKAAQAAAAAej/gDQAEAAAAAO/p5GUAAQEgkn6bAAwAAAAAAAAAAEPIAABmpD7vAAEA",
+          "links": []
+        },
+        {
+          "source_id": "0003007C",
+          "type": "WAYP",
+          "name": "Move Player",
+          "layer": 0,
+          "properties": "/////wBXAAElWkWAAE8ABElOQU0ADE1vdmUgUGxheWVyAFhGUk0AJMSu1iREM1ZgQsshEQAAAAAAAAAAAAAAAD+AAAA/gAAAP4AAAEFDVFYAAQFdKYpDAAQAAAAD",
+          "links": []
+        },
+        {
+          "source_id": "000300C4",
+          "type": "SPFN",
+          "name": "Move Player",
+          "layer": 0,
+          "properties": "/////wDiAA4lWkWAAE8ABElOQU0ADE1vdmUgUGxheWVyAFhGUk0AJMSuox5EM5ZwQsmD2gAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEFDVFYAAQBdKYpDAAQAAAADuK/PIQAE/22b5p16V20AAQAZAoCZAAQAAAAALJOq9QAEAAAAAOfPeVAABAAAAAD6yknoAAQAAAAApzT4pQAEAAAAALWBV0sABAAAAAA/oWS8AAT7c/K4Xs+PZwAI///////////YW/3JAAj//////////xMHLmwACP//////////gl4eFAAEzB389Q==",
+          "links": [
+            [
+              "PLAY",
+              "ACTV",
+              "0003007C"
+            ]
+          ]
+        },
+        {
+          "source_id": "000300C5",
+          "type": "TIMR",
+          "name": "Deactivate",
+          "layer": 0,
+          "properties": "/////wB4AAUlWkWAAE4ABElOQU0AC0RlYWN0aXZhdGUAWEZSTQAkxK6jHkQzlnBCy4PaAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQUNUVgABAV0pikMABAAAAANEM1r/AAQ6gxJvOtObMQAEAAAAADIX3/gAAQDtpH/2AAEA",
+          "links": [
+            [
+              "ZERO",
+              "DCTV",
+              "000300C4"
+            ]
+          ]
+        },
+        {
+          "source_id": "000300C6",
+          "type": "WAYP",
+          "name": "Move Player",
+          "layer": 0,
+          "properties": "/////wBXAAElWkWAAE8ABElOQU0ADE1vdmUgUGxheWVyAFhGUk0AJMSu1iREpaswQsshFAAAAAAAAAAAwzP//z+AAAA/gAAAP4AAAEFDVFYAAQFdKYpDAAQAAAAD",
+          "links": []
+        },
+        {
+          "source_id": "000300C7",
+          "type": "SPFN",
+          "name": "Move Player",
+          "layer": 0,
+          "properties": "/////wDiAA4lWkWAAE8ABElOQU0ADE1vdmUgUGxheWVyAFhGUk0AJMSvJXVEpdbbQsi9UwAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEFDVFYAAQBdKYpDAAQAAAADuK/PIQAE/22b5p16V20AAQAZAoCZAAQAAAAALJOq9QAEAAAAAOfPeVAABAAAAAD6yknoAAQAAAAApzT4pQAEAAAAALWBV0sABAAAAAA/oWS8AAT7c/K4Xs+PZwAI///////////YW/3JAAj//////////xMHLmwACP//////////gl4eFAAEzB389Q==",
+          "links": [
+            [
+              "PLAY",
+              "ACTV",
+              "000300C6"
+            ]
+          ]
+        },
+        {
+          "source_id": "000300C8",
+          "type": "TIMR",
+          "name": "Deactivate",
+          "layer": 0,
+          "properties": "/////wB4AAUlWkWAAE4ABElOQU0AC0RlYWN0aXZhdGUAWEZSTQAkxK8ldUSl1ttCyr1TAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQUNUVgABAV0pikMABAAAAANEM1r/AAQ6gxJvOtObMQAEAAAAADIX3/gAAQDtpH/2AAEA",
+          "links": [
+            [
+              "ZERO",
+              "DCTV",
+              "000300C7"
+            ]
+          ]
+        },
+        {
+          "source_id": "00030118",
+          "type": "TIMR",
+          "name": "Start Delay",
+          "layer": 0,
+          "properties": "/////wB5AAUlWkWAAE8ABElOQU0ADFN0YXJ0IERlbGF5AFhGUk0AJMSvOsdEpOmqQsi73gAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEFDVFYAAQFdKYpDAAQAAAADRDNa/wAEPzMzMzrTmzEABAAAAAAyF9/4AAEA7aR/9gABAA==",
+          "links": [
+            [
+              "ZERO",
+              "STRT",
+              "000300B7"
+            ]
+          ]
+        },
+        {
+          "source_id": "0003011A",
+          "type": "TIMR",
+          "name": "Start Delay",
+          "layer": 0,
+          "properties": "/////wB5AAUlWkWAAE8ABElOQU0ADFN0YXJ0IERlbGF5AFhGUk0AJMSuL/9ENmT8Qsi73gAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEFDVFYAAQFdKYpDAAQAAAADRDNa/wAEPzrhSDrTmzEABAAAAAAyF9/4AAEA7aR/9gABAA==",
+          "links": [
+            [
+              "ZERO",
+              "STRT",
+              "0003009D"
+            ]
+          ]
+        }
+      ],
+      "remove": [
+        {
+          "id": "000300FB",
+          "type": "EFCT",
+          "name": "Blocker - Rattle 04",
+          "layer": 0
+        },
+        {
+          "id": "00030100",
+          "type": "TIMR",
+          "name": "Blocker - Shootable Timeframe 04",
+          "layer": 0
+        },
+        {
+          "id": "00030101",
+          "type": "ATRN",
+          "name": "Blocker - DoorRNeg 04",
+          "layer": 0
+        },
+        {
+          "id": "00030102",
+          "type": "DTRO",
+          "name": "Blocker - OpenA 04",
+          "layer": 0
+        },
+        {
+          "id": "00030103",
+          "type": "ACTR",
+          "name": "Blocker - DoorR 04",
+          "layer": 0
+        },
+        {
+          "id": "00030104",
+          "type": "ATRN",
+          "name": "Blocker - DoorRPos 04",
+          "layer": 0
+        },
+        {
+          "id": "00030105",
+          "type": "TIMR",
+          "name": "Blocker - Reset System 04",
+          "layer": 0
+        },
+        {
+          "id": "00030106",
+          "type": "ATRN",
+          "name": "Blocker - DoorLNeg 04",
+          "layer": 0
+        },
+        {
+          "id": "00030107",
+          "type": "ACTR",
+          "name": "Blocker - DoorL 04",
+          "layer": 0
+        },
+        {
+          "id": "00030108",
+          "type": "DTRO",
+          "name": "Blocker - OpenB 04",
+          "layer": 0
+        },
+        {
+          "id": "00030109",
+          "type": "ATRN",
+          "name": "Blocker - DoorLPos 04",
+          "layer": 0
+        },
+        {
+          "id": "0003010A",
+          "type": "ATRN",
+          "name": "Blocker - DoorRNeg 03",
+          "layer": 0
+        },
+        {
+          "id": "0003010B",
+          "type": "DTRO",
+          "name": "Blocker - OpenA 03",
+          "layer": 0
+        },
+        {
+          "id": "0003010C",
+          "type": "TIMR",
+          "name": "Blocker - Reset System 03",
+          "layer": 0
+        },
+        {
+          "id": "0003010D",
+          "type": "ACTR",
+          "name": "Blocker - DoorR 03",
+          "layer": 0
+        },
+        {
+          "id": "0003010E",
+          "type": "ATRN",
+          "name": "Blocker - DoorLPos 03",
+          "layer": 0
+        },
+        {
+          "id": "0003010F",
+          "type": "ACTR",
+          "name": "Blocker - DoorL 03",
+          "layer": 0
+        },
+        {
+          "id": "00030110",
+          "type": "ATRN",
+          "name": "Blocker - DoorRPos 03",
+          "layer": 0
+        },
+        {
+          "id": "00030111",
+          "type": "ATRN",
+          "name": "Blocker - DoorLNeg 03",
+          "layer": 0
+        },
+        {
+          "id": "00030112",
+          "type": "DTRO",
+          "name": "Blocker - OpenB 03",
+          "layer": 0
+        },
+        {
+          "id": "00030115",
+          "type": "SOND",
+          "name": "Blocker - Impact 04",
+          "layer": 0
+        },
+        {
+          "id": "00030116",
+          "type": "SOND",
+          "name": "Blocker - Impact 01",
+          "layer": 0
+        },
+        {
+          "id": "00030117",
+          "type": "SOND",
+          "name": "Blocker - Impact 03",
+          "layer": 0
+        },
+        {
+          "id": "00030118",
+          "type": "SOND",
+          "name": "Blocker - Impact 02",
+          "layer": 0
+        },
+        {
+          "id": "00030119",
+          "type": "SOND",
+          "name": "Blocker - Impact 05",
+          "layer": 0
+        },
+        {
+          "id": "0003011C",
+          "type": "ATRN",
+          "name": "Blocker - DoorLPosDMG 04",
+          "layer": 0
+        },
+        {
+          "id": "0003011D",
+          "type": "ATRN",
+          "name": "Blocker - DoorRNegDMG 04",
+          "layer": 0
+        },
+        {
+          "id": "0003011E",
+          "type": "ATRN",
+          "name": "Blocker - DoorRPosDMG 04",
+          "layer": 0
+        },
+        {
+          "id": "0003011F",
+          "type": "ATRN",
+          "name": "Blocker - DoorLNegDMG 04",
+          "layer": 0
+        },
+        {
+          "id": "00030120",
+          "type": "ATRN",
+          "name": "Blocker - DoorRNegDMG 03",
+          "layer": 0
+        },
+        {
+          "id": "00030121",
+          "type": "ATRN",
+          "name": "Blocker - DoorLNegDMG 03",
+          "layer": 0
+        },
+        {
+          "id": "00030122",
+          "type": "EFCT",
+          "name": "Blocker - Rattle 03",
+          "layer": 0
+        },
+        {
+          "id": "00030123",
+          "type": "ATRN",
+          "name": "Blocker - DoorLPosDMG 03",
+          "layer": 0
+        },
+        {
+          "id": "00030124",
+          "type": "TIMR",
+          "name": "Blocker - Shootable Timeframe 03",
+          "layer": 0
+        },
+        {
+          "id": "00030125",
+          "type": "ACTR",
+          "name": "Blocker - DoorL 02",
+          "layer": 0
+        },
+        {
+          "id": "00030126",
+          "type": "ATRN",
+          "name": "Blocker - DoorRPos 02",
+          "layer": 0
+        },
+        {
+          "id": "00030127",
+          "type": "TIMR",
+          "name": "Blocker - Reset System 02",
+          "layer": 0
+        },
+        {
+          "id": "00030128",
+          "type": "DTRO",
+          "name": "Blocker - OpenB 02",
+          "layer": 0
+        },
+        {
+          "id": "00030129",
+          "type": "ATRN",
+          "name": "Blocker - DoorLNeg 02",
+          "layer": 0
+        },
+        {
+          "id": "0003012A",
+          "type": "DTRO",
+          "name": "Blocker - OpenA 02",
+          "layer": 0
+        },
+        {
+          "id": "0003012B",
+          "type": "ATRN",
+          "name": "Blocker - DoorRNeg 02",
+          "layer": 0
+        },
+        {
+          "id": "0003012C",
+          "type": "ATRN",
+          "name": "Blocker - DoorLPos 02",
+          "layer": 0
+        },
+        {
+          "id": "0003012D",
+          "type": "ACTR",
+          "name": "Blocker - DoorR 02",
+          "layer": 0
+        },
+        {
+          "id": "0003012E",
+          "type": "TIMR",
+          "name": "Blocker - Reset System 05",
+          "layer": 0
+        },
+        {
+          "id": "0003012F",
+          "type": "ATRN",
+          "name": "Blocker - DoorLPos 05",
+          "layer": 0
+        },
+        {
+          "id": "00030130",
+          "type": "ATRN",
+          "name": "Blocker - DoorLNeg 05",
+          "layer": 0
+        },
+        {
+          "id": "00030131",
+          "type": "ACTR",
+          "name": "Blocker - DoorL 05",
+          "layer": 0
+        },
+        {
+          "id": "00030132",
+          "type": "ATRN",
+          "name": "Blocker - DoorRPos 05",
+          "layer": 0
+        },
+        {
+          "id": "00030133",
+          "type": "DTRO",
+          "name": "Blocker - OpenB 05",
+          "layer": 0
+        },
+        {
+          "id": "00030134",
+          "type": "ATRN",
+          "name": "Blocker - DoorRNeg 05",
+          "layer": 0
+        },
+        {
+          "id": "00030135",
+          "type": "ACTR",
+          "name": "Blocker - DoorR 05",
+          "layer": 0
+        },
+        {
+          "id": "00030136",
+          "type": "DTRO",
+          "name": "Blocker - OpenA 05",
+          "layer": 0
+        },
+        {
+          "id": "00030137",
+          "type": "ATRN",
+          "name": "Blocker - DoorRPosDMG 03",
+          "layer": 0
+        },
+        {
+          "id": "0003013E",
+          "type": "ATRN",
+          "name": "Blocker - DoorLPosDMG 02",
+          "layer": 0
+        },
+        {
+          "id": "0003013F",
+          "type": "EFCT",
+          "name": "Blocker - Rattle 02",
+          "layer": 0
+        },
+        {
+          "id": "00030140",
+          "type": "TIMR",
+          "name": "Blocker - Shootable Timeframe 02",
+          "layer": 0
+        },
+        {
+          "id": "00030141",
+          "type": "ATRN",
+          "name": "Blocker - DoorRNegDMG 02",
+          "layer": 0
+        },
+        {
+          "id": "00030142",
+          "type": "ATRN",
+          "name": "Blocker - DoorLNegDMG 02",
+          "layer": 0
+        },
+        {
+          "id": "00030143",
+          "type": "ATRN",
+          "name": "Blocker - DoorRPosDMG 02",
+          "layer": 0
+        },
+        {
+          "id": "00030144",
+          "type": "ATRN",
+          "name": "Blocker - DoorLNegDMG 05",
+          "layer": 0
+        },
+        {
+          "id": "00030145",
+          "type": "TIMR",
+          "name": "Blocker - Shootable Timeframe 05",
+          "layer": 0
+        },
+        {
+          "id": "00030146",
+          "type": "ATRN",
+          "name": "Blocker - DoorLPosDMG 05",
+          "layer": 0
+        },
+        {
+          "id": "00030147",
+          "type": "ATRN",
+          "name": "Blocker - DoorRNegDMG 05",
+          "layer": 0
+        },
+        {
+          "id": "00030148",
+          "type": "ATRN",
+          "name": "Blocker - DoorRPosDMG 05",
+          "layer": 0
+        },
+        {
+          "id": "00030149",
+          "type": "EFCT",
+          "name": "Blocker - Rattle 05",
+          "layer": 0
+        },
+        {
+          "id": "00030152",
+          "type": "SOND",
+          "name": "Blocker - Open 04",
+          "layer": 0
+        },
+        {
+          "id": "00030153",
+          "type": "SOND",
+          "name": "Blocker - Open 03",
+          "layer": 0
+        },
+        {
+          "id": "00030155",
+          "type": "SOND",
+          "name": "Blocker - Open 02",
+          "layer": 0
+        },
+        {
+          "id": "00030156",
+          "type": "SOND",
+          "name": "Blocker - Open 05",
+          "layer": 0
+        },
+        {
+          "id": "00030161",
+          "type": "EFCT",
+          "name": "Constant Energy R 04",
+          "layer": 0
+        },
+        {
+          "id": "00030162",
+          "type": "EFCT",
+          "name": "Constant Energy L 04",
+          "layer": 0
+        },
+        {
+          "id": "00030163",
+          "type": "EFCT",
+          "name": "Constant Energy R 03",
+          "layer": 0
+        },
+        {
+          "id": "00030164",
+          "type": "EFCT",
+          "name": "Constant Energy L 03",
+          "layer": 0
+        },
+        {
+          "id": "00030167",
+          "type": "EFCT",
+          "name": "Constant Energy R 02",
+          "layer": 0
+        },
+        {
+          "id": "00030168",
+          "type": "EFCT",
+          "name": "Constant Energy L 02",
+          "layer": 0
+        },
+        {
+          "id": "00030169",
+          "type": "EFCT",
+          "name": "Constant Energy R 05",
+          "layer": 0
+        },
+        {
+          "id": "0003016A",
+          "type": "EFCT",
+          "name": "Constant Energy L 05",
+          "layer": 0
+        },
+        {
+          "id": "0003019B",
+          "type": "TRGR",
+          "name": "Blocker - Player OpenA 04",
+          "layer": 0
+        },
+        {
+          "id": "0003019C",
+          "type": "TRGR",
+          "name": "Blocker - Player OpenB 04",
+          "layer": 0
+        },
+        {
+          "id": "0003019D",
+          "type": "CAMS",
+          "name": "Blocker - Player Open Slam 04",
+          "layer": 0
+        },
+        {
+          "id": "0003019E",
+          "type": "SRLY",
+          "name": "Blocker - OpenB 04",
+          "layer": 0
+        },
+        {
+          "id": "0003019F",
+          "type": "SRLY",
+          "name": "Blocker - OpenA 04",
+          "layer": 0
+        },
+        {
+          "id": "000301A0",
+          "type": "TRGR",
+          "name": "Blocker - Player OpenA 03",
+          "layer": 0
+        },
+        {
+          "id": "000301A1",
+          "type": "SRLY",
+          "name": "Blocker - OpenB 03",
+          "layer": 0
+        },
+        {
+          "id": "000301A2",
+          "type": "CAMS",
+          "name": "Blocker - Player Open Slam 03",
+          "layer": 0
+        },
+        {
+          "id": "000301A3",
+          "type": "TRGR",
+          "name": "Blocker - Player OpenB 03",
+          "layer": 0
+        },
+        {
+          "id": "000301A4",
+          "type": "SRLY",
+          "name": "Blocker - OpenA 03",
+          "layer": 0
+        },
+        {
+          "id": "000301AA",
+          "type": "CAMS",
+          "name": "Blocker - Player Open Slam 02",
+          "layer": 0
+        },
+        {
+          "id": "000301AB",
+          "type": "SRLY",
+          "name": "Blocker - OpenA 02",
+          "layer": 0
+        },
+        {
+          "id": "000301AC",
+          "type": "SRLY",
+          "name": "Blocker - OpenB 02",
+          "layer": 0
+        },
+        {
+          "id": "000301AD",
+          "type": "TRGR",
+          "name": "Blocker - Player OpenB 02",
+          "layer": 0
+        },
+        {
+          "id": "000301AE",
+          "type": "TRGR",
+          "name": "Blocker - Player OpenA 02",
+          "layer": 0
+        },
+        {
+          "id": "000301AF",
+          "type": "TRGR",
+          "name": "Blocker - Player OpenB 05",
+          "layer": 0
+        },
+        {
+          "id": "000301B0",
+          "type": "CAMS",
+          "name": "Blocker - Player Open Slam 05",
+          "layer": 0
+        },
+        {
+          "id": "000301B1",
+          "type": "SRLY",
+          "name": "Blocker - OpenA 05",
+          "layer": 0
+        },
+        {
+          "id": "000301B2",
+          "type": "SRLY",
+          "name": "Blocker - OpenB 05",
+          "layer": 0
+        },
+        {
+          "id": "000301B3",
+          "type": "TRGR",
+          "name": "Blocker - Player OpenA 05",
+          "layer": 0
+        },
+        {
+          "id": "00030358",
+          "type": "DTRO",
+          "name": "Blocker - OpenA 01",
+          "layer": 0
+        },
+        {
+          "id": "00030359",
+          "type": "SOND",
+          "name": "Blocker - Open 01",
+          "layer": 0
+        },
+        {
+          "id": "00030380",
+          "type": "ATRN",
+          "name": "Blocker - DoorRPos 01",
+          "layer": 0
+        },
+        {
+          "id": "00030382",
+          "type": "ATRN",
+          "name": "Blocker - DoorLPosDMG 01",
+          "layer": 0
+        },
+        {
+          "id": "00030383",
+          "type": "ACTR",
+          "name": "Blocker - DoorL 01",
+          "layer": 0
+        },
+        {
+          "id": "00030384",
+          "type": "ATRN",
+          "name": "Blocker - DoorLNegDMG 01",
+          "layer": 0
+        },
+        {
+          "id": "00030385",
+          "type": "CAMS",
+          "name": "Blocker - Player Open Slam 01",
+          "layer": 0
+        },
+        {
+          "id": "00030386",
+          "type": "ATRN",
+          "name": "Blocker - DoorRNeg 01",
+          "layer": 0
+        },
+        {
+          "id": "00030387",
+          "type": "ATRN",
+          "name": "Blocker - DoorLPos 01",
+          "layer": 0
+        },
+        {
+          "id": "00030388",
+          "type": "TIMR",
+          "name": "Blocker - Shootable Timeframe 01",
+          "layer": 0
+        },
+        {
+          "id": "00030389",
+          "type": "EFCT",
+          "name": "Blocker - ConstantEnergyL 01",
+          "layer": 0
+        },
+        {
+          "id": "0003038A",
+          "type": "SRLY",
+          "name": "Blocker - OpenB 01",
+          "layer": 0
+        },
+        {
+          "id": "0003038B",
+          "type": "ACTR",
+          "name": "Blocker - DoorR 01",
+          "layer": 0
+        },
+        {
+          "id": "0003038C",
+          "type": "EFCT",
+          "name": "Blocker - Rattle 01",
+          "layer": 0
+        },
+        {
+          "id": "0003038D",
+          "type": "ATRN",
+          "name": "Blocker - DoorLNeg 01",
+          "layer": 0
+        },
+        {
+          "id": "0003038E",
+          "type": "ATRN",
+          "name": "Blocker - DoorRPosDMG 01",
+          "layer": 0
+        },
+        {
+          "id": "0003038F",
+          "type": "TIMR",
+          "name": "Blocker - Reset System 01",
+          "layer": 0
+        },
+        {
+          "id": "00030390",
+          "type": "TRGR",
+          "name": "Blocker - Player OpenB 01",
+          "layer": 0
+        },
+        {
+          "id": "00030391",
+          "type": "SRLY",
+          "name": "Blocker - OpenA 01",
+          "layer": 0
+        },
+        {
+          "id": "00030392",
+          "type": "TRGR",
+          "name": "Blocker - Player OpenA 01",
+          "layer": 0
+        },
+        {
+          "id": "00030393",
+          "type": "DTRO",
+          "name": "Blocker - OpenB 01",
+          "layer": 0
+        },
+        {
+          "id": "000303A6",
+          "type": "ATRN",
+          "name": "Blocker - DoorRNegDMG 01",
+          "layer": 0
+        },
+        {
+          "id": "000303A7",
+          "type": "EFCT",
+          "name": "Blocker - ConstantEnergyR 01",
+          "layer": 0
+        }
+      ],
+      "platform_reuse": {
+        "00030006": "0003004E",
+        "000300C9": "000300B7",
+        "00030101": "0003009D",
+        "00030120": "00030018"
+      }
+    },
+    {
+      "name": "Zipline Station Bravo",
+      "mrea": "94C1EE611C105278",
+      "patches": [
+        {
+          "id": "00210052",
+          "type": "PLAT",
+          "name": "Zipline (East to West)",
+          "layer": 0,
+          "fields": [
+            {
+              "field": "255A4580",
+              "old": "0004494e414d00175a69706c696e6520284561737420746f205765737429005846524d0024c3ee314443bb8914431556ec000000000000000042d186323e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002",
+              "new": "0004494e414d001d5a69706c696e6520284561737420746f20576573742c204661737429005846524d0024c3ee314443bb8914431556ec000000000000000042d186313e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002"
+            },
+            {
+              "field": "0A9DBF91",
+              "old": "0009493d6a2d000c0001f53dcdd600040000000127e5f874006700000000000800000000000000000105403ffc1a3d1abe0e400000003d23d70a020240b276273e4e4192020241491dc53ef7bfe802024184dda73f2af32c020241912c6c3f390614020241a52c6c3f5c7379020241c000003f800000000001000000003f800000fd1e2f56000441c00000a5753d52000400000000ae80628f0004000008b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000",
+              "new": "0009493d6a2d000c0001f53dcdd600040000000127e5f874004b000000000006000000000000000001013fc000003d8f5c290202408000003ecccccd020240d666663f2b851f0202410000003f547ae10202412000003f800000000001000000003f800000fd1e2f56000441200000a5753d52000400000000ae80628f0004000008b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000"
+            }
+          ],
+          "remove_links": [],
+          "add_links": []
+        },
+        {
+          "id": "00210070",
+          "type": "PLAT",
+          "name": "ZipTarget",
+          "layer": 0,
+          "fields": [
+            {
+              "field": "255A4580",
+              "old": "0004494e414d000a5a6970546172676574005846524d0024c3f7dcca43b8fccc431056ec000000000000000042d186323e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002",
+              "new": "0004494e414d00195a697054617267657420284561737420746f205765737429005846524d0024c3f7dcca43b8fccc431056ec000000000000000042d186323e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002"
+            },
+            {
+              "field": "0A9DBF91",
+              "old": "0009493d6a2d000c0001f53dcdd600040000000127e5f874009d00000000000b000000003e051eb80101404000003e051eb80101408124db3e051eb80505403fd58c3dff4f05403fd58c3dff4f0540b276273e4e4192020241491dc53ef7bfe802024184dda73f2af32c020241912c6c3f390614020241a52c6c3f5c7379020241ba66663f770a3d0505403fd5863dff5e0e403fd82b3df74c7341be66663f7851ec010141c000003f800000000001000000003f800000fd1e2f56000441c00000a5753d5200043f4ccccdae80628f0004000000b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000",
+              "new": "0009493d6a2d000c0001f53dcdd600040000000127e5f874004b000000000006000000000000000001013fc000003d8f5c290202408000003ecccccd020240d666663f2b851f0202410000003f547ae10202412000003f800000000001000000003f800000fd1e2f56000441200000a5753d5200043f800000ae80628f0004000000b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000"
+            }
+          ],
+          "remove_links": [],
+          "add_links": []
+        },
+        {
+          "id": "00210017",
+          "type": "PLAT",
+          "name": "Zipline (West to East)",
+          "layer": 0,
+          "fields": [
+            {
+              "field": "255A4580",
+              "old": "0004494e414d00175a69706c696e6520285765737420746f204561737429005846524d0024c464bba843a94cc4431556ee0000000000000000c2a6727c3e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002",
+              "new": "0004494e414d001d5a69706c696e6520285765737420746f20456173742c204661737429005846524d0024c464bba843a94cc4431556ee0000000000000000c2a6727c3e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002"
+            },
+            {
+              "field": "0A9DBF91",
+              "old": "0009493d6a2d000c0001f53dcdd600040000000127e5f874008f00000000000800000000000000000505403ffffa3b3b5aa6403ff9fc3d403987400000003d23d70a02024069d89d3e047d3d020240f000003e8821080202410c00003ea53f5b0202416227623f0327890505403fe2793dd4eeed403fe2793dd4eeed41929d8a3f4986660505403f89d73e54e236403f89d73e54e23641c000003f800000000001000000003f800000fd1e2f56000441c00000a5753d52000400000000ae80628f0004000008b0628bdf0f00f900000000000900000000000000000505403fffec3bac7d2c403fffec3bac7d2c4063a4e33f0000000505403ffffdbb019f32403ffffdbb019f3240ced3a2bf0000000505403fffbfbc1e25bb403fffbfbc1e25bb411b10003f0000000505403ffff43b876046403ffff43b8760464185c800bf8000000505403fcdc4be0ad9a0403fcdc4be0ad9a041b82000bf8000000505403f838c3e5a785e403f838c3e5a785e41c774223f8000000505403ffffcbb145f32403ffffcbb145f3241d56000bf8000000505403d585ebefe8bea403d585ebefe8bea41f00000000000000505403ff3683d8b1612403ff3683d8b161201c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000",
+              "new": "0009493d6a2d000c0001f53dcdd600040000000127e5f874004b000000000006000000000000000001013fc000003d8f5c290202408000003ecccccd020240d666663f2b851f0202410000003f547ae10202412000003f800000000001000000003f800000fd1e2f56000441200000a5753d52000400000000ae80628f0004000008b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000"
+            }
+          ],
+          "remove_links": [],
+          "add_links": []
+        },
+        {
+          "id": "002100A2",
+          "type": "PLAT",
+          "name": "ZipTarget",
+          "layer": 0,
+          "fields": [
+            {
+              "field": "255A4580",
+              "old": "0004494e414d000a5a6970546172676574005846524d0024c45fc49843aa7ad7431056ee0000000000000000c2a6727c3e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002",
+              "new": "0004494e414d00195a697054617267657420285765737420746f204561737429005846524d0024c45fc49843aa7ad7431056ee0000000000000000c2a6727c3e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002"
+            },
+            {
+              "field": "0A9DBF91",
+              "old": "0009493d6a2d000c0001f53dcdd600040000000127e5f874009f00000000000800000000000000000505403ffffd3b09a643403ffcc13d0d3ad8400000003d23d70a0505403fc5b03e159809403fc5b03e1598094069d89d3e032ad0020240f000003e86c56d0202410c00003ea3994e0202416227623f01d8950505403fe2793dd4eeed403fe2793dd4eeed41929d8a3f428f5c0505403f89d73e54e236403f89d73e54e23641c000003f800000000001000000003f800000fd1e2f56000441c00000a5753d5200043f4ccccdae80628f0004000000b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000",
+              "new": "0009493d6a2d000c0001f53dcdd600040000000127e5f874004b000000000006000000000000000001013fc000003d8f5c290202408000003ecccccd020240d666663f2b851f0202410000003f547ae10202412000003f800000000001000000003f800000fd1e2f56000441200000a5753d5200043f800000ae80628f0004000000b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000"
+            }
+          ],
+          "remove_links": [],
+          "add_links": []
+        },
+        {
+          "id": "00210009",
+          "type": "GRAP",
+          "name": "Zipline (West to East)",
+          "layer": 0,
+          "fields": [
+            {
+              "field": "F609C637",
+              "old": "00065dcf91e1000400000002c10219bf0001015f669ba0005a000a008bd24000040000000154178cb8000443340000de38f04e0004000000009d0c992f00043f8000008382cd42000440a000008a40fd1b000100a62bf627000101f8a14c370004c8853dc064fb595c0001010887fefe0001005bbbe79e000440000000426f2f60000440e00000771a3176000826ec3f5a78bfdd69",
+              "new": "00105dcf91e1000400000002c10219bf000101b2bd27230001001a8dbea7000440a00000a439ca6a0001014b848c9b0001005f669ba0005a000a008bd24000040000000154178cb8000443340000de38f04e0004000000009d0c992f00043f8000008382cd42000440a000008a40fd1b000100a62bf627000101f8a14c370004c8853dc064fb595c0001010887fefe000100e2acf76e005a000a008bd24000040000000054178cb8000400000000de38f04e0004000000009d0c992f00043f8000008382cd42000440a000008a40fd1b000101a62bf627000101f8a14c370004c8853dc064fb595c0001010887fefe0001005bbbe79e000440000000426f2f60000440e00000771a3176000826ec3f5a78bfdd69efd287d900040000000056f41ca8000442c800004bdee69a0004424800000598b04500044120000007648f630004ffffffff"
+            }
+          ],
+          "remove_links": [
+            [
+              "IS11",
+              "STRT",
+              "002100A2"
+            ]
+          ],
+          "add_links": [
+            [
+              "IS11",
+              "ACTV",
+              "00210067"
+            ],
+            [
+              "IS11",
+              "RSTS",
+              "00210068"
+            ],
+            [
+              "IS03",
+              "STOP",
+              "00210068"
+            ],
+            [
+              "IS11",
+              "RSTS",
+              "0021006B"
+            ],
+            [
+              "IS03",
+              "STOP",
+              "0021006B"
+            ]
+          ]
+        },
+        {
+          "id": "00210051",
+          "type": "GRAP",
+          "name": "Zipline (East to West)",
+          "layer": 0,
+          "fields": [
+            {
+              "field": "F609C637",
+              "old": "00065dcf91e1000400000002c10219bf0001015f669ba0005a000a008bd24000040000000154178cb8000443340000de38f04e0004000000009d0c992f00043f8000008382cd42000440a000008a40fd1b000100a62bf627000101f8a14c370004c8853dc064fb595c0001010887fefe0001005bbbe79e000440000000426f2f60000440e00000771a3176000826ec3f5a78bfdd69",
+              "new": "00105dcf91e1000400000002c10219bf000101b2bd27230001001a8dbea7000440a00000a439ca6a0001014b848c9b0001005f669ba0005a000a008bd24000040000000154178cb8000443340000de38f04e0004000000009d0c992f00043f8000008382cd42000440a000008a40fd1b000100a62bf627000101f8a14c370004c8853dc064fb595c0001010887fefe000100e2acf76e005a000a008bd24000040000000054178cb8000400000000de38f04e0004000000009d0c992f00043f8000008382cd42000440a000008a40fd1b000101a62bf627000101f8a14c370004c8853dc064fb595c0001010887fefe0001005bbbe79e000440000000426f2f60000440e00000771a3176000826ec3f5a78bfdd69efd287d900040000000056f41ca8000442c800004bdee69a0004424800000598b04500044120000007648f630004ffffffff"
+            }
+          ],
+          "remove_links": [
+            [
+              "IS11",
+              "STRT",
+              "00210070"
+            ]
+          ],
+          "add_links": [
+            [
+              "IS11",
+              "RSTS",
+              "00210064"
+            ],
+            [
+              "IS03",
+              "STOP",
+              "00210064"
+            ],
+            [
+              "IS11",
+              "ACTV",
+              "00210008"
+            ],
+            [
+              "IS11",
+              "RSTS",
+              "0021006A"
+            ],
+            [
+              "IS03",
+              "STOP",
+              "0021006A"
+            ]
+          ]
+        }
+      ],
+      "add": [
+        {
+          "source_id": "00210008",
+          "type": "SPFN",
+          "name": "Move Player",
+          "layer": 0,
+          "properties": "/////wDiAA4lWkWAAE8ABElOQU0ADE1vdmUgUGxheWVyAFhGUk0AJMPt0tlDwH/OQw3G8wAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEFDVFYAAQBdKYpDAAQAAAADuK/PIQAE/22b5p16V20AAQAZAoCZAAQAAAAALJOq9QAEAAAAAOfPeVAABAAAAAD6yknoAAQAAAAApzT4pQAEAAAAALWBV0sABAAAAAA/oWS8AAT7c/K4Xs+PZwAI///////////YW/3JAAj//////////xMHLmwACP//////////gl4eFAAEzB389Q==",
+          "links": [
+            [
+              "PLAY",
+              "ACTV",
+              "00210065"
+            ]
+          ]
+        },
+        {
+          "source_id": "00210064",
+          "type": "TIMR",
+          "name": "Deactivate",
+          "layer": 0,
+          "properties": "/////wB4AAUlWkWAAE4ABElOQU0AC0RlYWN0aXZhdGUAWEZSTQAkw+3S2UPAf85DDMbzAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQUNUVgABAV0pikMABAAAAANEM1r/AAQ6gxJvOtObMQAEAAAAADIX3/gAAQDtpH/2AAEA",
+          "links": [
+            [
+              "ZERO",
+              "DCTV",
+              "00210008"
+            ]
+          ]
+        },
+        {
+          "source_id": "00210065",
+          "type": "WAYP",
+          "name": "Player Position",
+          "layer": 0,
+          "properties": "/////wBbAAElWkWAAFMABElOQU0AEFBsYXllciBQb3NpdGlvbgBYRlJNACTD7EIqQ7wLikMNluoAAAAAAAAAAELRhjI/gAAAP4AAAD+AAABBQ1RWAAEBXSmKQwAEAAAAAw==",
+          "links": []
+        },
+        {
+          "source_id": "00210067",
+          "type": "SPFN",
+          "name": "Move Player",
+          "layer": 0,
+          "properties": "/////wDiAA4lWkWAAE8ABElOQU0ADE1vdmUgUGxheWVyAFhGUk0AJMRkiixDrCk/Qw/BzwAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEFDVFYAAQBdKYpDAAQAAAADuK/PIQAE/22b5p16V20AAQAZAoCZAAQAAAAALJOq9QAEAAAAAOfPeVAABAAAAAD6yknoAAQAAAAApzT4pQAEAAAAALWBV0sABAAAAAA/oWS8AAT7c/K4Xs+PZwAI///////////YW/3JAAj//////////xMHLmwACP//////////gl4eFAAEzB389Q==",
+          "links": [
+            [
+              "PLAY",
+              "ACTV",
+              "00210069"
+            ]
+          ]
+        },
+        {
+          "source_id": "00210068",
+          "type": "TIMR",
+          "name": "Timer",
+          "layer": 0,
+          "properties": "/////wBzAAUlWkWAAEkABElOQU0ABlRpbWVyAFhGUk0AJMRkiixDrCk/Qw7BzwAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEFDVFYAAQFdKYpDAAQAAAADRDNa/wAEOoMSbzrTmzEABAAAAAAyF9/4AAEA7aR/9gABAA==",
+          "links": [
+            [
+              "ZERO",
+              "DCTV",
+              "00210067"
+            ]
+          ]
+        },
+        {
+          "source_id": "00210069",
+          "type": "WAYP",
+          "name": "Player Position",
+          "layer": 0,
+          "properties": "/////wBbAAElWkWAAFMABElOQU0AEFBsYXllciBQb3NpdGlvbgBYRlJNACTEZTrDQ6kuj0MNluwAAAAAAAAAAMKmcnw/gAAAP4AAAD+AAABBQ1RWAAEBXSmKQwAEAAAAAw==",
+          "links": []
+        },
+        {
+          "source_id": "0021006A",
+          "type": "TIMR",
+          "name": "Look Delay",
+          "layer": 0,
+          "properties": "/////wB4AAUlWkWAAE4ABElOQU0AC0xvb2sgRGVsYXkAWEZSTQAkw/Jqv0O8ILtDDA7iAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQUNUVgABAV0pikMABAAAAANEM1r/AAQ/MzMzOtObMQAEAAAAADIX3/gAAQDtpH/2AAEA",
+          "links": [
+            [
+              "ZERO",
+              "STRT",
+              "00210070"
+            ]
+          ]
+        },
+        {
+          "source_id": "0021006B",
+          "type": "TIMR",
+          "name": "Look Delay",
+          "layer": 0,
+          "properties": "/////wB4AAUlWkWAAE4ABElOQU0AC0xvb2sgRGVsYXkAWEZSTQAkxGMAgUOoiwBDDEb3AAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQUNUVgABAV0pikMABAAAAANEM1r/AAQ/TMzNOtObMQAEAAAAADIX3/gAAQDtpH/2AAEA",
+          "links": [
+            [
+              "ZERO",
+              "STRT",
+              "002100A2"
+            ]
+          ]
+        }
+      ],
+      "remove": [],
+      "platform_reuse": {
+        "00210003": "00210052",
+        "00210004": "00210070",
+        "00210005": "00210017",
+        "00210007": "002100A2"
+      }
+    },
+    {
+      "name": "Zipline Station Delta",
+      "mrea": "B6A2D3B5B0CD3E66",
+      "patches": [
+        {
+          "id": "00080070",
+          "type": "PLAT",
+          "name": "ZipTarget",
+          "layer": 0,
+          "fields": [
+            {
+              "field": "255A4580",
+              "old": "0004494e414d000a5a6970546172676574005846524d0024bd549f8b42cd799041dc00000000000000000000000000003e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002",
+              "new": "0004494e414d000a5a6970546172676574005846524d0024bd549f9542cd799041dc00000000000000000000000000003e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002"
+            },
+            {
+              "field": "0A9DBF91",
+              "old": "0009493d6a2d000c0001f53dcdd600040000000127e5f874004b000000000006000000000000000001013fc000003d8f5c290202408000003ecccccd020240d666663f2b851f0202410000003f547ae10202412000003f800000000001000000003f800000fd1e2f56000441200000a5753d5200043f800000ae80628f0004000000b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000",
+              "new": "0009493d6a2d000c0001f53dcdd600040000000127e5f8740041000000000005000000000000000001013fc000003dcccccd0202404000003f19999a0202408000003f59999a020240a000003f800000000001000000003f800000fd1e2f56000440a00000a5753d5200043f333333ae80628f0004000000b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000"
+            }
+          ],
+          "remove_links": [],
+          "add_links": []
+        },
+        {
+          "id": "0008006C",
+          "type": "PLAT",
+          "name": "Zipline",
+          "layer": 0,
+          "fields": [
+            {
+              "field": "255A4580",
+              "old": "0004494e414d00085a69706c696e65005846524d0024bd54af8b42a57990420200000000000000000000000000003e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002",
+              "new": "0004494e414d00085a69706c696e65005846524d0024bd54af4f42a57990420200000000000000000000000000003e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002"
+            },
+            {
+              "field": "0A9DBF91",
+              "old": "0009493d6a2d000c0001f53dcdd600040000000127e5f874004b000000000006000000000000000001013fc000003d8f5c290202408000003ecccccd020240d666663f2b851f0202410000003f547ae10202412000003f800000000001000000003f800000fd1e2f56000441200000a5753d52000400000000ae80628f0004000008b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000",
+              "new": "0009493d6a2d000c0001f53dcdd600040000000127e5f8740041000000000005000000000000000001013fc000003dcccccd0202404000003f19999a0202408000003f59999a020240a000003f800000000001000000003f800000fd1e2f56000440a00000a5753d52000400000000ae80628f0004000008b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000"
+            }
+          ],
+          "remove_links": [],
+          "add_links": []
+        },
+        {
+          "id": "0008003A",
+          "type": "PLAT",
+          "name": "Zipline",
+          "layer": 0,
+          "fields": [
+            {
+              "field": "255A4580",
+              "old": "0004494e414d00085a69706c696e65005846524d0024bd94cfc6438d91944201ffe20000000000000000433400003e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002",
+              "new": "0004494e414d00085a69706c696e65005846524d0024bd94cfd1438d91944201ffe20000000000000000433400003e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002"
+            },
+            {
+              "field": "0A9DBF91",
+              "old": "0009493d6a2d000c0001f53dcdd600040000000127e5f874004b000000000006000000000000000001013fc000003d8f5c290202402000003e429bae0202407333333ea446d8020240b9999a3f1805d50202412000003f800000000001000000003f800000fd1e2f56000441200000a5753d52000400000000ae80628f0004000008b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000",
+              "new": "0009493d6a2d000c0001f53dcdd600040000000127e5f8740041000000000005000000000000000001013fc000003dcccccd0202404000003f19999a0202408000003f59999a020240a000003f800000000001000000003f800000fd1e2f56000440a00000a5753d52000400000000ae80628f0004000008b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000"
+            }
+          ],
+          "remove_links": [],
+          "add_links": []
+        },
+        {
+          "id": "00080032",
+          "type": "PLAT",
+          "name": "ZipTarget",
+          "layer": 0,
+          "fields": [
+            {
+              "field": "255A4580",
+              "old": "0004494e414d000a5a6970546172676574005846524d0024bd94d7c64383919441dbffc40000000000000000433400003e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002",
+              "new": "0004494e414d000a5a6970546172676574005846524d0024bd94d7ae4383919441dbffc40000000000000000433400003e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002"
+            },
+            {
+              "field": "0A9DBF91",
+              "old": "0009493d6a2d000c0001f53dcdd600040000000127e5f874004b000000000006000000000000000001013fc000003d8f5c290202402000003e429bae0202407333333ea446d8020240b9999a3f1805d50202412000003f800000000001000000003f800000fd1e2f56000441200000a5753d5200043f800000ae80628f0004000000b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000",
+              "new": "0009493d6a2d000c0001f53dcdd600040000000127e5f8740041000000000005000000000000000001013fc000003dcccccd0202404000003f19999a0202408000003f59999a020240a000003f800000000001000000003f800000fd1e2f56000440a00000a5753d5200043f333333ae80628f0004000000b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000"
+            }
+          ],
+          "remove_links": [],
+          "add_links": []
+        },
+        {
+          "id": "0008000B",
+          "type": "GRAP",
+          "name": "Zipline",
+          "layer": 0,
+          "fields": [
+            {
+              "field": "F609C637",
+              "old": "00065dcf91e1000400000002c10219bf0001015f669ba0005a000a008bd24000040000000154178cb8000443340000de38f04e0004000000009d0c992f00043f8000008382cd42000440a000008a40fd1b000100a62bf627000101f8a14c370004c8853dc064fb595c0001010887fefe0001005bbbe79e000440800000426f2f60000440e00000771a3176000826ec3f5a78bfdd69",
+              "new": "00105dcf91e1000400000002c10219bf000101b2bd27230001001a8dbea7000440a00000a439ca6a0001014b848c9b0001005f669ba0005a000a008bd24000040000000154178cb8000443340000de38f04e0004000000009d0c992f00043f8000008382cd42000440a000008a40fd1b000100a62bf627000101f8a14c370004c8853dc064fb595c0001010887fefe000100e2acf76e005a000a008bd24000040000000054178cb8000400000000de38f04e0004000000009d0c992f00043f8000008382cd42000440a000008a40fd1b000101a62bf627000101f8a14c370004c8853dc064fb595c0001010887fefe0001005bbbe79e000440800000426f2f60000440e00000771a3176000826ec3f5a78bfdd69efd287d900040000000056f41ca8000442c800004bdee69a0004424800000598b04500044120000007648f630004ffffffff"
+            }
+          ],
+          "remove_links": [],
+          "add_links": [
+            [
+              "IS11",
+              "RSTS",
+              "00080122"
+            ],
+            [
+              "IS11",
+              "ACTV",
+              "0008008F"
+            ]
+          ]
+        },
+        {
+          "id": "0008006F",
+          "type": "GRAP",
+          "name": "Zipline",
+          "layer": 0,
+          "fields": [
+            {
+              "field": "F609C637",
+              "old": "00065dcf91e1000400000002c10219bf0001015f669ba0005a000a008bd24000040000000154178cb8000443340000de38f04e0004000000009d0c992f00043f8000008382cd42000440a000008a40fd1b000100a62bf627000101f8a14c370004c8853dc064fb595c0001010887fefe0001005bbbe79e000440800000426f2f60000440e00000771a3176000826ec3f5a78bfdd69",
+              "new": "00105dcf91e1000400000002c10219bf000101b2bd27230001001a8dbea7000440a00000a439ca6a0001014b848c9b0001005f669ba0005a000a008bd24000040000000154178cb8000443340000de38f04e0004000000009d0c992f00043f8000008382cd42000440a000008a40fd1b000100a62bf627000101f8a14c370004c8853dc064fb595c0001010887fefe000100e2acf76e005a000a008bd24000040000000054178cb8000400000000de38f04e0004000000009d0c992f00043f8000008382cd42000440a000008a40fd1b000101a62bf627000101f8a14c370004c8853dc064fb595c0001010887fefe0001005bbbe79e000440800000426f2f60000440e00000771a3176000826ec3f5a78bfdd69efd287d900040000000056f41ca8000442c800004bdee69a0004424800000598b04500044120000007648f630004ffffffff"
+            }
+          ],
+          "remove_links": [],
+          "add_links": [
+            [
+              "IS11",
+              "RSTS",
+              "0008010C"
+            ],
+            [
+              "IS11",
+              "ACTV",
+              "000800EA"
+            ]
+          ]
+        },
+        {
+          "id": "0008009C",
+          "type": "SQTR",
+          "name": "Death Fall",
+          "layer": 0,
+          "fields": [
+            {
+              "field": "EF5C94E9",
+              "old": "0000000d0005000000013f6aaab00000000000000000000000000006000000013fa000000000000000000002000000000007000000013fa0000000000000000000010000000000010000000100000000000000000000000000000000000c00000001000000000000000000000000000000000004000000013fc000000000000000000000000000000002000000013fa00000000000000000000300000000000a000000013eaaaa9f0000000000000000000000000008000000013f800000000000000000000000000000000b000000013fa000000000000000000000000000000003000000013f4000000000000000000000000000000009000000013f40000000000000000000010000000000000000000140000000000000000000000000000000",
+              "new": "0000000d0005000000013f0000000000000000000000000000000006000000013f4000000000000000000002000000000007000000013f40000000000000000000010000000000010000000100000000000000000000000000000000000c00000001000000000000000000000000000000000004000000013f4000000000000000000000000000000002000000013f400000000000000000000300000000000a000000013eaaaa9f0000000000000000000000000008000000013f000000000000000000000000000000000b000000013f4000000000000000000000000000000003000000013f0000000000000000000000000000000009000000013f0000000000000000000001000000000000000000013f400000000000000000000000000000"
+            }
+          ],
+          "remove_links": [],
+          "add_links": []
+        }
+      ],
+      "add": [
+        {
+          "source_id": "00080009",
+          "type": "ACTR",
+          "name": "Nullblock",
+          "layer": 0,
+          "properties": "/////wZXAB8lWkWAAE0ABElOQU0ACk51bGxibG9jawBYRlJNACTAan2VQzAPZ8Mz/HIAAAAAAAAAAAAAAABC3AAAQrQAAEJIAABBQ1RWAAEBXSmKQwAEAAAAA/NEwLAADAAAAAAAAAAAAAAAAC5obCoADAAAAAAAAAAAAAAAAHXbs3UABD+AAAAvKuPlAAQAAAAAz5DRXgAdAAPwZokZAARAoAAAOi0X5AAEP4AAAO/p5GUAAQF7ca6QAwQAFqyLsqcAHQADhS04cQAEQsgAAGisvYYABAAAAACTZ32iAAEA5Eak/AAdAAOFLThxAARCyAAAaKy9hgAEAAAAAJNnfaIAAQDS6iWmAB0AA4UtOHEABELIAABorL2GAAQAAAAAk2d9ogABALtwCT8AHQADhS04cQAEQsgAAGisvYYABAAAAACTZ32iAAEApEK0owAdAAOFLThxAARCyAAAaKy9hgAEAAAAAJNnfaIAAQDXBcQWAB0AA4UtOHEABELIAABorL2GAAQAAAAAk2d9ogABANHNSToAHQADhS04cQAEQsgAAGisvYYABAAAAACTZ32iAAEAem492wAdAAOFLThxAARCyAAAaKy9hgAEAAAAAJNnfaIAAQAA7+jLAB0AA4UtOHEABELIAABorL2GAAQAAAAAk2d9ogABAFek3/IAHQADhS04cQAEQsgAAGisvYYABAAAAACTZ32iAAEAGFqIrQAdAAOFLThxAARCyAAAaKy9hgAEAAAAAJNnfaIAAQBorhOgAB0AA4UtOHEABELIAABorL2GAAQAAAAAk2d9ogABADlES90AHQADhS04cQAEQsgAAGisvYYABAAAAACTZ32iAAEAzuFuegAdAAOFLThxAARCyAAAaKy9hgAEAAAAAJNnfaIAAQDZnAQAAB0AA4UtOHEABELIAABorL2GAAQAAAAAk2d9ogABAHhGJb0AHQADhS04cQAEAAAAAGisvYYABAAAAACTZ32iAAEAhm+RvwAdAAOFLThxAARCyAAAaKy9hgAEAAAAAJNnfaIAAQBQ3eiRAB0AA4UtOHEABELIAABorL2GAAQAAAAAk2d9ogABAL+sIp8AHQADhS04cQAEAAAAAGisvYYABAAAAACTZ32iAAEA2kIq5QAdAAOFLThxAAQAAAAAaKy9hgAEAAAAAJNnfaIAAQCJ0l30AB0AA4UtOHEABAAAAABorL2GAAQAAAAAk2d9ogABAMK+sikAHQADhS04cQAEQsgAAGisvYYABAAAAACTZ32iAAEAwn/6jwAI936WDlJDgTsPyWbcAAj//////////6JEydgADP///////////////345f+0BVgAQsCjbDgB/AAzNY5tGAAEBoz5bDgAQP4AAAD+AAAA/gAAAP4AAAKcYEOkAAQFrXnUJAAQAAAABPcXwxgABAWKOasMABAAAAAHRned1AAwAAAAAAAAAAAAAAADKwed4AAQAAAAEZ/TT3gAEAAAABPt6ersAAQBhqUDWAAEAH3Ff0wAEAAAAADdb/XwAJAADuU6b5wAI////////////SuLsAAQAAAAAQgh2UAAEAAAAALtS8L4ACP//////////xkd1WwAI//////////8UmYA8AAEBkKo0HwAEP4AAAHwmnrwABD+AAAAFrSUOACcABP6dwmYAAQDKGejGAAQAAAAPRhdaPQAEAAAAAMpuMLEABECgAAB5kmPxAAEA7TpuhwABAfB5gegAAQBNVffUAAEA4xXucgAE0IZjSlg4lfoABN6M5b3HEoR8AAQAAAB/cBthswABAMCNG5MAAQEeMlI+AAEBHY3YRgABAXhZtSAAAQAy+rl+AAQAAAAAl2h0RgABAEdDKU8AAQAmHpKkAAEBoJ1KHwABAPPekxEAAQCqSbYnAAQ/gAAAtTDX3gABAPjfbNIAED+AAAA/gAAAP4AAAD+AAADCMBHZABkAAAAAAAEAAAAAP4AAAAICAQAAAAA/gAAAv2nAPgAEAAAAAO9IXbkACP//////////VTsTOQA7AAZEXgDIAAS8cJA38tAmEwAEAAAAAO4b6RQABAAAAABVX/gKAAQAAAAAej/gDQAEAAAAAO/p5GUAAQGaiSgYAAwAARSz9xYABOwjd4yFARXkAAwAAAAAAAAAAAAAAADnPxI9AAEB",
+          "links": []
+        },
+        {
+          "source_id": "0008008F",
+          "type": "SPFN",
+          "name": "Move Player",
+          "layer": 0,
+          "properties": "/////wDiAA4lWkWAAE8ABElOQU0ADE1vdmUgUGxheWVyAFhGUk0AJMBGzsRDjkUeQb4b3AAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEFDVFYAAQBdKYpDAAQAAAADuK/PIQAE/22b5p16V20AAQAZAoCZAAQAAAAALJOq9QAEAAAAAOfPeVAABAAAAAD6yknoAAQAAAAApzT4pQAEAAAAALWBV0sABAAAAAA/oWS8AAT7c/K4Xs+PZwAI///////////YW/3JAAj//////////xMHLmwACP//////////gl4eFAAEzB389Q==",
+          "links": [
+            [
+              "PLAY",
+              "ACTV",
+              "00080103"
+            ]
+          ]
+        },
+        {
+          "source_id": "000800EA",
+          "type": "SPFN",
+          "name": "Move Player",
+          "layer": 0,
+          "properties": "/////wDiAA4lWkWAAE8ABElOQU0ADE1vdmUgUGxheWVyAFhGUk0AJEEFgOpCn2jvQb3RSgAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEFDVFYAAQBdKYpDAAQAAAADuK/PIQAE/22b5p16V20AAQAZAoCZAAQAAAAALJOq9QAEAAAAAOfPeVAABAAAAAD6yknoAAQAAAAApzT4pQAEAAAAALWBV0sABAAAAAA/oWS8AAT7c/K4Xs+PZwAI///////////YW/3JAAj//////////xMHLmwACP//////////gl4eFAAEzB389Q==",
+          "links": [
+            [
+              "PLAY",
+              "ACTV",
+              "00080104"
+            ]
+          ]
+        },
+        {
+          "source_id": "00080103",
+          "type": "WAYP",
+          "name": "Move Player",
+          "layer": 0,
+          "properties": "/////wBXAAElWkWAAE8ABElOQU0ADE1vdmUgUGxheWVyAFhGUk0AJL2Uz9FDj5GUQcX/tgAAAAAAAAAAQrQAAT+AAAA/gAAAP4AAAEFDVFYAAQFdKYpDAAQAAAAD",
+          "links": []
+        },
+        {
+          "source_id": "00080104",
+          "type": "WAYP",
+          "name": "Move Player",
+          "layer": 0,
+          "properties": "/////wBXAAElWkWAAE8ABElOQU0ADE1vdmUgUGxheWVyAFhGUk0AJL1Ur09CnXnOQcX/8gAAAAAAAAAAAAAAAD+AAAA/gAAAP4AAAEFDVFYAAQFdKYpDAAQAAAAD",
+          "links": []
+        },
+        {
+          "source_id": "0008010C",
+          "type": "TIMR",
+          "name": "Deactivate",
+          "layer": 0,
+          "properties": "/////wB4AAUlWkWAAE4ABElOQU0AC0RlYWN0aXZhdGUAWEZSTQAkQQWA6kKfaO9BxdFKAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQUNUVgABAV0pikMABAAAAANEM1r/AAQ6gxJvOtObMQAEAAAAADIX3/gAAQDtpH/2AAEA",
+          "links": [
+            [
+              "ZERO",
+              "DCTV",
+              "000800EA"
+            ]
+          ]
+        },
+        {
+          "source_id": "00080122",
+          "type": "TIMR",
+          "name": "Deactivate",
+          "layer": 0,
+          "properties": "/////wB4AAUlWkWAAE4ABElOQU0AC0RlYWN0aXZhdGUAWEZSTQAkwEbOxEOORR5BxhvcAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQUNUVgABAV0pikMABAAAAANEM1r/AAQ6gxJvOtObMQAEAAAAADIX3/gAAQDtpH/2AAEA",
+          "links": [
+            [
+              "ZERO",
+              "DCTV",
+              "0008008F"
+            ]
+          ]
+        }
+      ],
+      "remove": [],
+      "platform_reuse": {
+        "00080002": "00080070",
+        "00080003": "0008006C",
+        "00080005": "0008003A",
+        "00080007": "00080032"
+      }
+    },
+    {
+      "name": "Transit Hub",
+      "mrea": "B9D1F5AC1AAA1121",
+      "patches": [
+        {
+          "id": "58200082",
+          "type": "PLAT",
+          "name": "Zipline",
+          "layer": 22,
+          "fields": [
+            {
+              "field": "255A4580",
+              "old": "0004494e414d00085a69706c696e65005846524d0024c460c0f2443cf7304301508a0000000000000000432500003e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002",
+              "new": "0004494e414d000d5a69706c696e652046617374005846524d0024c460c0f2443cf7304301508a0000000000000000432500003e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002"
+            },
+            {
+              "field": "0A9DBF91",
+              "old": "0009493d6a2d000c0001f53dcdd600040000000127e5f87400b300000000000a000000000000000001013fdb6db93cf5c28f02024099999a3e19999a0202411000003ebf7447020241873aa33f1ae9790505403feebd3da2cfb8403feebd3da2cfb8419ccccd3f33cb920505403f89943e551ee6403f89943e551ee641b1cd6b3f4e3bcd0505403ff1b83d941527403ff1b83d94152741c7d59b3f626cc2020241d0fd4d3f6d39540505403f9b023e44d439403f9b023e44d43941e000003f800000000001000000003f800000fd1e2f56000441e00000a5753d52000400000000ae80628f0004000008b0628bdf0f007300000000000a00000000000000000101400f5c290000000001014040965b41700000010140d70a3bc1200000020241333332c170000001014168f5c2000000000202419851ec41a00000010141b9a94dc1700000010141d41c4d41a00000010141e0000000000000010101c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000",
+              "new": "0009493d6a2d000c0001f53dcdd600040000000127e5f874004b000000000006000000000000000001013fc000003d8f5c290202408000003ecccccd020240d666663f2b851f0202410000003f547ae10202412000003f800000000001000000003f800000fd1e2f56000441200000a5753d52000400000000ae80628f0004000008b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000"
+            }
+          ],
+          "remove_links": [],
+          "add_links": []
+        },
+        {
+          "id": "58200144",
+          "type": "PLAT",
+          "name": "ZipTarget",
+          "layer": 22,
+          "fields": [
+            {
+              "field": "255A4580",
+              "old": "0004494e414d000a5a6970546172676574005846524d0024c4620c3a443822cd42f8a1130000000000000000432500003e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002",
+              "new": "0004494e414d000f5a69705461726765742046617374005846524d0024c4620c3a443822cd42f8a1130000000000000000432500003e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002"
+            },
+            {
+              "field": "0A9DBF91",
+              "old": "0009493d6a2d000c0001f53dcdd600040000000127e5f87400db00000000000e00000000000000000101408000003df1aeb40505403fd80e3df7a77e403fd80e3df7a77e40d000003e8624dd010140e9999a3e8624dd0101410000003ea6cf420101412000003ecff456020241283f303ed8c8470101414000003eef2c52020241873aa33f1ae9790505403feebd3da2cfb8403feebd3da2cfb8419ccccd3f33cb920505403f89943e551ee6403f89943e551ee641b1cd6b3f4e3bcd0505403ff1b83d941574403ff1b83d94157441cc00003f68193b010141d000003f68193b010141e000003f800000000001000000003f800000fd1e2f56000441e00000a5753d5200043f800000ae80628f0004000000b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000",
+              "new": "0009493d6a2d000c0001f53dcdd600040000000127e5f874004b000000000006000000000000000001013fc000003d8f5c290202408000003ecccccd020240d666663f2b851f0202410000003f547ae10202412000003f800000000001000000003f800000fd1e2f56000441200000a5753d5200043f800000ae80628f0004000000b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000"
+            }
+          ],
+          "remove_links": [],
+          "add_links": []
+        },
+        {
+          "id": "442000C5",
+          "type": "PLAT",
+          "name": "Zipline",
+          "layer": 17,
+          "fields": [
+            {
+              "field": "255A4580",
+              "old": "0004494e414d00085a69706c696e65005846524d0024c479c0f243d2ab214315508a0000000000000000c1a000003e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002",
+              "new": "0004494e414d000d5a69706c696e652046617374005846524d0024c479c0f243d2ab214315508a0000000000000000c1a000003e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002"
+            },
+            {
+              "field": "0A9DBF91",
+              "old": "0009493d6a2d000c0001f53dcdd600040000000127e5f874008f000000000008000000000000000001013fdb6db93cf5c28f020240b8ca533e4710cb0505403ff1b83d941535403ff1b83d941535410666663e9868dc0505403f89943e551ee6403f89943e551ee641318aba3eca2d0e0505403feebd3da2cfb8403feebd3da2cfb8419000003f19999a020241c000003f666666020241e000003f800000000001000000003f800000fd1e2f56000441e00000a5753d52000400000000ae80628f0004000008b0628bdf0f007300000000000a000000000000000001013fbe3b2ec1a00000010140995acd417000000101410f5c28c1a00000010141570a3e0000000002024186666741700000010141aa3d7141200000020241c7ed35c1700000010141ce147b00000000010141e0000000000000010101c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000",
+              "new": "0009493d6a2d000c0001f53dcdd600040000000127e5f874004b000000000006000000000000000001013fc000003d8f5c290202408000003ecccccd020240d666663f2b851f0202410000003f547ae10202412000003f800000000001000000003f800000fd1e2f56000441200000a5753d52000400000000ae80628f0004000008b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000"
+            }
+          ],
+          "remove_links": [],
+          "add_links": []
+        },
+        {
+          "id": "44200180",
+          "type": "PLAT",
+          "name": "ZipTarget",
+          "layer": 17,
+          "fields": [
+            {
+              "field": "255A4580",
+              "old": "0004494e414d000a5a6970546172676574005846524d0024c479c0f143dcab214310508a0000000000000000000000003e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002",
+              "new": "0004494e414d000f5a69705461726765742046617374005846524d0024c479c0f143dcab214310508a0000000000000000000000003e4ccccd3e4ccccd3f800000414354560001015d298a43000400000002"
+            },
+            {
+              "field": "0A9DBF91",
+              "old": "0009493d6a2d000c0001f53dcdd600040000000127e5f874007d00000000000b000000000000000001013fdb6db93cf5c28f0202404000003da7b5f20202408000003dfdf3b601014089999a3dfdf3b6010140b9999a3e4ac0830101411000003ea3d70a0202412927eb3ec3563202024190264d3f19999a020241c00f513f666666020241e000003f800000000001000000003f800000fd1e2f56000441e00000a5753d5200043f800000ae80628f0004000000b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000",
+              "new": "0009493d6a2d000c0001f53dcdd600040000000127e5f874004b000000000006000000000000000001013fc000003d8f5c290202408000003ecccccd020240d666663f2b851f0202410000003f547ae10202412000003f800000000001000000003f800000fd1e2f56000441200000a5753d5200043f800000ae80628f0004000000b0628bdf0f000f00000000000001c4b4000044b4000078d03a32000f00000000000001c4b4000044b40000b4a2e15a000f00000000000001c4b4000044b40000b5bfab00000c000000000000000000000000"
+            }
+          ],
+          "remove_links": [],
+          "add_links": []
+        },
+        {
+          "id": "002000CA",
+          "type": "GRAP",
+          "name": "Zipline",
+          "layer": 0,
+          "fields": [
+            {
+              "field": "F609C637",
+              "old": "00065dcf91e1000400000002c10219bf0001015f669ba0005a000a008bd24000040000000154178cb8000443340000de38f04e0004000000009d0c992f00043f8000008382cd42000440a000008a40fd1b000100a62bf627000101f8a14c370004c8853dc064fb595c0001010887fefe0001005bbbe79e00043f800000426f2f60000440e00000771a3176000826ec3f5a78bfdd69",
+              "new": "00105dcf91e1000400000002c10219bf000101b2bd27230001001a8dbea7000440a00000a439ca6a0001014b848c9b0001005f669ba0005a000a008bd24000040000000154178cb8000443340000de38f04e0004000000009d0c992f00043f8000008382cd42000440a000008a40fd1b000100a62bf627000101f8a14c370004c8853dc064fb595c0001010887fefe000100e2acf76e005a000a008bd24000040000000054178cb8000400000000de38f04e0004000000009d0c992f00043f8000008382cd42000440a000008a40fd1b000101a62bf627000101f8a14c370004c8853dc064fb595c0001010887fefe0001005bbbe79e00043f800000426f2f60000440e00000771a3176000826ec3f5a78bfdd69efd287d900040000000056f41ca8000442c800004bdee69a0004424800000598b04500044120000007648f630004ffffffff"
+            }
+          ],
+          "remove_links": [
+            [
+              "IS11",
+              "STRT",
+              "44200180"
+            ]
+          ],
+          "add_links": [
+            [
+              "IS11",
+              "ACTV",
+              "00200014"
+            ],
+            [
+              "IS11",
+              "RSTS",
+              "00200036"
+            ],
+            [
+              "IS11",
+              "RSTS",
+              "0020004C"
+            ],
+            [
+              "IS03",
+              "STOP",
+              "0020004C"
+            ]
+          ]
+        },
+        {
+          "id": "5820007F",
+          "type": "GRAP",
+          "name": "Zipline",
+          "layer": 22,
+          "fields": [
+            {
+              "field": "F609C637",
+              "old": "00065dcf91e1000400000002c10219bf0001015f669ba0005a000a008bd24000040000000154178cb8000443340000de38f04e0004000000009d0c992f00043f8000008382cd42000440a000008a40fd1b000100a62bf627000101f8a14c370004c8853dc064fb595c0001010887fefe0001005bbbe79e00043f800000426f2f60000440e00000771a3176000826ec3f5a78bfdd69",
+              "new": "00105dcf91e1000400000002c10219bf000101b2bd27230001001a8dbea7000440a00000a439ca6a0001014b848c9b0001005f669ba0005a000a008bd24000040000000154178cb8000443340000de38f04e0004000000009d0c992f00043f8000008382cd42000440a000008a40fd1b000100a62bf627000101f8a14c370004c8853dc064fb595c0001010887fefe000100e2acf76e005a000a008bd24000040000000054178cb8000400000000de38f04e0004000000009d0c992f00043f8000008382cd42000440a000008a40fd1b000101a62bf627000101f8a14c370004c8853dc064fb595c0001010887fefe0001005bbbe79e00043f800000426f2f60000440e00000771a3176000826ec3f5a78bfdd69efd287d900040000000056f41ca8000442c800004bdee69a0004424800000598b04500044120000007648f630004ffffffff"
+            }
+          ],
+          "remove_links": [
+            [
+              "IS11",
+              "STRT",
+              "58200144"
+            ]
+          ],
+          "add_links": [
+            [
+              "IS11",
+              "ACTV",
+              "0020002B"
+            ],
+            [
+              "IS11",
+              "RSTS",
+              "00200039"
+            ],
+            [
+              "IS11",
+              "RSTS",
+              "0020004A"
+            ],
+            [
+              "IS03",
+              "STOP",
+              "0020004A"
+            ]
+          ]
+        }
+      ],
+      "add": [
+        {
+          "source_id": "00200014",
+          "type": "SPFN",
+          "name": "Move Player",
+          "layer": 17,
+          "properties": "/////wDiAA4lWkWAAE8ABElOQU0ADE1vdmUgUGxheWVyAFhGUk0AJMR7fm1D0Q6rQxDcKgAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEFDVFYAAQBdKYpDAAQAAAADuK/PIQAE/22b5p16V20AAQAZAoCZAAQAAAAALJOq9QAEAAAAAOfPeVAABAAAAAD6yknoAAQAAAAApzT4pQAEAAAAALWBV0sABAAAAAA/oWS8AAT7c/K4Xs+PZwAI///////////YW/3JAAj//////////xMHLmwACP//////////gl4eFAAEzB389Q==",
+          "links": [
+            [
+              "PLAY",
+              "ACTV",
+              "0020003A"
+            ]
+          ]
+        },
+        {
+          "source_id": "0020002B",
+          "type": "SPFN",
+          "name": "Move Player",
+          "layer": 22,
+          "properties": "/////wDiAA4lWkWAAE8ABElOQU0ADE1vdmUgUGxheWVyAFhGUk0AJMRibD5EPKcIQvUxRQAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEFDVFYAAQBdKYpDAAQAAAADuK/PIQAE/22b5p16V20AAQAZAoCZAAQAAAAALJOq9QAEAAAAAOfPeVAABAAAAAD6yknoAAQAAAAApzT4pQAEAAAAALWBV0sABAAAAAA/oWS8AAT7c/K4Xs+PZwAI///////////YW/3JAAj//////////xMHLmwACP//////////gl4eFAAEzB389Q==",
+          "links": [
+            [
+              "PLAY",
+              "ACTV",
+              "00200048"
+            ]
+          ]
+        },
+        {
+          "source_id": "00200036",
+          "type": "TIMR",
+          "name": "Deactivate",
+          "layer": 17,
+          "properties": "/////wB4AAUlWkWAAE4ABElOQU0AC0RlYWN0aXZhdGUAWEZSTQAkxHt+bUPRDqtDD9wqAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQUNUVgABAV0pikMABAAAAANEM1r/AAQ6gxJvOtObMQAEAAAAADIX3/gAAQDtpH/2AAEA",
+          "links": [
+            [
+              "ZERO",
+              "DCTV",
+              "00200014"
+            ]
+          ]
+        },
+        {
+          "source_id": "00200039",
+          "type": "TIMR",
+          "name": "Deactivate",
+          "layer": 22,
+          "properties": "/////wB4AAUlWkWAAE4ABElOQU0AC0RlYWN0aXZhdGUAWEZSTQAkxGJsPkQ8pwhC8zFFAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQUNUVgABAV0pikMABAAAAANEM1r/AAQ6gxJvOtObMQAEAAAAADIX3/gAAQDtpH/2AAEA",
+          "links": [
+            [
+              "ZERO",
+              "DCTV",
+              "0020002B"
+            ]
+          ]
+        },
+        {
+          "source_id": "0020003A",
+          "type": "WAYP",
+          "name": "Player Position",
+          "layer": 17,
+          "properties": "/////wBbAAElWkWAAFMABElOQU0AEFBsYXllciBQb3NpdGlvbgBYRlJNACTEedbWQ9Iy4EMNkIgAAAAAAAAAAMGgAAA/gAAAP4AAAD+AAABBQ1RWAAEBXSmKQwAEAAAAAw==",
+          "links": []
+        },
+        {
+          "source_id": "00200048",
+          "type": "WAYP",
+          "name": "Player Position",
+          "layer": 22,
+          "properties": "/////wBbAAElWkWAAFMABElOQU0AEFBsYXllciBQb3NpdGlvbgBYRlJNACTEYLBgRD01AkLzIRAAAAAAAAAAAEMlAAA/gAAAP4AAAD+AAABBQ1RWAAEBXSmKQwAEAAAAAw==",
+          "links": []
+        },
+        {
+          "source_id": "0020004A",
+          "type": "TIMR",
+          "name": "Look Delay",
+          "layer": 22,
+          "properties": "/////wB4AAUlWkWAAE4ABElOQU0AC0xvb2sgRGVsYXkAWEZSTQAkxGJB1UQ7jqtC74AVAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQUNUVgABAV0pikMABAAAAANEM1r/AAQ/MzMzOtObMQAEAAAAADIX3/gAAQDtpH/2AAEA",
+          "links": [
+            [
+              "ZERO",
+              "STRT",
+              "58200144"
+            ]
+          ]
+        },
+        {
+          "source_id": "0020004C",
+          "type": "TIMR",
+          "name": "Look Delay",
+          "layer": 17,
+          "properties": "/////wB4AAUlWkWAAE4ABElOQU0AC0xvb2sgRGVsYXkAWEZSTQAkxHhMoUPVuKdDDhjoAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQUNUVgABAV0pikMABAAAAANEM1r/AAQ/MzMzOtObMQAEAAAAADIX3/gAAQDtpH/2AAEA",
+          "links": [
+            [
+              "ZERO",
+              "STRT",
+              "44200180"
+            ]
+          ]
+        }
+      ],
+      "remove": [
+        {
+          "id": "44200065",
+          "type": "EFCT",
+          "name": "Blocker - ConstantEnergyR 03",
+          "layer": 17
+        },
+        {
+          "id": "44200238",
+          "type": "ATRN",
+          "name": "Blocker - DoorRNeg 03",
+          "layer": 17
+        },
+        {
+          "id": "44200239",
+          "type": "SOND",
+          "name": "Blocker - Open 03",
+          "layer": 17
+        },
+        {
+          "id": "4420023A",
+          "type": "ATRN",
+          "name": "Blocker - DoorRNegDMG 03",
+          "layer": 17
+        },
+        {
+          "id": "4420023B",
+          "type": "ATRN",
+          "name": "Blocker - DoorLNeg 03",
+          "layer": 17
+        },
+        {
+          "id": "4420023C",
+          "type": "ATRN",
+          "name": "Blocker - DoorLPosDMG 03",
+          "layer": 17
+        },
+        {
+          "id": "4420023D",
+          "type": "EFCT",
+          "name": "Blocker - Rattle 03",
+          "layer": 17
+        },
+        {
+          "id": "4420023E",
+          "type": "ATRN",
+          "name": "Blocker - DoorRPosDMG 03",
+          "layer": 17
+        },
+        {
+          "id": "4420023F",
+          "type": "ATRN",
+          "name": "Blocker - DoorLNegDMG 03",
+          "layer": 17
+        },
+        {
+          "id": "44200240",
+          "type": "TIMR",
+          "name": "Blocker - Shootable Timeframe 03",
+          "layer": 17
+        },
+        {
+          "id": "44200241",
+          "type": "DTRO",
+          "name": "Blocker - OpenB 03",
+          "layer": 17
+        },
+        {
+          "id": "44200242",
+          "type": "DTRO",
+          "name": "Blocker - OpenA 03",
+          "layer": 17
+        },
+        {
+          "id": "44200243",
+          "type": "ATRN",
+          "name": "Blocker - DoorRPos 03",
+          "layer": 17
+        },
+        {
+          "id": "44200244",
+          "type": "ATRN",
+          "name": "Blocker - DoorLPos 03",
+          "layer": 17
+        },
+        {
+          "id": "44200245",
+          "type": "TIMR",
+          "name": "Blocker - Reset System 03",
+          "layer": 17
+        },
+        {
+          "id": "4420026E",
+          "type": "TIMR",
+          "name": "Blocker - Shootable Timeframe 04",
+          "layer": 17
+        },
+        {
+          "id": "4420026F",
+          "type": "ATRN",
+          "name": "Blocker - DoorRNeg 04",
+          "layer": 17
+        },
+        {
+          "id": "44200270",
+          "type": "ATRN",
+          "name": "Blocker - DoorRPos 04",
+          "layer": 17
+        },
+        {
+          "id": "44200271",
+          "type": "TIMR",
+          "name": "Blocker - Reset System 04",
+          "layer": 17
+        },
+        {
+          "id": "44200272",
+          "type": "SOND",
+          "name": "Blocker - Open 04",
+          "layer": 17
+        },
+        {
+          "id": "44200273",
+          "type": "ATRN",
+          "name": "Blocker - DoorLPos 04",
+          "layer": 17
+        },
+        {
+          "id": "44200274",
+          "type": "DTRO",
+          "name": "Blocker - OpenA 04",
+          "layer": 17
+        },
+        {
+          "id": "44200275",
+          "type": "ATRN",
+          "name": "Blocker - DoorRPosDMG 04",
+          "layer": 17
+        },
+        {
+          "id": "44200276",
+          "type": "ATRN",
+          "name": "Blocker - DoorLNeg 04",
+          "layer": 17
+        },
+        {
+          "id": "44200277",
+          "type": "EFCT",
+          "name": "Blocker - Rattle 04",
+          "layer": 17
+        },
+        {
+          "id": "44200278",
+          "type": "ATRN",
+          "name": "Blocker - DoorLNegDMG 04",
+          "layer": 17
+        },
+        {
+          "id": "44200279",
+          "type": "ATRN",
+          "name": "Blocker - DoorRNegDMG 04",
+          "layer": 17
+        },
+        {
+          "id": "4420027A",
+          "type": "ATRN",
+          "name": "Blocker - DoorLPosDMG 04",
+          "layer": 17
+        },
+        {
+          "id": "4420027B",
+          "type": "DTRO",
+          "name": "Blocker - OpenB 04",
+          "layer": 17
+        },
+        {
+          "id": "4420028B",
+          "type": "EFCT",
+          "name": "Blocker - ConstantEnergyL 03",
+          "layer": 17
+        },
+        {
+          "id": "44200295",
+          "type": "EFCT",
+          "name": "Blocker - ConstantEnergyR 04",
+          "layer": 17
+        },
+        {
+          "id": "44200296",
+          "type": "EFCT",
+          "name": "Blocker - ConstantEnergyL 04",
+          "layer": 17
+        },
+        {
+          "id": "44200362",
+          "type": "SOND",
+          "name": "Blocker - Impact 01",
+          "layer": 17
+        },
+        {
+          "id": "44200372",
+          "type": "SRLY",
+          "name": "Blocker - OpenB 03",
+          "layer": 17
+        },
+        {
+          "id": "44200373",
+          "type": "TRGR",
+          "name": "Blocker - Player OpenA 03",
+          "layer": 17
+        },
+        {
+          "id": "44200374",
+          "type": "TRGR",
+          "name": "Blocker - Player OpenB 03",
+          "layer": 17
+        },
+        {
+          "id": "44200375",
+          "type": "SRLY",
+          "name": "Blocker - OpenA 03",
+          "layer": 17
+        },
+        {
+          "id": "44200376",
+          "type": "CAMS",
+          "name": "Blocker - Player Open Slam 03",
+          "layer": 17
+        },
+        {
+          "id": "44200381",
+          "type": "TRGR",
+          "name": "Blocker - Player OpenA 04",
+          "layer": 17
+        },
+        {
+          "id": "44200382",
+          "type": "TRGR",
+          "name": "Blocker - Player OpenB 04",
+          "layer": 17
+        },
+        {
+          "id": "44200383",
+          "type": "SRLY",
+          "name": "Blocker - OpenB 04",
+          "layer": 17
+        },
+        {
+          "id": "44200384",
+          "type": "CAMS",
+          "name": "Blocker - Player Open Slam 04",
+          "layer": 17
+        },
+        {
+          "id": "44200385",
+          "type": "SRLY",
+          "name": "Blocker - OpenA 04",
+          "layer": 17
+        },
+        {
+          "id": "442004F9",
+          "type": "SOND",
+          "name": "Blocker - Impact 01",
+          "layer": 17
+        },
+        {
+          "id": "58200246",
+          "type": "ACTR",
+          "name": "Blocker - DoorR 03",
+          "layer": 22
+        },
+        {
+          "id": "58200247",
+          "type": "ACTR",
+          "name": "Blocker - DoorL 03",
+          "layer": 22
+        },
+        {
+          "id": "5820026C",
+          "type": "ACTR",
+          "name": "Blocker - DoorL 04",
+          "layer": 22
+        },
+        {
+          "id": "5820026D",
+          "type": "ACTR",
+          "name": "Blocker - DoorR 04",
+          "layer": 22
+        }
+      ],
+      "platform_reuse": {
+        "00200001": "58200082",
+        "00200004": "58200144",
+        "00200006": "442000C5",
+        "00200007": "44200180"
+      }
+    }
+  ]
+}

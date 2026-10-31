@@ -1,0 +1,10 @@
+# Keep the source distribution usable on its own: overlay, native source, notes
+# and the private RDS project belong with the backend source. Wheels are narrower.
+include README.md LICENSE NOTICE.md requirements-build.txt requirements-runtime.txt SOURCE_MANIFEST.json SOURCE_PROVENANCE.json
+recursive-include docs *.md
+recursive-include scripts *.py
+recursive-include build *.json
+recursive-include integrations *.py *.c *.h *.S *.s *.ld *.inc *.lua *.json *.md *.txt *.toml *.spec *.in LICENSE
+include vendor/retro-data-structures/pyproject.toml vendor/retro-data-structures/NOTICE.md vendor/retro-data-structures/LICENSE vendor/retro-data-structures/LICENSE.RSOT
+recursive-include vendor/retro-data-structures/src *.py *.typed
+recursive-exclude * __pycache__ *.pyc *.pyo *.exe *.dll *.so *.dylib *.o *.obj *.bin *.elf

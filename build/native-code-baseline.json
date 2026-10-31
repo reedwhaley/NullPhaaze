@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "baseline": "Accepted .14r2 runtime; data-region normalization only",
+  "bridge_address": 2172391424,
+  "bridge_size": 247936,
+  "bootstrap_size": 248448,
+  "bootstrap_bridge_offset": 512,
+  "personalization_ranges": [
+    [
+      60392,
+      42736
+    ],
+    [
+      53756,
+      80
+    ]
+  ],
+  "normalized_bridge_sha256": "8c7774bf2c7216e2b107da440802e93dbc7cab433de499b0533d9cfad113c1f0",
+  "normalized_bootstrap_sha256": "c133909ec781d47ecfa109e37131c1d70cc356832c988731620ec3d47b2864eb",
+  "compiler": "15.1.0",
+  "binutils": "2.44",
+  "devkitppc": "47.1"
+}

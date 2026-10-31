@@ -1,0 +1,6340 @@
+{
+  "schema": 1,
+  "source_audit_sha256": "d8e17a4ccd9073654b62c3dea7cecda8828b90534e4ca3095b6f8829954fb3b1",
+  "pickups": [
+    {
+      "index": 0,
+      "location": "G.F.S. Olympus/MedLab Delta/Pickup (Phazon Enhancement Device)",
+      "area": 975168564662458837,
+      "legacy_sentinel": true,
+      "variants": [
+        {
+          "pak": "Metroid1.pak",
+          "objects": {
+            "instance_id": {
+              "id": 135463615,
+              "layer": 2,
+              "type": "SPFN",
+              "property_sha256": "1d923fdf31b7218076d0f8cf4aa1dd6db8c2207fc5115119665fb8077d8f5abc",
+              "connections": [],
+              "incoming": [
+                {
+                  "source": 135463260,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ACTN"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 135463259,
+              "layer": 2,
+              "type": "MEMO",
+              "property_sha256": "c9e2e15b9dd45984162cf623ee9f9b30b60077eaecaedd48a03509d18d37f6b3",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 1245533
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 135463260,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "location": "G.F.S. Olympus/Ventilation Shaft/Pickup (Energy Tank)",
+      "area": 9908630587780032110,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid1.pak",
+          "objects": {
+            "instance_id": {
+              "id": 1376499,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "bad3740dade465f5d81e7ed227f86eb7befac1138078e4ba30142c034a8fbbdf",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 1376576
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1376572,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 1376574,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "7d8d88db7f04e4b2f4f3686b58b7b37bed0ecb0af43e43dc5540810f1869e6be",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 1376500
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1376575,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "location": "G.F.S. Olympus/Munitions Storage/Pickup (Missile Launcher)",
+      "area": 7486162873388959747,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid1.pak",
+          "objects": {
+            "instance_id": {
+              "id": 1507382,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "33da729b2a5f3d493ab253d777e07e61f87ed41affd1c6dd815322211383ae94",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 1507377
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1507380,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 1507375,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "556c4629490d2e116a1d3b747674e9b17805fe30537560c9a2bc99196da11138",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 1507343
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1507381,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "location": "Norion/Docking Hub Alpha/Pickup (Missile Expansion)",
+      "area": 1594033074927626820,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid1.pak",
+          "objects": {
+            "instance_id": {
+              "id": 132203,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "48755c4dc5208bb561c85b61d4d324dfa04fc375be83367d1d04f59dcf36962b",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 132123
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 132099,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 132205,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "cadc177553d5ae2b4ffa9f233dee1d1ceaec5b744a58889f8a5747cb249e73c9",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 132150
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 132204,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "location": "Norion/Docking Hub Alpha/Pickup (Grapple Lasso)",
+      "area": 1594033074927626820,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid1.pak",
+          "objects": {
+            "instance_id": {
+              "id": 1073874036,
+              "layer": 16,
+              "type": "PCKP",
+              "property_sha256": "bcb79e6280e519da240d59fc4e2b1f749cd2613bdeef153b685a70aafe738f42",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 132211
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 131808,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 1073874031,
+              "layer": 16,
+              "type": "MEMO",
+              "property_sha256": "7f7453f3183136334d0fe012ed0df585c0260ac9be61710ebcccb39742d819c8",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 132209
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1073874032,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "location": "Norion/Maintenance Station/Pickup (Missile Expansion)",
+      "area": 10152623521318090708,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid1.pak",
+          "objects": {
+            "instance_id": {
+              "id": 262492,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "dbabb77665cf6ced50526159fcc13b2d3187ae7c282ae60584098146d251bcf0",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 262490
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 262494,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 262488,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "7e47397be73673376fbc7dd7670d2e98111bed1b54dc2ff460649a48a5d749ec",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 262493
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 262491,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "location": "Norion/Substation East/Pickup (Energy Tank)",
+      "area": 2833670306022051974,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid1.pak",
+          "objects": {
+            "instance_id": {
+              "id": 459537,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "5545fb31b2cba85c6b24415c69ab93e382c8ba3d0a355a10ff6e8385f6024633",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 459538
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 459543,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 459535,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "6f8eb8142cf1f3d87cd78bdb7c0a3982fb81ccc9e6fea2cfd80e9448b8869fe5",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 459539
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 459536,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "location": "Norion/Substation West/Pickup (Missile Expansion)",
+      "area": 14723609494777816936,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid1.pak",
+          "objects": {
+            "instance_id": {
+              "id": 655699,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "b2693106493bfd8fb3fee2e427a32b6328737c70977d0671c5c756a314e3814f",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 655734
+                },
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 655688
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 655702,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 655698,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "cb965907025cabdbe01e5b11639909bfb121633c27e496e7098cda66200eef5f",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 655700
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 655735,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "location": "Norion/Cargo Dock A/Pickup (Missile Expansion)",
+      "area": 6692819360230093549,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid1.pak",
+          "objects": {
+            "instance_id": {
+              "id": 852057,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "0d7e2d534360dcd5283321d2ab303acb8a82f29e7025080420dc536f9e984838",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 852056
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 852028,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 852029,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "d941c0c53c954a23b90c785346feeaae97c89104e86c8d8e70d6a36a5beddab9",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 852059
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 852026,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "location": "Norion/Generator B/Pickup (Energy Cell)",
+      "area": 12849086301409571765,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid1.pak",
+          "objects": {
+            "instance_id": {
+              "id": 983534,
+              "layer": 0,
+              "type": "SPFN",
+              "property_sha256": "c9461f47b4d058fe63f3ad82905a03c2ede68e09ad05b6ed1e04c393dc8c467a",
+              "connections": [],
+              "incoming": [
+                {
+                  "source": 983540,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "ACTN"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 983369,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "ba748f8264df052e41628399c4f52754c408c3e30996be5eb192acf7cbb12aca",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "PLAY",
+                  "target": 983487
+                },
+                {
+                  "state": "CLOS",
+                  "message": "STRT",
+                  "target": 983779
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 983366,
+                  "type": "SQTR",
+                  "state": "SQNC",
+                  "message": "ZERO"
+                }
+              ]
+            },
+            "percentage_pickup_id": {
+              "id": 983660,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "173d7fa6b75ef1ca44a1ef896b80a7a5984ded81e92248c4aee208f8ca46cdda",
+              "connections": [],
+              "incoming": [
+                {
+                  "source": 983540,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "IM00"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "location": "Norion/Cargo Hub/Pickup (Missile Expansion)",
+      "area": 3044064450317642212,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid1.pak",
+          "objects": {
+            "instance_id": {
+              "id": 1114128,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "bbf66868e964eb1ab7233cd12351f36f3628b7bace2e17a3b8fc7df27fe1e528",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 1114171
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1114123,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 1114147,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "2751a7577d741ab91c260f035b0932d50b879c11a3c330979f0fb01ab85d7165",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 1114125
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1114129,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "location": "G.F.S. Valhalla/Docking Bay 5/Pickup (Energy Cell)",
+      "area": 15622764306970326849,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid1.pak",
+          "objects": {
+            "instance_id": {
+              "id": 131122,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "228177acdbeff302d01410c472ce3cfdd9e63645f759ab7f70eda093fdd7a9c8",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 131124
+                },
+                {
+                  "state": "ACQU",
+                  "message": "STOP",
+                  "target": 132146
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 131129,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 131130,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "fe42e4ffd61cc6c80c707955a170a61dfea96b5fb95dd96db824162a646cddc1",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 131127
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 131126,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "location": "G.F.S. Valhalla/Weapons Cache/Pickup (Missile Expansion)",
+      "area": 13634659891990625058,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid1.pak",
+          "objects": {
+            "instance_id": {
+              "id": 589843,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "2987695b658dc8cf3545bd99c3ef72f14e3dc11140aad539dc74e9de25505d9a",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 589839
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 589844,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 589846,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "9f38443eacaeffb3bf65d35f033e2847ac3ebeaf2f2ebce80a9895e79e069731",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 589837
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 589841,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "location": "G.F.S. Valhalla/Munitions Locker/Pickup (Energy Tank)",
+      "area": 7265233133801437908,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid1.pak",
+          "objects": {
+            "instance_id": {
+              "id": 655378,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "991c126b56c083b81169379dba0c1d503726cd1d734879f375e3ea7ca002e39c",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 655364
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 655380,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 655366,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "91bf9a5858e3d6c7767e779705cea913f5edf5a59f03aba1a8dba1bc20b8f201",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 655363
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 655381,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "location": "G.F.S. Valhalla/MedLab Alpha/Pickup (Missile Expansion)",
+      "area": 4052690289582601366,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid1.pak",
+          "objects": {
+            "instance_id": {
+              "id": 852322,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "920bf6cdd49300419d77e5e4aa78db9bf716a3ad2b944f9618252d48bd5ae032",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 852320
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 852323,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 852321,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "474ef033743052e4c15abf57d9fae52ec5c838deb291b486652f67d9e6d8de6f",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 852318
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 852317,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "location": "G.F.S. Valhalla/MedLab Alpha/Pickup (Ship Missile Expansion)",
+      "area": 4052690289582601366,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid1.pak",
+          "objects": {
+            "instance_id": {
+              "id": 336396344,
+              "layer": 5,
+              "type": "PCKP",
+              "property_sha256": "43acfd890bd849a690361034516476a4b626f0a495448d5b6f98281792960258",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "DCTV",
+                  "target": 851970
+                },
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 852021
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 336396740,
+                  "type": "WAYP",
+                  "state": "ARRV",
+                  "message": "ACTV"
+                },
+                {
+                  "source": 336396744,
+                  "type": "TRGR",
+                  "state": "ENTR",
+                  "message": "DCTV"
+                },
+                {
+                  "source": 336396346,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 336396342,
+              "layer": 5,
+              "type": "MEMO",
+              "property_sha256": "792fb8b3b7c313f196d2c42ed251172bdfce6716b15f492340b20a3d5780f8af",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 852019
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 336396340,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "location": "G.F.S. Valhalla/Auxiliary Lift/Pickup (Missile Expansion)",
+      "area": 17479488334200413695,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid1.pak",
+          "objects": {
+            "instance_id": {
+              "id": 983060,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "2ba31c7b6262efcc28957429dccb652c56de18907a358dfaf329a27c82938c23",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 983059
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 983061,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 983062,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "257bb83a6065b19b330fc554d2458edada629e73176b725ae953418ca89cb5b5",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 983056
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 983057,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "location": "Bryyo - Fire/Main Lift/Pickup (Missile Expansion)",
+      "area": 9934831212540578712,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 196733,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "8c644cd695fd67bcf1f4362dfba2e4c117c08ee3f3c603a0904aa55686f2426f",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 196727
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 196625,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 196732,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "52e0c7eef76b1b3ce56c50586b31ce8ca09df0841d9b0a152afd86b9cf096472",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 196624
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 196730,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "location": "Bryyo - Fire/Imperial Hall/Pickup (Missile Expansion)",
+      "area": 4215957264467390882,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 262372,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "886c3fe6c9c28896b63c6d147cfc45e32ee5ac22067dae63576bf7b170c62df2",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 262373
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 262378,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 262376,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "147b3f9deb32ebad5224a4611f48cec71556aa3b028c23bf4919214e841163b8",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 262371
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 262375,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "location": "Bryyo - Fire/Gel Refinery Site/Pickup (Missile Expansion)",
+      "area": 691790544662692104,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 393891,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "34781542d7700ceb5118c4dbdbc01f058a899b048f884df819c18400b8e4f0b2",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 393894
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 393892,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 393890,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "bbdcffc7e52414e4f59bf9dfc91efbd2fc622eab6ed5ababc820625d25a88781",
+              "connections": [],
+              "incoming": [
+                {
+                  "source": 393896,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "location": "Bryyo - Fire/Gel Hall/Pickup (Missile Expansion - Ledge)",
+      "area": 15732414849243282895,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 524386,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "8ecec360fc73a46cc43bd3a29f025f7050654461084b07d0bdbd25d74622b9aa",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 524387
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 524390,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 524384,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "ecf5b85b71528b1f61567a41a1366d51a2bf752aa8403933812fe7c1c70028e5",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 524385
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 524389,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "location": "Bryyo - Fire/Gel Hall/Pickup (Missile Expansion - Falling Platform)",
+      "area": 15732414849243282895,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 524812,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "de07b969af18fe57f1f45b3efae4b68cde4118c5a0e982963a3387659631f17e",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 524808
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 524817,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "ACTV"
+                },
+                {
+                  "source": 524810,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                },
+                {
+                  "source": 470286833,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "ACTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 524816,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "0469586ba615fc8de04b3e3ff75deb20fc6633c438a171f825e5bafeb0a83a2e",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 524809
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 524815,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "location": "Bryyo - Fire/Temple of Bryyo/Pickup (Missile Expansion)",
+      "area": 13296637487518400273,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 537526895,
+              "layer": 8,
+              "type": "PCKP",
+              "property_sha256": "cc3885a10e3f3a712324e96354159a59ee5ba75b88f1b5dddb41df14710a790e",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 656066
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 134874286,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "DCTV"
+                },
+                {
+                  "source": 537526963,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                },
+                {
+                  "source": 738854550,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "ACTV"
+                },
+                {
+                  "source": 1275724843,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "ACTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 537526980,
+              "layer": 8,
+              "type": "MEMO",
+              "property_sha256": "6aad9da93358f7ed6f466582310522260ec5166557793e29a8d31aac03a134fc",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 656053
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 537526894,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "location": "Bryyo - Fire/Temple of Bryyo/Pickup (Ice Missile)",
+      "area": 13296637487518400273,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 940179599,
+              "layer": 14,
+              "type": "PCKP",
+              "property_sha256": "4a90654be8c1e8d74012406e2f734bddd38b3713c2e15ab4eb3c4a8b06d4a5d6",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 655987
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 940180333,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 940180084,
+              "layer": 14,
+              "type": "MEMO",
+              "property_sha256": "2cd743a90668cff6dae7cd34dafb70c861732dc9cb96d0fbad5f19972014a87a",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 656071
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 940180080,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "location": "Bryyo - Reptilicus/Crash Site/Pickup (Missile Expansion)",
+      "area": 15814834557214288722,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 262234,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "7266506abbc6699f06c4d1f23735235ce0c821932e9b675ef129ba412aab7801",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 262236
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 262237,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 262230,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "1438e9e7e0a502e7e9cde6b4824c965f280bd9ed0fe1c4537115eb20d98830d5",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 262182
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 262374,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "location": "Bryyo - Reptilicus/Grand Court Path/Pickup (Missile Expansion)",
+      "area": 8468936149308094087,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 393284,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "c7795af3c7bb0a6ff446bcc3a983b28b950200ec9d1c8963c36b399e11c7c787",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 393290
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 393647,
+                  "type": "TRGR",
+                  "state": "ENTR",
+                  "message": "ACTV"
+                },
+                {
+                  "source": 393274,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                },
+                {
+                  "source": 393768,
+                  "type": "TRGR",
+                  "state": "EXIT",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 393272,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "3e0606e29aff74fc25c4c1fa9b55ac104536a46801769960ee8e525be0803cae",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 393287
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 393283,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "location": "Bryyo - Reptilicus/Reliquary I/Pickup (Grapple Swing)",
+      "area": 928678633548581232,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 458781,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "879f5b85ec7ca9bbcdf1437d24056411a458bf88e97f1beb2501f598f5e138f4",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 458775
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 458777,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 458776,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "8b4bfac1116cef482d5a8d2705f92660c617083719af9682abda13fd236f8222",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 458778
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 458780,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "location": "Bryyo - Reptilicus/Falls of Fire/Pickup (Missile Expansion)",
+      "area": 8374398449894515797,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 524613,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "5b41d534c3f4cd8f39a94145f95553862fe8d7549b2d82a437ed5d27e8036e94",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 524617
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 524610,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 524645,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "fad3029b7522cf0f3621e60463cae0c0f0fd7537c60997ec7003a60bbd4fa21e",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 524612
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 524611,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "location": "Bryyo - Reptilicus/Hillside Vista/Pickup (Missile Expansion)",
+      "area": 13902157786380317936,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 590033,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "57a4b4a67603f14602096a0faeb9e65b666b9795d80ad16d1fa580b03e3cc66a",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 590029
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 590028,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 590032,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "6317ec1a51926d1f72018123383e2d52b7ebc033043bbf79f98e14e134418b74",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 590031
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 590030,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "location": "Bryyo - Reptilicus/Gateway/Pickup (Missile Expansion)",
+      "area": 3467893814575167461,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 655768,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "82eca0a53ca54196b359efeb0a728bb515c7671c33bdd64aba074017a7dbacb2",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 655766
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 655769,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                },
+                {
+                  "source": 656032,
+                  "type": "TRGR",
+                  "state": "ENTR",
+                  "message": "DCTV"
+                },
+                {
+                  "source": 656033,
+                  "type": "TRGR",
+                  "state": "ENTR",
+                  "message": "ACTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 655899,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "2a0b23538db35023b381fbfd1cdad22e819ac292385bb02c6a87f017cda6e66b",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 655767
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 655762,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "location": "Bryyo - Reptilicus/Fuel Gel Pool/Pickup (Missile Expansion - Ledge)",
+      "area": 7492844587871276588,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 786455,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "be71547fb0f5ef324229dfdc64262d7890517905daa383efb70e4516e9d0b9a0",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 786448
+                },
+                {
+                  "state": "ACQU",
+                  "message": "ZERO",
+                  "target": 786938
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 786454,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 786464,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "7c4ec538e80ea2a0d5077912cdb5f5d2aa16905caf4908c9a3eb519bf6b054ca",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 786449
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 786433,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "location": "Bryyo - Reptilicus/Fuel Gel Pool/Pickup (Missile Expansion - Bottom)",
+      "area": 7492844587871276588,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 786471,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "80700f644eca3c791d23aae0d5d836d6b2aa1f96e2d148442e5fe477b8abe0c4",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 786470
+                },
+                {
+                  "state": "ACQU",
+                  "message": "ZERO",
+                  "target": 786938
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 786701,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 786692,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "2c9f6dbeab47ec72fa6ada69a734db8490849a555c1028e864d0edeadd479a3f",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 786699
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 786691,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "location": "Bryyo - Reptilicus/Jungle Generator/Pickup (Missile Expansion)",
+      "area": 6613311822671481119,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 853196,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "a44fc13b1672c721d8a98590e262abbad8f0ae4c0495ae76a5ed820f79512869",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 853202
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 853200,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 853203,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "4e0a85101e18af56c93e359ccaf52b90777cbaf476219cc9b72bbff648fe5178",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 853201
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 853198,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "location": "Bryyo - Reptilicus/Hidden Court/Pickup (Missile Expansion)",
+      "area": 14006603351279167667,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 918001,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "a838c4a529395e387fe5e19dab657c90b53c464a760a33192106e54722489606",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 918004
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 918003,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 917998,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "39e70c8ac70df86413ac942fb729b0a0f529a8ca5801db126e8372d8c541ebd7",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 917996
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 917999,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "location": "Bryyo - Reptilicus/Hidden Court/Pickup (Energy Cell)",
+      "area": 14006603351279167667,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 918315,
+              "layer": 0,
+              "type": "SPFN",
+              "property_sha256": "1aea36ed02ba2830ebf491dfbaf4d3a11544c4c9dbc15c93fb4795e5e3c81209",
+              "connections": [],
+              "incoming": [
+                {
+                  "source": 918301,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "ACTN"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 918356,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "3cdc6836ea0796721c5905e84b8435a1f1089027ac70b8012aa5775baa99297e",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "PLAY",
+                  "target": 918052
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 918353,
+                  "type": "SQTR",
+                  "state": "SQNC",
+                  "message": "ZERO"
+                }
+              ]
+            },
+            "end_relay_id": {
+              "id": 918301,
+              "layer": 0,
+              "type": "SRLY",
+              "property_sha256": "077543317440207cccb765ffbb3cfbcb60d5e82ac1c0d354c754e7a5b039346e",
+              "connections": [
+                {
+                  "state": "RLAY",
+                  "message": "ACTV",
+                  "target": 918286
+                },
+                {
+                  "state": "RLAY",
+                  "message": "IM00",
+                  "target": 918285
+                },
+                {
+                  "state": "RLAY",
+                  "message": "DCTV",
+                  "target": 918288
+                },
+                {
+                  "state": "RLAY",
+                  "message": "DCTV",
+                  "target": 918309
+                },
+                {
+                  "state": "RLAY",
+                  "message": "ACTN",
+                  "target": 918315
+                },
+                {
+                  "state": "RLAY",
+                  "message": "PLAY",
+                  "target": 918357
+                },
+                {
+                  "state": "RLAY",
+                  "message": "DECR",
+                  "target": 918355
+                },
+                {
+                  "state": "RLAY",
+                  "message": "ACTV",
+                  "target": 918299
+                },
+                {
+                  "state": "RLAY",
+                  "message": "STRT",
+                  "target": 918353
+                },
+                {
+                  "state": "RLAY",
+                  "message": "IM00",
+                  "target": 918714
+                },
+                {
+                  "state": "RLAY",
+                  "message": "ACTV",
+                  "target": 918050
+                },
+                {
+                  "state": "RLAY",
+                  "message": "DCTV",
+                  "target": 918369
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 918322,
+                  "type": "ACKF",
+                  "state": "ANMO",
+                  "message": "ACTN"
+                }
+              ]
+            },
+            "percentage_pickup_id": {
+              "id": 918714,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "a11fea18b56584bd3eeb104e9dfcdf46580580615455246fd039cb662ca68e7d",
+              "connections": [],
+              "incoming": [
+                {
+                  "source": 918301,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "IM00"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "location": "Bryyo - Reptilicus/Reliquary II/Pickup (Energy Tank)",
+      "area": 3252687480004049274,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 1048601,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "8dbb4790cd35a59c85db82df42c4dbe11c8f26df3d53e75373df02ce12ca1265",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 1048602
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1048603,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 1048599,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "4540e2ba621665556cbca84fc8a89f1f9816bcfa96fab8a2b1fbe16d517476ca",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 1048597
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1048605,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "location": "Bryyo - Reptilicus/Ancient Courtyard/Pickup (Missile Expansion)",
+      "area": 15861154386655212106,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 1310745,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "093d66f54705bb2728d62f271b10d1962983480046ed4a2783898c8ff63d8240",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 1310784
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1310801,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 1310804,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "0b8bd1149f0753654c62dd2d6c687bdfa7cd80221643a5797e107a2437e3f2b6",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 1310806
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1310808,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "location": "Bryyo - Reptilicus/Ruined Shrine/Pickup (Energy Tank)",
+      "area": 18426339925276965129,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 1441957,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "f0406f79f4f3f5f07c2e8d64197498499d434208f7884458b85413d166fbe223",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 1441956
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1441939,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 1441955,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "b79c4a6736b3aa60c02fb040fdb83a3886bc7c4d2e5578418974feb0709e74c1",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 1441801
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1441937,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "location": "Bryyo - Reptilicus/Burrow/Pickup (Missile Expansion)",
+      "area": 17937850293030639051,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 1507526,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "f2d2df2074f33132a15de1e4e432c809dd1cf3105ce5917d49b6a9f13d719608",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 1507525
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1507386,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 1507406,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "f4a7025999455410ce2eae09003f45eba5a896903972e74b24f661a96fbe1ad1",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 1507527
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1507523,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "location": "Bryyo - Reptilicus/Machineworks Bridge/Pickup (Energy Tank)",
+      "area": 17945996104959776291,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 1638446,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "f745a6f14a32a13b0f5bb87b89c5f100aa61e3fa54d1acb9a1d8cd6c6d1738e3",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 1638443
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1638455,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 1638447,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "5271d918a73c083fb00e6e18d032f831851a96fb5258c9e0fdf214d5143911f7",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 1638456
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1638462,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "location": "Bryyo - Reptilicus/Generator Hall North/Pickup (Missile Expansion)",
+      "area": 655768186680006563,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 1769509,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "aa706ee796eeca9065a0044da5faec6d6b87ecdee3000235f6ca095c5b12b76c",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 1769491
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1769501,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 1769496,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "145cbdf178880b905d8e8420b4a77ef2eadd90263fbebf71042a49e976ee1deb",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 1769485
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1769498,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "location": "Bryyo - Reptilicus/Vault/Pickup (Energy Tank)",
+      "area": 12685212997342829632,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 2031650,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "44e63f794ced92174a5c4d6991e9d80a06c1dc13233b1d8985f18bade2b46cf7",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 2031645
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 2031639,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 2031640,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "64a41413e2face3a65472d4a3d522b73d139c160a3d33d86827fe90467bbeaca",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 2031641
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 2031644,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "location": "Bryyo - Reptilicus/Hangar Bay/Pickup (Energy Cell)",
+      "area": 12448241480574438186,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 2162983,
+              "layer": 0,
+              "type": "SPFN",
+              "property_sha256": "9c7236c118b410af2fb6e0e316a569ea5d25f5391f26d20931570f6c102e1d2f",
+              "connections": [],
+              "incoming": [
+                {
+                  "source": 2163026,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "ACTN"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 2163514,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "6d458e62de5fa595abc214b6bdd458c8decec86076450f41ca14c610167dd276",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "PLAY",
+                  "target": 2164607
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 2163513,
+                  "type": "SQTR",
+                  "state": "SQNC",
+                  "message": "ZERO"
+                }
+              ]
+            },
+            "percentage_pickup_id": {
+              "id": 2163627,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "fd482e204e378d09689caa8b914a1d098bda52c93c99b61eafed57d966c6f705",
+              "connections": [],
+              "incoming": [
+                {
+                  "source": 2163026,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "IM00"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "location": "Bryyo - Reptilicus/Hangar Bay/Pickup (Ship Missile)",
+      "area": 12448241480574438186,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 270598347,
+              "layer": 4,
+              "type": "SPFN",
+              "property_sha256": "4e4230eff345e35553fb868bb703dae9e858ffda67f26eee86d9edfb6247620a",
+              "connections": [],
+              "incoming": [
+                {
+                  "source": 270598454,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "ACTN"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 270598503,
+              "layer": 4,
+              "type": "MEMO",
+              "property_sha256": "ec6fa13e1887f5380e8eba393a68066bc7f16350e98f83ab92fb55490fb41fc0",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 2163046
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 270598459,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            },
+            "end_relay_id": {
+              "id": 270598454,
+              "layer": 4,
+              "type": "SRLY",
+              "property_sha256": "41f5f760f3119ea534931aab1793d2101bb889cd9655c9a2c9b7de7cef78502e",
+              "connections": [
+                {
+                  "state": "RLAY",
+                  "message": "INCR",
+                  "target": 2162997
+                },
+                {
+                  "state": "RLAY",
+                  "message": "DECR",
+                  "target": 2163389
+                },
+                {
+                  "state": "RLAY",
+                  "message": "INCR",
+                  "target": 2163403
+                },
+                {
+                  "state": "RLAY",
+                  "message": "DECR",
+                  "target": 2163402
+                },
+                {
+                  "state": "RLAY",
+                  "message": "INCR",
+                  "target": 2163595
+                },
+                {
+                  "state": "RLAY",
+                  "message": "IM00",
+                  "target": 2164600
+                },
+                {
+                  "state": "RLAY",
+                  "message": "INCR",
+                  "target": 2163593
+                },
+                {
+                  "state": "RLAY",
+                  "message": "INCR",
+                  "target": 2163167
+                },
+                {
+                  "state": "RLAY",
+                  "message": "DECR",
+                  "target": 2163526
+                },
+                {
+                  "state": "RLAY",
+                  "message": "DECR",
+                  "target": 2162690
+                },
+                {
+                  "state": "RLAY",
+                  "message": "DECR",
+                  "target": 2163578
+                },
+                {
+                  "state": "RLAY",
+                  "message": "DECR",
+                  "target": 2163165
+                },
+                {
+                  "state": "RLAY",
+                  "message": "DECR",
+                  "target": 2163399
+                },
+                {
+                  "state": "RLAY",
+                  "message": "INCR",
+                  "target": 2162909
+                },
+                {
+                  "state": "RLAY",
+                  "message": "DECR",
+                  "target": 2164474
+                },
+                {
+                  "state": "RLAY",
+                  "message": "INCR",
+                  "target": 2163071
+                },
+                {
+                  "state": "RLAY",
+                  "message": "INCR",
+                  "target": 2163401
+                },
+                {
+                  "state": "RLAY",
+                  "message": "DECR",
+                  "target": 2163400
+                },
+                {
+                  "state": "RLAY",
+                  "message": "ACTN",
+                  "target": 2162891
+                },
+                {
+                  "state": "RLAY",
+                  "message": "INCR",
+                  "target": 2163064
+                },
+                {
+                  "state": "RLAY",
+                  "message": "DECR",
+                  "target": 2163644
+                },
+                {
+                  "state": "RLAY",
+                  "message": "INCR",
+                  "target": 2163594
+                },
+                {
+                  "state": "RLAY",
+                  "message": "ACTN",
+                  "target": 2163590
+                },
+                {
+                  "state": "RLAY",
+                  "message": "INCR",
+                  "target": 2163359
+                },
+                {
+                  "state": "RLAY",
+                  "message": "INCR",
+                  "target": 2163438
+                },
+                {
+                  "state": "RLAY",
+                  "message": "DECR",
+                  "target": 2163162
+                },
+                {
+                  "state": "RLAY",
+                  "message": "DECR",
+                  "target": 2164473
+                },
+                {
+                  "state": "RLAY",
+                  "message": "DECR",
+                  "target": 2163527
+                },
+                {
+                  "state": "RLAY",
+                  "message": "INCR",
+                  "target": 2163599
+                },
+                {
+                  "state": "RLAY",
+                  "message": "INCR",
+                  "target": 2163699
+                },
+                {
+                  "state": "RLAY",
+                  "message": "INCR",
+                  "target": 2163404
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 270598665,
+                  "type": "SQTR",
+                  "state": "SQNC",
+                  "message": "ACTN"
+                }
+              ]
+            },
+            "percentage_pickup_id": {
+              "id": 270600056,
+              "layer": 4,
+              "type": "PCKP",
+              "property_sha256": "a6bb266947fa09a586a1137720d59c72e1de304f2b60078eb5cff2f89eafbd8a",
+              "connections": [],
+              "incoming": [
+                {
+                  "source": 270598454,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "IM00"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "location": "Bryyo - Reptilicus/Colossus Vista/Pickup (Ship Missile Expansion)",
+      "area": 8112010450000786492,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 2228323,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "24f5aeba9c059a900c80c34ce585e1f1019da356618dcd47e7acfe5a2003a316",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 2228328
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 2228325,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 2228329,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "52e10f2d9b5f8e181f201bc3d298ca5b2359a4dee7764834d5822bfa2d7e9a0b",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 2228232
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 2228326,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "location": "Bryyo - Reptilicus/Hall of the Golems/Pickup (Missile Expansion)",
+      "area": 2580753232084104741,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 2293961,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "b4cb44cefb4727af86e2a8a5e903b8eb3b02e9ba6028987949e54be63dab7267",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 2293998
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 2293995,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 2293943,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "ca04340928c84b6ebbd11103a4383065a9a7d2c0517dcb9cbd8c7ffabdf4e7f0",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 2293999
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 2293994,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "location": "Bryyo - Reptilicus/Auxiliary Dynamo/Pickup (Ship Missile Expansion)",
+      "area": 9706081627986864375,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 2490492,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "ac113ca01cae9fc9ed579380ea7c9a3c743e5b1daf1ce2a4165ea937843ea4bc",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 2490496
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 2490495,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 2490493,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "f284282a5811cf0077cd81ccf2f0128bfec3d5fac525b5ed36f821383890a186",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 2490444
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 2490497,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "location": "Bryyo - Reptilicus/Reliquary III/Pickup (Missile Expansion)",
+      "area": 2046879235130061967,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 2555929,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "b76b7aba4a98d7097fbd6e2916063803dab082e17a626f9a7cc668162cb02302",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 2555926
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 2555924,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 2555928,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "396c8234167573fa407317e5527378fc676cd1bfbc45c08b9f80a191b50ea567",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 2555925
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 2555930,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "location": "Bryyo - Ice/Hall of Remembrance/Pickup (Screw Attack)",
+      "area": 6915612318130423578,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 196739,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "b3bb73fa17ff068c0a20c17d9d543e1ef8a43699eddb2b51b040bb1a0a67afbe",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 196738
+                },
+                {
+                  "state": "ACQU",
+                  "message": "PLAY",
+                  "target": 196974
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 196737,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 196742,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "19d202224777b0ad2ac93c316166167813538e57f8c8ed878c45575da7232c88",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 196741
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 196734,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "location": "Bryyo - Ice/Hall of Remembrance/Pickup (Ship Missile Expansion)",
+      "area": 6915612318130423578,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 196954,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "23604993b76d205575822bb472799cc2290a75196bfd988644e1df0b2d8a2f39",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 196948
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 196956,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 196953,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "2c57b2f6775ed1cd9913566b09cb4bf5d2a2b8a5cc47ec72f0d99cc045ae1f40",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 196949
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 196952,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "location": "Bryyo - Ice/Tower/Pickup (Energy Tank)",
+      "area": 10429003070780375168,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid3.pak",
+          "objects": {
+            "instance_id": {
+              "id": 327795,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "db8801b2e1e061865cd3429fec89ee51dc9e232580e5ab0005d01b9495117d2f",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 327921
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 327700,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 327918,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "5f12fdc1fb08c5ddc086475bcb9ad5551df343b6ffd28be43927cae09b2b049a",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 327831
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 327919,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "location": "SkyTown, Elysia - Main/Main Docking Bay/Pickup (Missile Expansion)",
+      "area": 4133901881028310574,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid4.pak",
+          "objects": {
+            "instance_id": {
+              "id": 132008,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "c208ed10ace2376c7ae6b5fb336f806ed254b767ec88cd91d8474065169db296",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 132005
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 132029,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "ACTV"
+                },
+                {
+                  "source": 132006,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 132007,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "78dee9d60ae8fe4d3daaafa0bf6528156f3f2192e8163585339584e2aae433ee",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 132004
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 131763,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "location": "SkyTown, Elysia - Main/Main Docking Bay/Pickup (Plasma Beam)",
+      "area": 4133901881028310574,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid4.pak",
+          "objects": {
+            "instance_id": {
+              "id": 805438310,
+              "layer": 12,
+              "type": "PCKP",
+              "property_sha256": "00b71becee0ca1277060c7e60fd96b08cf7362462ed36e6fccac5c98941fcfae",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 131938
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 805438314,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                },
+                {
+                  "source": 805438367,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "ACTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 805438308,
+              "layer": 12,
+              "type": "MEMO",
+              "property_sha256": "1150bc9cdfe91ffa795ce6d13082d32dba9da8603b753d2c0ed80fb069fac21f",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 131945
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 805438312,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "location": "SkyTown, Elysia - Main/Arrival Station/Pickup (Energy Tank)",
+      "area": 14742980547553882067,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid4.pak",
+          "objects": {
+            "instance_id": {
+              "id": 262616,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "b486b5b5966e6f0ed17682ad6ce1525ca271a83e0171e7d6260a87817c317afe",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 262615
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 262283,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 262613,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "6b40fbb89345536bfcea9c89d30cb676906225c27f8e6e7a4985dd88c0e7e14a",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 262205
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 262240,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "location": "SkyTown, Elysia - Main/Barracks Access/Pickup (Missile Expansion)",
+      "area": 4910606911885883821,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid4.pak",
+          "objects": {
+            "instance_id": {
+              "id": 327729,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "d6f49c39527d668f586602d7fc68a3f3a4c12ba5113d4a0d1b432df7932bc963",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 327734
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 327736,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 327732,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "3d8c157d4b2d19682c0dd9f119ead9787451bc5d03e1a9ed03bf64882376d534",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 327731
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 327728,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "location": "SkyTown, Elysia - Main/Hoverplat Docking Site/Pickup (Ship Missile Expansion)",
+      "area": 10164050604229640228,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid4.pak",
+          "objects": {
+            "instance_id": {
+              "id": 655582,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "c88d316327f77c4c681f6e0415289029e93e48bbb935d5f4369c22565ee04aad",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTV",
+                  "target": 655437
+                },
+                {
+                  "state": "ACQU",
+                  "message": "PLAY",
+                  "target": 655851
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 655586,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 655589,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "cdaca27dea95ba11b254248e40c28cb879455fc7f6e4a729563f48d925a2a801",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 655584
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 655590,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "location": "SkyTown, Elysia - Main/Skybridge Hera/Pickup (Missile Expansion)",
+      "area": 10733512082794532665,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid4.pak",
+          "objects": {
+            "instance_id": {
+              "id": 721408,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "d5ff91b31c56f91d3269734009754ca38501b2e06376bda992244ac68eb2f466",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 721470
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 721477,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 721475,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "7efa961eea5abb2a71248aa4857c61266f78b2a7cf1538c85dbb1b1805f3dba6",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 721473
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 721471,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "location": "SkyTown, Elysia - Main/Zipline Station Charlie/Pickup (Energy Tank)",
+      "area": 17641492364836789457,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid4.pak",
+          "objects": {
+            "instance_id": {
+              "id": 786843,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "0e47c3d1a0e2c910c2614a8d9b7727d33441a86797b1099a5e8bce1660ae7183",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 786844
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 786847,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 786841,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "51584a2ea16a3d07872f31792d8311ea28448027b7a0c4f62c33b600889a4a95",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 786846
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 786845,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "location": "SkyTown, Elysia - Main/Construction Bay/Pickup (Missile Expansion)",
+      "area": 2667502259855056433,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid4.pak",
+          "objects": {
+            "instance_id": {
+              "id": 1311059,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "8a571fcab5385d461e315144aed2dfa5dd74f7d5b7749b608b95ce380675412b",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 1311044
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1311621,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "ACTV"
+                },
+                {
+                  "source": 1311622,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "DCTV"
+                },
+                {
+                  "source": 1311050,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 1311049,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "2e7123346b1f7f6a529b90bb39b18d0708a9dbe28f688ea392844f64d007c565",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 1311051
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1311055,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "location": "SkyTown, Elysia - Main/Security Station/Pickup (Ship Missile Expansion)",
+      "area": 8195940946934839837,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid4.pak",
+          "objects": {
+            "instance_id": {
+              "id": 1442025,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "bef59ad8fa31f8d9cb7e82d712693c7f968310dae76732b7a7c3a598b71913de",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 1442022
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1442026,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 1442028,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "9708a415569696e3561abd01a8a255fb27a8874b88eaf155c1ab01ac3f64ae72",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 1442029
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1442023,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "location": "SkyTown, Elysia - Main/Steambot Barracks/Pickup (Missile Expansion)",
+      "area": 12622074872595627812,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid4.pak",
+          "objects": {
+            "instance_id": {
+              "id": 1507395,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "cf0ecb820d9bbd7a8493e4fb0eba1c138033d8304b8767f0a3e0aa72593a12a4",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 1507394
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1507396,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 1507397,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "a962c2c05f11738a1c504bba589f48ecc9829d118647cc10eea7440ab24c8a42",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 1507398
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1507392,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "location": "SkyTown, Elysia - Main/Steambot Barracks/Pickup (Energy Tank)",
+      "area": 12622074872595627812,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid4.pak",
+          "objects": {
+            "instance_id": {
+              "id": 1508420,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "7eaa3554fcd08cee0cd796eb5483ab5b7941f17467992ca98b05e3d9a79279f0",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 1508408
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1508096,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "ACTV"
+                },
+                {
+                  "source": 1507523,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                },
+                {
+                  "source": 135726141,
+                  "type": "SQTR",
+                  "state": "SQNC",
+                  "message": "ACTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 1507524,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "212361b0dc0cd68f7abaf97cc1fffd8a0907e534493ac1f36da2f0f777294d96",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 1507522
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1508423,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "location": "SkyTown, Elysia - Main/Ballista Storage/Pickup (Energy Cell)",
+      "area": 9955656508473190866,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid4.pak",
+          "objects": {
+            "instance_id": {
+              "id": 1573221,
+              "layer": 0,
+              "type": "SPFN",
+              "property_sha256": "025a2e5ea3f97891d1e2bb12727864da5612a3e58c5e36cb2d14b8669a995f6c",
+              "connections": [],
+              "incoming": [
+                {
+                  "source": 1572935,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "ACTN"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 1573487,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "a8f1227e77d0df2015cab8e60eaa08437189d5fa8d517a0dc5a77428faa1e255",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "PLAY",
+                  "target": 1572911
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1573489,
+                  "type": "SQTR",
+                  "state": "SQNC",
+                  "message": "ZERO"
+                }
+              ]
+            },
+            "end_relay_id": {
+              "id": 1572935,
+              "layer": 0,
+              "type": "SRLY",
+              "property_sha256": "2ddf1ea94567e2728be4817912465981b54b6967996fe82c5a7c13420570cbe7",
+              "connections": [
+                {
+                  "state": "RLAY",
+                  "message": "ACTV",
+                  "target": 1573242
+                },
+                {
+                  "state": "RLAY",
+                  "message": "IM00",
+                  "target": 1572931
+                },
+                {
+                  "state": "RLAY",
+                  "message": "DCTV",
+                  "target": 1573222
+                },
+                {
+                  "state": "RLAY",
+                  "message": "DCTV",
+                  "target": 1573223
+                },
+                {
+                  "state": "RLAY",
+                  "message": "ACTN",
+                  "target": 1573221
+                },
+                {
+                  "state": "RLAY",
+                  "message": "PLAY",
+                  "target": 1573486
+                },
+                {
+                  "state": "RLAY",
+                  "message": "DECR",
+                  "target": 1573490
+                },
+                {
+                  "state": "RLAY",
+                  "message": "ACTV",
+                  "target": 1572933
+                },
+                {
+                  "state": "RLAY",
+                  "message": "IM00",
+                  "target": 1573605
+                },
+                {
+                  "state": "RLAY",
+                  "message": "STRT",
+                  "target": 1573489
+                },
+                {
+                  "state": "RLAY",
+                  "message": "DCTV",
+                  "target": 1573682
+                },
+                {
+                  "state": "RLAY",
+                  "message": "ACTN",
+                  "target": 1573512
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1573234,
+                  "type": "ACKF",
+                  "state": "ANMO",
+                  "message": "ACTN"
+                }
+              ]
+            },
+            "percentage_pickup_id": {
+              "id": 1573605,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "20001e262524c43efa25d9d38769e7c462ef19f1be7fea52913f89e59c36eb6e",
+              "connections": [],
+              "incoming": [
+                {
+                  "source": 1572935,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "IM00"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "location": "SkyTown, Elysia - Main/Ballista Storage/Pickup (Boost Ball)",
+      "area": 9955656508473190866,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid4.pak",
+          "objects": {
+            "instance_id": {
+              "id": 135790724,
+              "layer": 2,
+              "type": "PCKP",
+              "property_sha256": "fcfbb5fbc8d7bc77f889dff63b2cb99e8e65b2f7564298ca3160e66a3290905b",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 1572998
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 135790737,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "ACTV"
+                },
+                {
+                  "source": 135790727,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 135790722,
+              "layer": 2,
+              "type": "MEMO",
+              "property_sha256": "37fc38c9cc9e292eaf0bee2a283186ae0985ac9f3aa164d79fe26f3976398bdc",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 1572995
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 135790721,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "location": "SkyTown, Elysia - Main/Powerworks/Pickup (Spider Ball)",
+      "area": 265878788849725085,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid4.pak",
+          "objects": {
+            "instance_id": {
+              "id": 1638786,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "f2c79492dbfc3453d3b7e5ac55ed2a886d133b0ae508713d195d88ae74f7c249",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 1638782
+                },
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 1639043
+                },
+                {
+                  "state": "ACTV",
+                  "message": "ACTV",
+                  "target": 1639036
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1638787,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 1638781,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "15091c0ff860dc12c53a821e8c046fb5a3625dca3bd6ae2e3c244abfb76c45ce",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 1638536
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1638788,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "location": "SkyTown, Elysia - Main/Powerworks/Pickup (Missile Expansion)",
+      "area": 265878788849725085,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid4.pak",
+          "objects": {
+            "instance_id": {
+              "id": 1638543,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "e939e9697c1ad19a834e7d72acb4249a17fb82ff12743866036f210fdac247f9",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 1638542
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1638538,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 1638541,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "0c9e701b645c3b98c15aef4265fecd1e233f2cb95f52f30faf4be35df5b1592b",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 1638677
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1638540,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "location": "SkyTown, Elysia - Main/Transit Hub/Pickup (Missile Expansion)",
+      "area": 13389753286679728417,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid4.pak",
+          "objects": {
+            "instance_id": {
+              "id": 2098130,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "acc0e45e15749c246fd66e13e200a4ddc40a22c1148366a1c93e49e10368b186",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 2098119
+                },
+                {
+                  "state": "ACQU",
+                  "message": "ZERO",
+                  "target": 2098919
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 2098122,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 2098127,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "da8df5551c996411ac41b55f03bacf82372d5441fe98cdfd337232beced76cf2",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 2098123
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1142948814,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "location": "SkyTown, Elysia - Pod/Concourse/Pickup (Missile Expansion)",
+      "area": 1701256524990864906,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid4.pak",
+          "objects": {
+            "instance_id": {
+              "id": 263457,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "8fb7704c2f2eca6e1913a44348ef951a92255e30384368ed09dd2d6a0d042ad5",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 263460
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 263459,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 263455,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "6481013e16206b5cb21ed5e1a026827a4275fcf8e95767400f21e2560f1ddfc4",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 263461
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 263458,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "location": "SkyTown, Elysia - Pod/Xenoresearch A Lift/Pickup (Energy Tank)",
+      "area": 9772683067190669679,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid4.pak",
+          "objects": {
+            "instance_id": {
+              "id": 852097,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "2d331697c4226e47cd71754bc5ad8943a81600a62778838c88fc87a9bd5cf1f6",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 852098
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 852096,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 852100,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "54a2122c1c2ceb4a5d2ae9db600a98acf136171554adaa50297dcad8b822362f",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 852099
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 852101,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "location": "SkyTown, Elysia - Pod/Xenoresearch B/Pickup (Seeker Missile)",
+      "area": 17636479515754825573,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid4.pak",
+          "objects": {
+            "instance_id": {
+              "id": 1048790,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "7a4816071d32f1f9e4e01a24bcbcbcbacc9f1673c6e85ef756054b966826ae23",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 1048792
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1048788,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 1048785,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "bf5145a47387c3cf79b80ec45e2f82a9698b3d6f638ea6414078a9a88dc930dd",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 1048787
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1048791,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "location": "SkyTown, Elysia - Pod/Xenoresearch B/Pickup (Energy Cell)",
+      "area": 17636479515754825573,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid4.pak",
+          "objects": {
+            "instance_id": {
+              "id": 1049439,
+              "layer": 0,
+              "type": "SPFN",
+              "property_sha256": "38fca872b148b46ab421953ec3ce395768849d975a1a50166262561f8572f133",
+              "connections": [],
+              "incoming": [
+                {
+                  "source": 1048981,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "ACTN"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 1049507,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "e681eccca42406771302d1b4ad84a52e3fe200587b859a35134c560adb7498c7",
+              "connections": [],
+              "incoming": [
+                {
+                  "source": 1049506,
+                  "type": "SQTR",
+                  "state": "SQNC",
+                  "message": "ZERO"
+                }
+              ]
+            },
+            "percentage_pickup_id": {
+              "id": 1049638,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "1a75a81c1145fabbf6ac8a1f19c2afc9f4b53477552b654dfe001a7c8cfd93cf",
+              "connections": [],
+              "incoming": [
+                {
+                  "source": 1048981,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "IM00"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "location": "SkyTown, Elysia - Pod/Concourse Ventilation/Pickup (Missile Expansion)",
+      "area": 8316677848927658449,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid4.pak",
+          "objects": {
+            "instance_id": {
+              "id": 1114266,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "2b079ce34f2d9d4f811e2cd3b64321605fa8dee69478a1195553acee5f254667",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 1114264
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1114260,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 1114268,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "50db8df7e4c7b125d8760e21ab46be2dde18012bb71de1da6a0a930732e2d1ae",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 1114262
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1114263,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "location": "SkyTown, Elysia - Pod/Gearworks/Pickup (Missile Expansion)",
+      "area": 6708692299270885612,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid4.pak",
+          "objects": {
+            "instance_id": {
+              "id": 1441890,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "f3b897eebeb4fa31c238e971b46b7204a2db4ec4416501778202fcb09a5538d9",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "DCTV",
+                  "target": 1442152
+                },
+                {
+                  "state": "ACQU",
+                  "message": "ACTV",
+                  "target": 1442170
+                },
+                {
+                  "state": "ACQU",
+                  "message": "PLAY",
+                  "target": 1442130
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1441876,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 1441885,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "4b594550b3cdc6c561d88b783dfa74dec5c71bc5ef41c51e7dde3088d5ed14af",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 1441887
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1441882,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "location": "SkyTown, Elysia - Pod/SkyTown Federation Landing Site/Pickup (Ship Grapple)",
+      "area": 18200553231954089224,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid4.pak",
+          "objects": {
+            "instance_id": {
+              "id": 1835763,
+              "layer": 0,
+              "type": "SPFN",
+              "property_sha256": "95821372e1f88e68fec0a58d2c72f1a76f5fa056be9ef70a75931910a8d55813",
+              "connections": [],
+              "incoming": [
+                {
+                  "source": 1835774,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "ACTN"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 1835248,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "5f353937f4210ede28a999ad6201c67521006094aa9bd25408bb08e8ad366c87",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 1835247
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1835233,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            },
+            "end_relay_id": {
+              "id": 1835273,
+              "layer": 0,
+              "type": "SRLY",
+              "property_sha256": "668cdae8765a173877841879012391962349d845dfb3a85ccc804fba5e895a1b",
+              "connections": [
+                {
+                  "state": "RLAY",
+                  "message": "RSTS",
+                  "target": 1835233
+                },
+                {
+                  "state": "RLAY",
+                  "message": "DECR",
+                  "target": 1835247
+                },
+                {
+                  "state": "RLAY",
+                  "message": "PLAY",
+                  "target": 1835246
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1835244,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "ACTN"
+                }
+              ]
+            },
+            "percentage_pickup_id": {
+              "id": 1835486,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "36f63e4316460e2be6cf9c1a35e2d9e3487bd8013276dc4f72e8878cde90d51a",
+              "connections": [],
+              "incoming": [
+                {
+                  "source": 337380534,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "IM00"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "location": "SkyTown, Elysia - Pod/Botanica/Pickup (Missile Expansion)",
+      "area": 8254796686876375149,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid4.pak",
+          "objects": {
+            "instance_id": {
+              "id": 1900560,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "a09a9164ae9f38db51e26ee50be5b775b31adb13feca3e9dbd07985ce472fc8b",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 1900580
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1900555,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 1900561,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "f7d5880ab6d95c9d1dda28e087a643949b482e4b7f6c4226cc091ab2d9389f35",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 1900559
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1900558,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "location": "Pirate Homeworld - Research/Craneyard/Pickup (Missile Expansion)",
+      "area": 7063455547734255887,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid5.pak",
+          "objects": {
+            "instance_id": {
+              "id": 263273,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "936548f3a23353eb9eb6b7ffa3331d2f1befc869c557ede7b0cfe05e0809d768",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 263272
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 263275,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 263277,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "cce39a997d3e71aa366c635d8adff31e44815aeffe991d428977c10a56a05be7",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 263276
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 263280,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "location": "Pirate Homeworld - Research/Craneyard/Pickup (Hazard Shield)",
+      "area": 7063455547734255887,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid5.pak",
+          "objects": {
+            "instance_id": {
+              "id": 268698071,
+              "layer": 4,
+              "type": "PCKP",
+              "property_sha256": "be4fdaae402115df33d101932d86af3157bb7ecdc41d396a4662bf771bc0527d",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 262614
+                },
+                {
+                  "state": "ACQU",
+                  "message": "DECR",
+                  "target": 262729
+                },
+                {
+                  "state": "ACQU",
+                  "message": "DECR",
+                  "target": 262730
+                },
+                {
+                  "state": "ACQU",
+                  "message": "DECR",
+                  "target": 262731
+                },
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 263306
+                },
+                {
+                  "state": "ACQU",
+                  "message": "DECR",
+                  "target": 262728
+                },
+                {
+                  "state": "ACQU",
+                  "message": "INCR",
+                  "target": 262595
+                },
+                {
+                  "state": "ACQU",
+                  "message": "DECR",
+                  "target": 262732
+                },
+                {
+                  "state": "ACQU",
+                  "message": "DECR",
+                  "target": 262733
+                },
+                {
+                  "state": "ACQU",
+                  "message": "DECR",
+                  "target": 262797
+                },
+                {
+                  "state": "ACQU",
+                  "message": "DECR",
+                  "target": 262734
+                },
+                {
+                  "state": "ACQU",
+                  "message": "DECR",
+                  "target": 262799
+                },
+                {
+                  "state": "ACQU",
+                  "message": "INCR",
+                  "target": 262401
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 262657,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "ACTV"
+                },
+                {
+                  "source": 262617,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                },
+                {
+                  "source": 268697912,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "DCTV"
+                },
+                {
+                  "source": 268698078,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "ACTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 268698075,
+              "layer": 4,
+              "type": "MEMO",
+              "property_sha256": "b2a99e9434e7ca702b7ccbe992ccffdc5dd6fa99fc39472fa87e8771fc21c8c0",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 262621
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 268698072,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 77,
+      "location": "Pirate Homeworld - Research/Creche Transit/Pickup (Missile Expansion)",
+      "area": 1760181228684086770,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid5.pak",
+          "objects": {
+            "instance_id": {
+              "id": 328185,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "be3497df2ced4189e26377d0a8c56c7830425f5980620f693abe8886e040dadf",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 328182
+                },
+                {
+                  "state": "ACQU",
+                  "message": "ACTV",
+                  "target": 327740
+                },
+                {
+                  "state": "ACQU",
+                  "message": "STRT",
+                  "target": 327704
+                },
+                {
+                  "state": "ACQU",
+                  "message": "ACTV",
+                  "target": 328003
+                },
+                {
+                  "state": "ACQU",
+                  "message": "FADI",
+                  "target": 327825
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 328184,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 328178,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "fc198b2f86af00fc110da9d979a5af47993568fe32149e135c6826db101d70a4",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 328181
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 328183,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 78,
+      "location": "Pirate Homeworld - Research/Proving Grounds/Pickup (Grapple Voltage)",
+      "area": 3594029436312475339,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid5.pak",
+          "objects": {
+            "instance_id": {
+              "id": 393621,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "ed650b994297a24feb40ca19731f592c4d960dc0d4daf66eaa4570aebd223bd2",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "DECR",
+                  "target": 394027
+                },
+                {
+                  "state": "ACQU",
+                  "message": "INCR",
+                  "target": 394028
+                },
+                {
+                  "state": "ACQU",
+                  "message": "DCTV",
+                  "target": 394185
+                },
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 393608
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 394185,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "ACTV"
+                },
+                {
+                  "source": 393620,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 393530,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "b61ff9a6effe8f11a48ba184fd0d287c2390b2f763797e2d1b3b411c81ef3a7c",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 393617
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 393529,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                },
+                {
+                  "source": 393608,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 79,
+      "location": "Pirate Homeworld - Research/Metroid Processing/Pickup (Energy Cell)",
+      "area": 16389095850931092901,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid5.pak",
+          "objects": {
+            "instance_id": {
+              "id": 459141,
+              "layer": 0,
+              "type": "SPFN",
+              "property_sha256": "38fff45c20db3eb15843bcccf6620125f2368ab07d21a7fee70d56858a301769",
+              "connections": [],
+              "incoming": [
+                {
+                  "source": 459120,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "ACTN"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 459650,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "a1aca1e99fe2587397519d51f87227997ecf76f90f42414c8caadf5f74d07278",
+              "connections": [],
+              "incoming": [
+                {
+                  "source": 459649,
+                  "type": "SQTR",
+                  "state": "SQNC",
+                  "message": "ZERO"
+                }
+              ]
+            },
+            "percentage_pickup_id": {
+              "id": 458810,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "37c18c3874a6caf1ba93998bacf3204d45ac9f5a9051d23db5cec28163779b8b",
+              "connections": [],
+              "incoming": [
+                {
+                  "source": 459120,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "IM00"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 80,
+      "location": "Pirate Homeworld - Research/Metroid Processing/Pickup (Missile Expansion)",
+      "area": 16389095850931092901,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid5.pak",
+          "objects": {
+            "instance_id": {
+              "id": 604438669,
+              "layer": 9,
+              "type": "PCKP",
+              "property_sha256": "b671aafe2cca8e4af9d5223df78f157f683d0f97d73e9e2d582e89bc994a4e22",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 458890
+                },
+                {
+                  "state": "ACQU",
+                  "message": "FADO",
+                  "target": 459625
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 604438672,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 604438664,
+              "layer": 9,
+              "type": "MEMO",
+              "property_sha256": "2901f29654dffd61b323cb2b27b49a275526e0d5d27a74246fc401b062d6a040",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 458891
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 604438670,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 81,
+      "location": "Pirate Homeworld - Research/Processing Access/Pickup (Ship Missile Expansion)",
+      "area": 11685491285383767107,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid5.pak",
+          "objects": {
+            "instance_id": {
+              "id": 589900,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "144ba3cb32355241b194513c5a644f80860f0bcbd3b98aa5028e525f065c212d",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 589901
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 589895,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 589898,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "413336144bced0bbb643b1abf1cf11198425d916ca2d559531cfea0effb88dd9",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 589896
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 589899,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 82,
+      "location": "Pirate Homeworld - Research/Scrapvault/Pickup (Missile Expansion)",
+      "area": 11846340785047609812,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid5.pak",
+          "objects": {
+            "instance_id": {
+              "id": 851973,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "8510db6bc298f081ab9b55a22f61898990b4bbc7a836c377036ad40c42709d94",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 851971
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 851977,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 851979,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "27e363752b7c72f866c4d027c21fba4e24cfbe5f54fdabb58d8afd28c51f533f",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 851974
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 851976,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 83,
+      "location": "Pirate Homeworld - Research/Metroid Creche/Pickup (Energy Tank)",
+      "area": 17400901133416718911,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid5.pak",
+          "objects": {
+            "instance_id": {
+              "id": 917766,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "2f2e85f5f78749f049f221d758d01cb6487d7d0d5883f2fe44ec09987811f808",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 917725
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 917721,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 917991,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "ba69a3afb395eb4fe76b6fa8cca307235b9d186f5dfb739ff5339900fb87dc92",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 917730
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 917716,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 84,
+      "location": "Pirate Homeworld - Research/Scrapworks/Pickup (Energy Tank)",
+      "area": 15178552083233342671,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid5.pak",
+          "objects": {
+            "instance_id": {
+              "id": 983115,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "6dfe613a1c47d4447df9970f0ec00f96508d0a45ffd01c1743522bf56ae826b5",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 983114
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 983122,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 983120,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "bb84648b037b2a5bbd6821b2bd1bdad3859c7b80ba00bcff4c9e1c0129ec7d7e",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 983113
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 983126,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 85,
+      "location": "Pirate Homeworld - Research/Scrapworks/Pickup (Ship Missile Expansion)",
+      "area": 15178552083233342671,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid5.pak",
+          "objects": {
+            "instance_id": {
+              "id": 983256,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "bb09f4391fcd595c9d955576c978f516e5bbf979340324a8d4220b26424c6246",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 983198
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 983257,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 983231,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "d576adbe12c56116a29b2ec3de37167f08deb23a94408dd3cd45d13da570ed6c",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 983259
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 983258,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 86,
+      "location": "Pirate Homeworld - Command/Security Air Lock/Pickup (Missile Expansion)",
+      "area": 5682718801820042955,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid5.pak",
+          "objects": {
+            "instance_id": {
+              "id": 196758,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "44ee344d0a29033433653ae91faebb57ca6d1511ba53a2f1bb6ddb583cd439cb",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 196650
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 196690,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 196657,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "1600a973671e183c631b260b018de857139a645971c8827c49ce9a7b8a3a229e",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 196672
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 196648,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 87,
+      "location": "Pirate Homeworld - Command/Command Vault/Pickup (X-Ray Visor)",
+      "area": 1808913861159744919,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid5.pak",
+          "objects": {
+            "instance_id": {
+              "id": 262827,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "b68d51a2fec34f528dfea95311c066b158dae20f1efadbf03b3ea5d99623f7b1",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 262830
+                },
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 262326
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 263195,
+                  "type": "SPFN",
+                  "state": "PLAY",
+                  "message": "DCTV"
+                },
+                {
+                  "source": 262829,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 262828,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "0fbf68ffda0483641618cb44a73cb57deb6d8876541f67b46e84b7846b887b09",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 262831
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 262833,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 88,
+      "location": "Pirate Homeworld - Command/Command Courtyard/Pickup (Missile Expansion)",
+      "area": 18221971457754325372,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid5.pak",
+          "objects": {
+            "instance_id": {
+              "id": 328283,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "7f3e24b28d2e8966f2c00fd314c35e84572bad3f2bf45efbe213821b3a11ccac",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 328162
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 328285,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 328284,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "197271b1292e6d6c2281b9603da0da924c6430308189a0668b4806e4950b84ec",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 328286
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 328288,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 89,
+      "location": "Pirate Homeworld - Command/Command Courtyard/Pickup (Energy Cell)",
+      "area": 18221971457754325372,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid5.pak",
+          "objects": {
+            "instance_id": {
+              "id": 328358,
+              "layer": 0,
+              "type": "SPFN",
+              "property_sha256": "e8c3e8f1e3172c729b758cb61fa931daa27d1e3ed6f785c2656b6baa4a65870c",
+              "connections": [],
+              "incoming": [
+                {
+                  "source": 328334,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "ACTN"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 327914,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "6c4f1326c1e0e3f8c67dfb524a0356902b238b5396bb0f2c841e10ce37425c3f",
+              "connections": [],
+              "incoming": [
+                {
+                  "source": 327876,
+                  "type": "SQTR",
+                  "state": "SQNC",
+                  "message": "ZERO"
+                }
+              ]
+            },
+            "percentage_pickup_id": {
+              "id": 328522,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "cfd9fcc2d164bfd02b3269ebd5332fc4fab8f3372d07c8d997d1037fee19fa65",
+              "connections": [],
+              "incoming": [
+                {
+                  "source": 328334,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "IM00"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 90,
+      "location": "Pirate Homeworld - Command/Command Station/Pickup (Missile Expansion)",
+      "area": 13589229454537797972,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid5.pak",
+          "objects": {
+            "instance_id": {
+              "id": 1141245244,
+              "layer": 17,
+              "type": "PCKP",
+              "property_sha256": "3f0a486e16f6e36754365350a9cec86f197d3cc0c8644dab7322a9bb55a79df8",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 394558
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1141245245,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 1141245239,
+              "layer": 17,
+              "type": "MEMO",
+              "property_sha256": "45a7c92946559196775b4b5db227a6620efa562becf033fb12797cc35fb86e36",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 394554
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1141245241,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 91,
+      "location": "Pirate Homeworld - Command/Flux Control/Pickup (Missile Expansion)",
+      "area": 5194668821114474017,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid5.pak",
+          "objects": {
+            "instance_id": {
+              "id": 1048744,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "083f854a1425deeff2ff715625b215d75f5629b7921f33bfe5173b1b07576789",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 1048726
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1048749,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 1048747,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "250a3f0346aabe0a1bcbb6130695eb4db4645a096b533e7ea0a9ebf85022a38c",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 1048730
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1048741,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 92,
+      "location": "Pirate Homeworld - Command/Lift Hub/Pickup (Missile Expansion)",
+      "area": 2807909054514352708,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid5.pak",
+          "objects": {
+            "instance_id": {
+              "id": 1310791,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "36e5ea0cfab1e05ff78a3b8bcd2329d2866c3de42518994ad05e205b618c3c58",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 1310794
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1310792,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 1310789,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "b6cc107353b0ae61a1d783924b49e67ac467e0b8e502cefb96279331d519f223",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 1310795
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 1310788,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 93,
+      "location": "Pirate Homeworld - Mines/Phazon Quarry/Pickup (Energy Cell)",
+      "area": 1516173575710242674,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid5.pak",
+          "objects": {
+            "instance_id": {
+              "id": 196651,
+              "layer": 0,
+              "type": "SPFN",
+              "property_sha256": "ff812d3b0f2788ac04be0e7ba310fa1d563b63354783493cbd56cec04848c16a",
+              "connections": [],
+              "incoming": [
+                {
+                  "source": 196938,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "ACTN"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 196777,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "0c9d1b53c770ba6f3c91ff7088a6e0214c3793b162aeaa43cf95f35530360b66",
+              "connections": [],
+              "incoming": [
+                {
+                  "source": 197027,
+                  "type": "SQTR",
+                  "state": "SQNC",
+                  "message": "ZERO"
+                }
+              ]
+            },
+            "end_relay_id": {
+              "id": 196938,
+              "layer": 0,
+              "type": "SRLY",
+              "property_sha256": "6e7fc798bc805d3ea1c883ee578790ee332d9df8d1b86489e787c0b1e0555dfd",
+              "connections": [
+                {
+                  "state": "RLAY",
+                  "message": "ACTV",
+                  "target": 196941
+                },
+                {
+                  "state": "RLAY",
+                  "message": "IM00",
+                  "target": 196929
+                },
+                {
+                  "state": "RLAY",
+                  "message": "DCTV",
+                  "target": 196943
+                },
+                {
+                  "state": "RLAY",
+                  "message": "DCTV",
+                  "target": 196650
+                },
+                {
+                  "state": "RLAY",
+                  "message": "ACTN",
+                  "target": 196651
+                },
+                {
+                  "state": "RLAY",
+                  "message": "PLAY",
+                  "target": 197025
+                },
+                {
+                  "state": "RLAY",
+                  "message": "DECR",
+                  "target": 197026
+                },
+                {
+                  "state": "RLAY",
+                  "message": "ACTV",
+                  "target": 196654
+                },
+                {
+                  "state": "RLAY",
+                  "message": "IM00",
+                  "target": 196852
+                },
+                {
+                  "state": "RLAY",
+                  "message": "STRT",
+                  "target": 197027
+                },
+                {
+                  "state": "RLAY",
+                  "message": "DCTV",
+                  "target": 197383
+                },
+                {
+                  "state": "RLAY",
+                  "message": "ACTN",
+                  "target": 197084
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 196940,
+                  "type": "ACKF",
+                  "state": "ANMO",
+                  "message": "ACTN"
+                }
+              ]
+            },
+            "percentage_pickup_id": {
+              "id": 196852,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "df1d2db9ec9b3e8c382259eb7926d2348c7b81a6fc0eb8d105cca63539658080",
+              "connections": [],
+              "incoming": [
+                {
+                  "source": 196938,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "IM00"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 94,
+      "location": "Pirate Homeworld - Mines/Phazon Quarry/Pickup (Missile Expansion)",
+      "area": 1516173575710242674,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid5.pak",
+          "objects": {
+            "instance_id": {
+              "id": 196951,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "073d1fe9bb9bd084df02b442ade38fb9ce73d33024d99024abe2bef6ee4030d4",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 196952
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 196957,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 196956,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "ed37731246d9f7fd0cded3f66affb360c94749a21380cff0446721a0b1625828",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 196950
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 196955,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 95,
+      "location": "Pirate Homeworld - Mines/Main Cavern/Pickup (Nova Beam)",
+      "area": 3558406334082684652,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid5.pak",
+          "objects": {
+            "instance_id": {
+              "id": 590495,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "b3d790a286ea11363606319e72fef85ef73e73f1e469927eec0adcd4939dac13",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 590492
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 590141,
+                  "type": "SQTR",
+                  "state": "SQNC",
+                  "message": "ACTV"
+                },
+                {
+                  "source": 590262,
+                  "type": "CINE",
+                  "state": "CTGT",
+                  "message": "ATCH"
+                },
+                {
+                  "source": 590307,
+                  "type": "PLAT",
+                  "state": "PLAY",
+                  "message": "ATCH"
+                },
+                {
+                  "source": 590498,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                },
+                {
+                  "source": 201917211,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                },
+                {
+                  "source": 201917176,
+                  "type": "SQTR",
+                  "state": "SQNC",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 590496,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "bc83e4d0e2828372e264aeaa0f63cd8ee940186e67ebc424f69ec98ed2ab19bf",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 590497
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 590494,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 96,
+      "location": "Pirate Homeworld - Mines/Phazon Mine Entry/Pickup (Missile Expansion)",
+      "area": 6948986767748104139,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid5.pak",
+          "objects": {
+            "instance_id": {
+              "id": 720983,
+              "layer": 0,
+              "type": "PCKP",
+              "property_sha256": "363e28b02de6e446a2f1f2f377c782d2b47b186d6fb8b25b89a949657f0f4ec3",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 720976
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 720979,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 720978,
+              "layer": 0,
+              "type": "MEMO",
+              "property_sha256": "0013d3b68945b88d0723fdfb6fe468061ea70540a1d1652eb6035b2a37a05bd5",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 720975
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 720982,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 97,
+      "location": "SkyTown, Elysia - Seed/Elysian Leviathan Core/Pickup (Hyper Missile)",
+      "area": 17766988414710659705,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid7.pak",
+          "objects": {
+            "instance_id": {
+              "id": 402915459,
+              "layer": 6,
+              "type": "PCKP",
+              "property_sha256": "1f46eafb0cbfce79895514bbe593888c5a712902c54aba33376a61614dfa737e",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 262276
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 201588871,
+                  "type": "SRLY",
+                  "state": "RLAY",
+                  "message": "ACTV"
+                },
+                {
+                  "source": 402915455,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 402915457,
+              "layer": 6,
+              "type": "MEMO",
+              "property_sha256": "30387b9fbc6fe658b41b78093d0fca3af0d227eee7a208eabf099fe36219f0e3",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 262269
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 402915456,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 98,
+      "location": "Bryyo - Seed/Bryyo Leviathan Core/Pickup (Hyper Ball)",
+      "area": 9708827741160794862,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid7.pak",
+          "objects": {
+            "instance_id": {
+              "id": 402915661,
+              "layer": 6,
+              "type": "PCKP",
+              "property_sha256": "3c6157af11470a8c7585e1446da1955ccddabe9bafe61ed9affbb66213caa98b",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 262484
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 402915663,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 402915666,
+              "layer": 6,
+              "type": "MEMO",
+              "property_sha256": "f9cf356699de0d73da30ec554e2e463195250f7457613a031bce84f6e6cc3e74",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 262478
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 402915667,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 99,
+      "location": "Pirate Homeworld - Seed/Pirate Homeworld Leviathan Core/Pickup (Hyper Grapple)",
+      "area": 4585599704880367469,
+      "legacy_sentinel": false,
+      "variants": [
+        {
+          "pak": "Metroid7.pak",
+          "objects": {
+            "instance_id": {
+              "id": 268697767,
+              "layer": 4,
+              "type": "PCKP",
+              "property_sha256": "e5a9d3b40d8818facbb9497ab63d5700fc5d073c4bc86018f3f5e15a5e4bebda",
+              "connections": [
+                {
+                  "state": "ACQU",
+                  "message": "ACTN",
+                  "target": 262312
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 268697762,
+                  "type": "MRLY",
+                  "state": "ACTV",
+                  "message": "DCTV"
+                }
+              ]
+            },
+            "memo_id": {
+              "id": 268697769,
+              "layer": 4,
+              "type": "MEMO",
+              "property_sha256": "eb913561de3d01de0809deb645ec19bb3272bf282a8048a56ed6cc8852786f9f",
+              "connections": [
+                {
+                  "state": "CLOS",
+                  "message": "INCR",
+                  "target": 262305
+                }
+              ],
+              "incoming": [
+                {
+                  "source": 268697763,
+                  "type": "TIMR",
+                  "state": "ZERO",
+                  "message": "ZERO"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

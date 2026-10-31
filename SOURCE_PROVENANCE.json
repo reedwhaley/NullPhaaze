@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "snapshot": "2026-10-30 annotated RDS backend and CDV integration",
+  "behavior_baseline": "NullPhaaze .14r2, October 29, 2026",
+  "rds_version": "0.44.1+nullphaze.20261024",
+  "rds_source_commit": "d394225c945be4e9d0770bbf659bedb54e9733a4",
+  "rsot_source_commit": "611e1f7ac4d768d138d28fdb9931fb6b04fc4ef5",
+  "vendor_python_sources_unchanged": 1876,
+  "authored_notation": "Boundary comments are added around preserved executable statements. The file inventory records original and packaged hashes.",
+  "historical_provenance": "The core catalog and networking VENDOR_PROVENANCE retain earlier lineage/hash records; SOURCE_MANIFEST.json describes this actual package.",
+  "scope": "Standalone extracted-file backend, network/model source, guarded CDV overlay; no full frontend duplication.",
+  "unfinished_features": "Preserve current implemented behavior; leave unfinished feature requests pending.",
+  "acceptance": "Source/build/structural checks remain distinct from gameplay, live delivery, rendering, save/reload and physical Wii/vWii acceptance."
+}
