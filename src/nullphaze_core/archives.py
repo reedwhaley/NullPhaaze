@@ -117,25 +117,41 @@ class Resource:
 
 
 class Archive:
-    def __init__(self, path):
+    """
+    Represents a lazily parsed PAK file. Wrapper for RDS's `PakNoData` class
+    """
+    # TODO : Define all the fields initialized in __init__ here, along with their types
+    def __init__(self, path : Any) -> None:
         self.path = Path(path)
         size = self.path.stat().st_size
+        
+        # Parse metadata
         try:
             with self.path.open('rb') as stream:
+                # TODO : declare `metadata` outside of this block, as it is to be used outside of it
                 metadata = PAKNoData.parse_stream(stream, target_game=GAME)
                 stream.seek(0)
                 self.header = stream.read(64)
         except (cs.ConstructError, ValueError, KeyError, IndexError, struct.error) as error:
             raise FormatError(f'Invalid RDS PAK header: {error}') from error
         self.metadata = metadata
+
+        # Find Table of Contents and the start of the DATA section
         toc = metadata.table_of_contents
         if set(toc) != {'STRG', 'RSHD', 'DATA'} or any(toc[k] % 64 for k in toc):
             raise FormatError('Invalid PAK section table')
+        ## NOTE : In Python, fields and methods starting with and _underscore are meant to have private visibility, like in C++ or Java.
+        ## While Python allows reading the field, it is to be treated as such, and shouldn't be accessed this way
+        ## Granted, when I wrote the RDS code for PAKs, PakNoData's position fields were only meant to support RDS's eager parsing,
+        ## while here, we lazily parse. Other reviewers will want to know that when they see this, why we want to access a private field from outside.
+        # Save DATA section offset to make lazy parsing possible 
         data_start = metadata._resources_end
         if (metadata._resources_start - metadata._named_resources_start != toc.STRG or
                 metadata._resources_end - metadata._resources_start != toc.RSHD or
                 data_start + toc.DATA > size):
             raise FormatError('PAK sections exceed bounded archive')
+        
+        # Fetch resource metadata for future reference
         self.resources = []
         for entry in metadata.resources:
             if (entry.compressed not in (0, 1) or entry.size % 64 or
@@ -146,20 +162,31 @@ class Archive:
 
     @property
     def names(self):
+        ## NOTE : I don't understand this function. Why not simply return the list of names in named_resources ?
         schema = next(field.subcon for field in PAKNoData.subcons if field.name == 'named_resources')
         return schema.build(self.metadata.named_resources, target_game=GAME)
 
     @names.setter
     def names(self, value):
+        ## NOTE : Same as the getter above. What is schema and why is it obtained through the `next` of an iterator with only one element ? 
         from .rds_formats import parse_exact
         schema = next(field.subcon for field in PAKNoData.subcons if field.name == 'named_resources')
         self.metadata.named_resources = parse_exact(schema, value)
 
-    def write(self, destination, resources, clear=False):
+    def write(self, destination : Any, resources : List[Resource], clear : bool = False) -> None:
+        """
+        Writes the modeled PAK file into the filesystem
+
+        Arguments :
+        - destination : Path to the exported PAK file
+        - resources : A list of resources to include in the PAK file
+        - clear : Whether to clear all the names of named resources. Defaults to False
+        """
         from .rds_directory import write_records
         resources = list(resources)
         records, offset = [], 0
         for resource in resources:
             records.append((resource, offset))
             offset += resource.size
+        ## NOTE : I will have things to say about this function later
         write_records(self, destination, records, resources, clear)
