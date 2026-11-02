@@ -1,11 +1,16 @@
 # I keep every PAK directory entry, its order and its alias metadata while loading payloads
 # lazily. Equal resource IDs do not authorize dropping a table occurrence. Boundary names
 # here: Resource, Archive.
-"""Streaming Wii PAK tables with explicit resource aliases and bounded reads."""
+"""
+Streaming Wii PAK tables with explicit resource aliases and bounded reads.
+See https://wiki.axiodl.com/w/PAK_(Metroid_Prime_3)
+"""
 from dataclasses import dataclass, replace
 from pathlib import Path
 import struct
 import construct as cs
+from typing import Dict, List, Any
+from io import TextIOWrapper
 from retro_data_structures.formats.pak_wii import PAKNoData
 from .rds_formats import GAME
 from .binary import Reader, FormatError, pad, pack
@@ -13,33 +18,91 @@ from .binary import Reader, FormatError, pad, pack
 
 @dataclass(frozen=True)
 class Resource:
+    """
+    Represents an individual, unparsed resource in a PAK file.
+    Resource data is not immediately loaded into memory, so it must be read before use
+    """
     identity: int
+    """The resource's ResourceID"""
     kind: bytes
+    """The FourCC representing the resource's type (MREA, MLVL, etc...)"""
     compressed: int
+    """Whether the resource is compressed via LZO"""
     size: int
+    """The size, in bytes, of the resource in the PAK. Accounts for padding, so always a multiple of 64"""
     source: Path | None = None
+    """A path to the PAK file whence the resource comes from"""
     offset: int = 0
+    """The offset of the resource's start relative to the start of the file (as opposed to the start of the DATA section)"""
     data: bytes | None = None
+    """Memoized data after the first read or after initialization"""
+    ## Note : I see right now that the `data` field is always None unless the resource has been created through the `updated` method
+    ## It is more than fair to lazily read resources in order to save on memory, however, it is important to note that each `read` call
+    ## triggers at least 3 system calls, open, read, then close, and system calls are slow to execute due to the CPU needing to 
+    ## enter privileged mode.
+    ## I'd suggest memoizing the data after the first read, so that we have instant access to it if we are to use it several times.abs
+    ## It would of course use a bit more memory, but I'd say it's a nice compromise between speed and memory usage.
 
-    def read(self):
+    def read(self) -> bytes:
+        """
+        Reads the raw bytes from the resource
+
+        Raises :
+        - FormatError if expected size and read result size are mismatched
+        """
+        # If we already have memoized data, directly return it
         if self.data is not None:
             return self.data
+        # Otherwise, read from the source file and memoize the result if ok
+        # TODO : handle case where `self.source` is None
         with self.source.open('rb') as stream:
             stream.seek(self.offset)
             result = stream.read(self.size)
         if len(result) != self.size:
             raise FormatError('Resource source changed or is truncated')
+        # TODO : memoize the read data once we've checked its validity
         return result
 
     def updated(self, data, kind=None, compressed=None):
+        """
+        Builds a new resource based on the current one. New resource is orphaned at creation
+        Since data is directly provided, we can immediately memoize it for furure reads
+
+        Arguments :
+        - data : The raw bytes in the resource to be created        
+
+        Keyword arguments :
+        - kind : The FourCC type of resource. Defaults to this instance's type
+        - compressed : Whether the new resource is compressed. Defaults to this instance's compression
+        """
         data = pad(data, 64, 255)
+        # TODO : make the None checks consistent accross both kwargs
         return replace(self, size=len(data), data=data, source=None, offset=0,
                        kind=kind or self.kind, compressed=self.compressed if compressed is None else compressed)
 
-    def copy_to(self, destination, streams):
+    def copy_to(self, destination : TextIOWrapper, streams : Dict[Path, TextIOWrapper]) -> None:
+        """
+        Copies this resource's memoized data to the specified destination
+        If this resource's parent PAK file has no stream open, it will be opened added to `streams`
+
+        Warning : the streams aren't closed after return, so the caller will have to close them 
+
+        Arguments :
+        - destination : the output stream on which to write the copy
+        - streams : dictionnary linking resource source paths to open streams
+        """
+        ## Note : I REALLY don't like this implementation, even though it technically works for now.
+        ## Keeping the stream open after the function returns when its purpose isn't opening the stream
+        ## is a dangerous game to play, and is bad practice. Also, giving this function more side effects 
+        ## than the copy by modifying `streams` is a recipe for mistakes.
+        ## Also, the Resource.read method is right there, I don't know why we are reinventing the wheel here.
+
+        # If the resource already has memoized data, directly copy it
         if self.data is not None:
             destination.write(self.data)
             return
+        # Otherwise, read it, then write it to the destination 
+        # TODO : Replace this with `destination.write(self.read())`
         if self.source not in streams:
             streams[self.source] = self.source.open('rb')
         stream = streams[self.source]
