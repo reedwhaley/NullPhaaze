@@ -35,13 +35,7 @@ class Resource:
     offset: int = 0
     """The offset of the resource's start relative to the start of the file (as opposed to the start of the DATA section)"""
     data: bytes | None = None
-    """Memoized data after the first read or after initialization"""
-    ## Note : I see right now that the `data` field is always None unless the resource has been created through the `updated` method
-    ## It is more than fair to lazily read resources in order to save on memory, however, it is important to note that each `read` call
-    ## triggers at least 3 system calls, open, read, then close, and system calls are slow to execute due to the CPU needing to 
-    ## enter privileged mode.
-    ## I'd suggest memoizing the data after the first read, so that we have instant access to it if we are to use it several times.abs
-    ## It would of course use a bit more memory, but I'd say it's a nice compromise between speed and memory usage.
+    """Optional, in-memory payload for when the resource has been manually created"""
 
     def read(self) -> bytes:
         """
