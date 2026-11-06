@@ -9,8 +9,7 @@ from dataclasses import dataclass, replace
 from pathlib import Path
 import struct
 import construct as cs
-from typing import Dict, List, Any
-from io import BytesIO
+from typing import Dict, List, Any, BinaryIO
 from retro_data_structures.formats.pak_wii import PAKNoData
 from .rds_formats import GAME
 from .binary import Reader, FormatError, pad, pack
@@ -74,10 +73,10 @@ class Resource:
         return replace(self, size=len(data), data=data, source=None, offset=0,
                        kind=kind or self.kind, compressed=self.compressed if compressed is None else compressed)
 
-    def copy_to(self, destination : BytesIO, streams : Dict[Path, BytesIO]) -> None:
+    def copy_to(self, destination : BinaryIO, streams : Dict[Path, BinaryIO]) -> None:
         """
-        Copies this resource's memoized data to the specified destination
-        If this resource's parent PAK file has no stream open, it will be opened added to `streams`
+        Copies this resource's data to the specified destination
+        If this resource's parent PAK file has no stream open, it will be opened and added to `streams`
 
         Warning : the streams aren't closed after return, so the caller will have to close them 
 
